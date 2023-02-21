@@ -3,8 +3,7 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `New, better company-website-2023`,
-    siteUrl: `https://www.yourdomain.tld`,
+    title: `New, much better company-website-2023`,
   },
   plugins: [
     "gatsby-plugin-image",
@@ -14,7 +13,8 @@ module.exports = {
       options: {
         name: `blog`,
         path: `${__dirname}/blog`,
-      }
+      },
     },
+    "gatsby-plugin-mdx",
   ],
 }

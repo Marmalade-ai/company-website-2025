@@ -19,6 +19,8 @@ const Layout = ({ pageTitle, children }) => {
       }
     }
   `)
+  console.log("data is: " + JSON.stringify(data))
+  console.log("data.site.siteMetadata is: " + JSON.stringify(data.site.siteMetadata))
 
   return (
     <div className={container}>
@@ -35,7 +37,7 @@ const Layout = ({ pageTitle, children }) => {
               About
             </Link>
           </li>
-          <li classname={navLinkItem}>
+          <li className={navLinkItem}>
             <Link to="/blog" className={navLinkText}>
               Blog
             </Link>

@@ -1,11 +1,12 @@
 import * as React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
-import Seo from '../components/seo'
+// import Seo from '../components/seo'
 
 const BlogPage = ({ data }) => {
   return (
     <Layout pageTitle="My Blog Posts">
+      {/* <p>My cool posts will go here.</p> */}
       <ul>
       {
         data.allFile.nodes.map(node => (
@@ -28,6 +29,7 @@ export const query = graphql`
     }
   }
 `
-export const Head = () => <Seo title="My Blog Posts" />
+// export const Head = () => <Seo title="My Blog Posts" />
+export const Head = ({ data }) => <title>{data.site.siteMetadata.title}</title>
 
 export default BlogPage
