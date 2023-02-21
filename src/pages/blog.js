@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
-// import Seo from '../components/seo'
+import Seo from '../components/seo'
 
 const BlogPage = ({ data }) => {
   return (
@@ -29,7 +29,7 @@ export const query = graphql`
     }
   }
 `
-// export const Head = () => <Seo title="My Blog Posts" />
-export const Head = ({ data }) => <title>{data.site.siteMetadata.title}</title>
+export const Head = () => <Seo title="My Blog Posts" />
+// export const Head = ({ data }) => <Seo title>{data.site.siteMetadata.title}</Seo>
 
 export default BlogPage
