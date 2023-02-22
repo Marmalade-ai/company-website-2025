@@ -16,6 +16,6 @@ module.exports = {
       },
     },
     "gatsby-plugin-mdx",
-    // gatsby-remark-images for responsive images, see #5
+    "gatsby-transformer-sharp",
   ],
 }
