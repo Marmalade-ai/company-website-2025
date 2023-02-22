@@ -8,7 +8,9 @@ import Seo from '../components/seo'
 const IndexPage = () => {
   return (
     <Layout pageTitle="Home Page">
-      <p>I'm making this by following the Gatsby Tutorial.</p>
+      <p>Following the Gatsby Tutorial at 
+        <a href='https://gatsbyjs.com/docs/tutorial'>https://gatsbyjs.com/docs/tutorial</a>.
+      </p>
       <StaticImage
         // width="400"
         alt="People looking for opportunities to network."
