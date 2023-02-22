@@ -3,7 +3,7 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `New, better company-website-2023`,
+    title: `Marmalade AI 2023`,
   },
   plugins: [
     "gatsby-plugin-image",
