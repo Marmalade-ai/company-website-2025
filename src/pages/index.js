@@ -17,6 +17,24 @@ const IndexPage = () => {
         // src="https://craigfisk.com/programming/images/linkedin_screen.png"
         src="../images/iStockphoto-1220226086-400.jpg"
       />
+      <h2>Automatic 
+      </h2>
+      <StaticImage
+        // width="400"
+        alt="Marmalade AI automatically matches you with people."
+        // src="https://pbs.twimg.com/media/E1oMV3QVgAIr1NT?format=jpg&name=large"
+        // src="https://craigfisk.com/programming/images/linkedin_screen.png"
+        src="../images/matching.jpg"
+      />
+      <h2>Appropriate 
+      </h2>
+      <StaticImage
+        // width="400"
+        alt="Marmalade AI enables appropriate networking."
+        // src="https://pbs.twimg.com/media/E1oMV3QVgAIr1NT?format=jpg&name=large"
+        // src="https://craigfisk.com/programming/images/linkedin_screen.png"
+        src="../images/chatting.jpg"
+      />
     </Layout>
   )
 }
