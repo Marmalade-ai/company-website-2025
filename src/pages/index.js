@@ -8,8 +8,8 @@ import Seo from '../components/seo'
 const IndexPage = () => {
   return (
     <Layout pageTitle="">
-      <h2>Accurate 
-      </h2>
+      <h2>Accurate</h2>
+      <h3>A virtual network accurately aligned with what you do.</h3>
       <StaticImage
         // width="400"
         alt="Marmalade AI gives you a network that reflects you."
@@ -17,8 +17,8 @@ const IndexPage = () => {
         // src="https://craigfisk.com/programming/images/linkedin_screen.png"
         src="../images/iStockphoto-1220226086-400.jpg"
       />
-      <h2>Automatic 
-      </h2>
+      <h2>Automatic</h2>
+      <h3>A virtual network automatically based on your profile.</h3>
       <StaticImage
         // width="400"
         alt="Marmalade AI automatically matches you with people."
@@ -26,15 +26,15 @@ const IndexPage = () => {
         // src="https://craigfisk.com/programming/images/linkedin_screen.png"
         src="../images/matching.jpg"
       />
-      <h2>Appropriate 
-      </h2>
+      {/* <h2>Appropriate</h2>
+      <h3></h3>
       <StaticImage
         // width="400"
         alt="Marmalade AI enables appropriate networking."
         // src="https://pbs.twimg.com/media/E1oMV3QVgAIr1NT?format=jpg&name=large"
         // src="https://craigfisk.com/programming/images/linkedin_screen.png"
         src="../images/chatting.jpg"
-      />
+      /> */}
     </Layout>
   )
 }
