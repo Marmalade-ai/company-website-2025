@@ -7,16 +7,15 @@ import Seo from '../components/seo'
 // Step 2: Define your component
 const IndexPage = () => {
   return (
-    <Layout pageTitle="Home Page">
-      <p>Following the Gatsby Tutorial at 
-        <a href='https://gatsbyjs.com/docs/tutorial'>https://gatsbyjs.com/docs/tutorial</a>.
-      </p>
+    <Layout pageTitle="">
+      <h2>Accurate 
+      </h2>
       <StaticImage
         // width="400"
-        alt="People looking for opportunities to network."
+        alt="Marmalade AI gives you a network that reflects you."
         // src="https://pbs.twimg.com/media/E1oMV3QVgAIr1NT?format=jpg&name=large"
         // src="https://craigfisk.com/programming/images/linkedin_screen.png"
-        src="../images/linkedin_screen.png"
+        src="../images/iStockphoto-1220226086-400.jpg"
       />
     </Layout>
   )
