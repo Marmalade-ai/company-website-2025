@@ -15,7 +15,8 @@ const IndexPage = () => {
       <Link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
         <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
         <a href="https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes'});return false;">
-          <button class="bg-green-500 text-white px-5 py-2 mt-4 mb-4 rounded">Schedule a demo over Zoom</button></a>
+          {/* <button class="bg-green-500 text-white px-5 py-2 mt-4 mb-4 rounded">Schedule a demo over Zoom</button></a> */}
+          <button class="bg-red-500 text-white px-4 py-2 mt-3 mb-4 rounded">Schedule a demo over Zoom</button></a>
       </Link>
       <StaticImage
         src="../images/emily_screen_640.png" 

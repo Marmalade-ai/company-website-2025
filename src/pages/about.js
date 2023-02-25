@@ -16,84 +16,83 @@ const AboutPage = () => {
         <h2>Founders</h2>
         <div className="container">
           <p>
-            We live in interesting times and innovation is key to the future.
+            Innovation is key to the future.
           </p>
           <p>
-            It&apos;s great to be developing something where the people using it
-            and the people developing it can be one and the same. We came
-            together through user research into the problems people have with
-            networking and each of us decided it was possible to contribute to
-            making it better.
+            We came together through user research into the problems people have with
+            networking and decided to make it better.
           </p>
         </div>
-        <div className="pt-8 grid grid-cols-1 flex-col -mx-3 md:grid-cols-2">
-          <div className="flex-1 px-3">
-            <Card className="mb-8">
+        {/* mb-8 = 2rem of margin added to the bottom 
+            w-32 = width 8rem
+            mt-0 = margin top 0 px
+            mb-4 = margin bottom 4 px
+        */}
+        <div className="grid m-grid-cols-2 grid-cols-2 gap-8">
+        {/* <div className="pt-8 grid grid-cols-1 flex-col -mx-3 md:grid-cols-2"> */}
+          {/* <div className="flex-1 px-3"> */}
+            <Card>
+            {/* <Card className="mb-4"> */}
               <StaticImage
-                className="mb-8 w-32 h-32 rounded-lg shadow-lg"
+                // className="mb-4 w-16 h-16 rounded-lg shadow-lg"
                 src="../images/craig_fisk_headshot.jpg"
                 alt="Photo of Craig Fisk."
                 title="Craig Fisk, CEO"
               />
-              <h3 className="mt-0">Craig Fisk</h3>
-              <p className="cardSubHeading">CEO</p>
-              <p>
+              <h3>Craig Fisk</h3>
+              {/* <h3 className="mt-0">Craig Fisk</h3> */}
+              <p className="cardSubHeading">CEO<br/>
                 Series A mobile CRM, new software products/channels at Intel.
-              </p>
-              <p>Chicago Booth MBA.</p>
-              <p>San Jose, CA.</p>
+                Chicago Booth MBA. (San Jose, CA).</p>
             </Card>
-          </div>
-          <div className="flex-1 px-3">
-            <Card className="mb-8">
+          {/* </div> */}
+          {/* <div className="flex-1 px-3"> */}
+            <Card>
+            {/* <Card className="mb-4"> */}
               <StaticImage
-                className="mb-8 w-32 h-32 rounded-lg shadow-lg	"
+                // className="mb-4 w-16 h-16 rounded-lg shadow-lg	"
                 src="../images/jim_tyhurst_headshot.jpg"
                 alt="Photo of Jim Tyhurst."
                 title="Jim Tyhurst, CTO"
               />
-              <h3 className="mt-0">Jim Tyhurst</h3>
-              <p className="cardSubHeading">CTO</p>
-              <p>
+              <h3>Jim Tyhurst</h3>
+              {/* <h3 className="mt-0">Jim Tyhurst</h3> */}
+              <p className="cardSubHeading">CTO< br/>
                 Software architect, Machine Learning / Natural Language
-                Processing (ML/NLP), independent consultant.
-              </p>
-              <p>UCLA PhD.</p>
-              <p>Portland, OR.</p>
+                Processing (ML/NLP), Object Computing, Inc. UCLA PhD. (Portland, OR).</p>
             </Card>
-          </div>
-          <div className="flex-1 px-3">
-            <Card className="mb-8">
+          {/* </div> */}
+          {/* <div className="flex-1 px-3"> */}
+            <Card>
+            {/* <Card className="mb-4"> */}
               <StaticImage
-                className="mb-8 w-32 h-32 rounded-lg shadow-lg	"
+                // className="mb-4 w-16 h-16 rounded-lg shadow-lg	"
                 src="../images/vivian_tran_headshot.jpg"
                 alt="Photo of Vivian Tran."
                 title="Vivian Tran, Marketing Advisor"
               />
-              <h3 className="mt-0">Vivian Tran</h3>
-              <p className="cardSubHeading">Marketing Advisor</p>
-              <p>
-                New segment marketing, healthcare industry marketing manager.
-              </p>
-              <p>UC Berkeley.</p>
-              <p>Berkeley, CA.</p>
+              <h3>Vivian Tran</h3>
+              {/* <h3 className="mt-0">Vivian Tran</h3> */}
+              <p className="cardSubHeading">Marketing Advisor<br />
+              New segment marketing, healthcare industry marketing manager.
+              UC Berkeley (Berkeley, CA).</p>
             </Card>
-          </div>
-          <div className="flex-1 px-3">
-            <Card className="mb-8">
+          {/* </div> */}
+          {/* <div className="flex-1 px-3"> */}
+            <Card>
+            {/* <Card className="mb-4"> */}
               <StaticImage
-                className="mb-8 w-32 h-32 rounded-lg shadow-lg	"
+                // className="mb-4 w-16 h-16 rounded-lg shadow-lg	"
                 src="../images/michael_porto_headshot.jpg"
                 alt="Photo of Michael Porto."
                 title="Michael Porto, Product Management Advisor"
               />
-              <h3 className="mt-0">Michael Porto</h3>
-              <p className="cardSubHeading">Product Management Advisor</p>
-              <p>Big data, mobile, ML, Intel, Wells Fargo, EY.</p>
-              <p>Princeton MS CS.</p>
-              <p>Charlotte, NC.</p>
+              <h3>Michael Porto</h3>
+              {/* <h3 className="mt-0">Michael Porto</h3> */}
+              <p className="cardSubHeading">Product Management Advisor<br/>
+              Big data, mobile, ML, Intel, Wells Fargo, EY. Princeton MS CS (Charlotte, NC).</p>
             </Card>
-          </div>
+          {/* </div> */}
         </div>
       </div>
     </section>
