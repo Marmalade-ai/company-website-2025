@@ -16,6 +16,7 @@ const Header = () => (
               title="Marmalade AI, Inc."
               width="40"
             />
+            <h1>Marmalade AI - virtual networking</h1>
           {/* </Link> */}
         {/* </div> */}
         {/* <Link to="/#">Marmalade AI</Link> */}

@@ -8,8 +8,19 @@ import Seo from '../components/seo'
 const IndexPage = () => {
   return (
     <Layout pageTitle="">
+      <p style={{fontFamily: "Sans-serif"}}>Marmalade AI is virtual networking for software people in UX design, 
+        digital marketing, or machine learning who really need to connect with each other and are 
+        dissatisfied with traditional networking. Those are the areas where we're starting. Based on profiles, Marmalade 
+        matches specialists with specialists using NLP and machine learning. When, where, and with whom you connect is up to you.
+      </p>
+      <iframe
+        src="https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes"
+        title="schedule a demo"
+        width="1000"
+        height="600"
+      />
       <h2>Accurate</h2>
-      <h3>A virtual network accurately aligned with what you do.</h3>
+      <h3>A Marmalade network reflects what you do.</h3>
       <StaticImage
         // width="400"
         alt="Marmalade AI gives you a network that reflects you."
@@ -18,10 +29,10 @@ const IndexPage = () => {
         src="../images/iStockphoto-1220226086-400.jpg"
       />
       <h2>Automatic</h2>
-      <h3>A virtual network automatically based on your profile.</h3>
+      <h3>A Marmalade network is effortless.</h3>
       <StaticImage
         // width="400"
-        alt="Marmalade AI automatically matches you with people."
+        alt="Marmalade AI requires no effort to match you with people."
         // src="https://pbs.twimg.com/media/E1oMV3QVgAIr1NT?format=jpg&name=large"
         // src="https://craigfisk.com/programming/images/linkedin_screen.png"
         src="../images/matching.jpg"

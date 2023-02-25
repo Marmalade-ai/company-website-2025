@@ -63,7 +63,7 @@ const Footer = () => (
       </section> */}
       {/* <section> */}
         <ul>
-          <li><Link to="/faq">FAQ</Link></li>
+          {/* <li><Link to="/faq">FAQ</Link></li> */}
           <li><Link to="/contact">Contact Us</Link></li>
           <li><Link to="/code-of-conduct">Code of Conduct</Link></li>
           <li><Link to="/privacy-policy">Privacy Policy</Link></li>
