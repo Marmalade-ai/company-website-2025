@@ -3,8 +3,8 @@ import * as React from 'react'
 import Layout from '../components/layout'
 import { StaticImage } from 'gatsby-plugin-image'
 import Seo from '../components/seo'
-// import { Link } from 'gatsby'
-import { InlineWidget } from 'react-calendly'
+import { Link } from 'gatsby'
+// import { InlineWidget } from 'react-calendly'
 
 // Step 2: Define your component
 const IndexPage = () => {
@@ -15,12 +15,16 @@ const IndexPage = () => {
         dissatisfied with traditional networking. Those are the areas where we're starting. Based on profiles, Marmalade 
         matches specialists with specialists using NLP and machine learning. When, where, and with whom you connect is up to you.
       </p>
-      <InlineWidget 
+<Link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+<a href="https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes'});return false;">Schedule time with me</a>
+</Link>
+      {/* <InlineWidget 
           url='https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes' 
           // text='Schedule one-on-one demo' 
           // color='#01fe3c' 
           // textColor='#ffffff' 
-      /> 
+      />  */}
       <StaticImage
         src="../images/emily_screen.png" 
         alt="Emily screen from Marmalade AI" 
