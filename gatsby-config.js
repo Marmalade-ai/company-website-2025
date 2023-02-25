@@ -15,6 +15,11 @@ module.exports = {
         path: `${__dirname}/faq`,
       },
     },
+    { resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [`gatsby-remark-responsive-iframe`],
+    },
+  },
     "gatsby-plugin-mdx",
     "gatsby-transformer-sharp",
   ],
