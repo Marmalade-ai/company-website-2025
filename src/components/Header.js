@@ -14,7 +14,7 @@ const Header = () => (
               src="../images/marmalade-logo-sm.jpg"
               alt="The Marmalade AI Logo."
               title="Marmalade AI, Inc."
-              width="40"
+              width={40}
             />
             <h1>Marmalade AI - virtual networking</h1>
           {/* </Link> */}
