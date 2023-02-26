@@ -21,8 +21,8 @@ const Layout = ({ pageTitle, children }) => {
       }
     }
   `)
-  console.log("data is: " + JSON.stringify(data))
-  console.log("data.site.siteMetadata is: " + JSON.stringify(data.site.siteMetadata))
+  // console.log("data is: " + JSON.stringify(data))
+  // console.log("data.site.siteMetadata is: " + JSON.stringify(data.site.siteMetadata))
 
   return (
     <div className={container}>
