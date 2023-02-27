@@ -35,7 +35,7 @@ const AboutPage = () => {
             {/* <Card className="mb-4"> */}
               <StaticImage
                 // className="mb-4 w-16 h-16 rounded-lg shadow-lg"
-                src="../images/craig_fisk_headshot.jpg"
+                src="../images/craig_fisk_headshot_150.jpg"
                 alt="Photo of Craig Fisk."
                 title="Craig Fisk, CEO"
               />
@@ -51,7 +51,7 @@ const AboutPage = () => {
             {/* <Card className="mb-4"> */}
               <StaticImage
                 // className="mb-4 w-16 h-16 rounded-lg shadow-lg	"
-                src="../images/jim_tyhurst_headshot.jpg"
+                src="../images/jim_tyhurst_headshot_150.jpg"
                 alt="Photo of Jim Tyhurst."
                 title="Jim Tyhurst, CTO"
               />
@@ -67,7 +67,7 @@ const AboutPage = () => {
             {/* <Card className="mb-4"> */}
               <StaticImage
                 // className="mb-4 w-16 h-16 rounded-lg shadow-lg	"
-                src="../images/vivian_tran_headshot.jpg"
+                src="../images/vivian_tran_headshot_150.jpg"
                 alt="Photo of Vivian Tran."
                 title="Vivian Tran, Marketing Advisor"
               />
@@ -83,7 +83,7 @@ const AboutPage = () => {
             {/* <Card className="mb-4"> */}
               <StaticImage
                 // className="mb-4 w-16 h-16 rounded-lg shadow-lg	"
-                src="../images/michael_porto_headshot.jpg"
+                src="../images/michael_porto_headshot_150.jpg"
                 alt="Photo of Michael Porto."
                 title="Michael Porto, Product Management Advisor"
               />
