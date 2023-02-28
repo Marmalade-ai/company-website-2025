@@ -7,8 +7,8 @@ import Card from '../components/Card';
 
 const AboutPage = () => {
   return (
-    <Layout pageTitle='About Me'>
-      <p>Hi there! We're the proud operators of this site, built with Gatsby 5.x, Tailwind, and Google Analytics 4. Original development work by Justin Blake and Jim Tyhurst. Updated in 2023 by Craig Fisk.</p>
+    <Layout pageTitle='About Marmalade AI, Inc.'>
+      <p>Hi there! We're the proud operators of this site, built with Gatsby and Tailwind. Original development work by Justin Blake and Jim Tyhurst. Updated in 2023 by Craig Fisk.</p>
     
 
       <section id="founders" className="pt-4">
@@ -28,7 +28,7 @@ const AboutPage = () => {
             mt-0 = margin top 0 px
             mb-4 = margin bottom 4 px
         */}
-        <div className="grid m-grid-cols-2 grid-cols-2 gap-8">
+        <div className="grid m-grid-cols-2 grid-cols-2 s-grid-cols-1 gap-1">
         {/* <div className="pt-8 grid grid-cols-1 flex-col -mx-3 md:grid-cols-2"> */}
           {/* <div className="flex-1 px-3"> */}
             <Card>
@@ -41,7 +41,7 @@ const AboutPage = () => {
               />
               <h3>Craig Fisk</h3>
               {/* <h3 className="mt-0">Craig Fisk</h3> */}
-              <p className="cardSubHeading">CEO<br/>
+              <p className="cardSubHeading text-sm slate">CEO<br/>
                 Series A mobile CRM, new software products/channels at Intel.
                 Chicago Booth MBA. (San Jose, CA).</p>
             </Card>
@@ -57,7 +57,7 @@ const AboutPage = () => {
               />
               <h3>Jim Tyhurst</h3>
               {/* <h3 className="mt-0">Jim Tyhurst</h3> */}
-              <p className="cardSubHeading">CTO< br/>
+              <p className="cardSubHeading text-sm">CTO< br/>
                 Software architect, Machine Learning / Natural Language
                 Processing (ML/NLP), Object Computing, Inc. UCLA PhD. (Portland, OR).</p>
             </Card>
@@ -73,7 +73,7 @@ const AboutPage = () => {
               />
               <h3>Vivian Tran</h3>
               {/* <h3 className="mt-0">Vivian Tran</h3> */}
-              <p className="cardSubHeading">Marketing Advisor<br />
+              <p className="cardSubHeading text-sm">Marketing Advisor<br />
               New segment marketing, healthcare industry marketing manager.
               UC Berkeley (Berkeley, CA).</p>
             </Card>
@@ -89,7 +89,7 @@ const AboutPage = () => {
               />
               <h3>Michael Porto</h3>
               {/* <h3 className="mt-0">Michael Porto</h3> */}
-              <p className="cardSubHeading">Product Management Advisor<br/>
+              <p className="cardSubHeading text-sm">Product Management Advisor<br/>
               Big data, mobile, ML, Intel, Wells Fargo, EY. Princeton MS CS (Charlotte, NC).</p>
             </Card>
           {/* </div> */}
