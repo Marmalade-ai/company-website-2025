@@ -67,6 +67,7 @@ const Footer = () => (
           <li><Link to="/contact">Contact Us</Link></li>
           <li><Link to="/code-of-conduct">Code of Conduct</Link></li>
           <li><Link to="/privacy-policy">Privacy Policy</Link></li>
+          <li><Link to="/flexphotos">Flex photos</Link></li>
         </ul>
         <h4>Copyright © 2021-2023 Marmalade AI, Inc.</h4>
       {/* </section> */}
