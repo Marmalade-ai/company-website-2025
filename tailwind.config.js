@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+// Tailwind CSS 3.0 release = 2021-12-9
 module.exports = {
   // purge: {
   //   content: [
