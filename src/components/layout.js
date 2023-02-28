@@ -49,7 +49,7 @@ const Layout = ({ pageTitle, children }) => {
           </li>
         </ul>
       </nav>
-      <main>
+      <main class="base-text">
         <h1 className={heading}>{pageTitle}</h1>
         {children}
       </main>

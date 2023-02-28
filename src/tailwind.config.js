@@ -2,7 +2,14 @@
 module.exports = {
   content: [],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ["sans-serif"],
+      },
+      fontSize: {
+        "base": "11px",
+      },
+    },
   },
   plugins: [],
 }
