@@ -28,7 +28,7 @@ const AboutPage = () => {
             mt-0 = margin top 0 px
             mb-4 = margin bottom 4 px
         */}
-        <div className="grid m-grid-cols-2 grid-cols-2 s-grid-cols-1 gap-1">
+        <div className="grid grid-cols-2">
         {/* <div className="pt-8 grid grid-cols-1 flex-col -mx-3 md:grid-cols-2"> */}
           {/* <div className="flex-1 px-3"> */}
             <Card>
