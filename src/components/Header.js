@@ -10,13 +10,12 @@ const Header = () => (
       {/* <div className="flex items-center text-2xl"> */}
         {/* <div className="w-12 mr-3"> */}
           {/* <Link> */}
-            <StaticImage
+            <h1><StaticImage
               src="../images/marmalade-logo-sm.jpg"
               alt="The Marmalade AI Logo."
               title="Marmalade AI, Inc."
               width={40}
-            />
-            <h1>Marmalade AI - virtual networking</h1>
+            /> Marmalade AI - virtual networking</h1>
           {/* </Link> */}
         {/* </div> */}
         {/* <Link to="/#">Marmalade AI</Link> */}
