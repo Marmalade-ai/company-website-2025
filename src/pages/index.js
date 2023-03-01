@@ -9,6 +9,7 @@ import "../styles/global.css";
 const IndexPage = () => {
   return (
     <Layout pageTitle="">
+      <br />
       <p style={{fontFamily: "Sans-serif"}} class="base-text">Marmalade AI is an app that provides <u>virtual networking</u> for specialists in <b>UX design</b>, <b>digital 
         marketing</b>, or <b>machine learning</b> who really need to connect with each other and are 
         dissatisfied with traditional networking. Those are the areas where we're starting. Based on profiles, Marmalade 

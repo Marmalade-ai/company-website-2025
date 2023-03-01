@@ -19,13 +19,18 @@ h2 {
   font-weight: bold;
 }
 h3 {
-  font-size: .9rem;
+  font-size: 1.0rem;
   font-weight: bold;
-  color: green;
+  color: purple;
 }
 .navLinkItem {
   color: red;
+  font-weight: bold;
 }
 .navLinkText {
   color: blue;
+}
+nav {
+  color: orange;
+  font-weight: bold;
 }
