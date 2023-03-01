@@ -8,11 +8,17 @@
 } */
 .base-text {
   font-size: .8rem;  /* 11px */
+  font-family: "Titillium Web", sans-serif;
+  color: black;
+}
+.link-text {
+  font-size: .8rem;  /* 11px */
   font-family: sans-serif;
 }
 h1 {
   font-size: 1.6rem;
-  font-weight: bold;
+  font-weight: 900;
+  color: #ff7f00; /* #fa5b46; */ /* #ff7f00; */ /* #fe6201; */
 }
 h2 {
   font-size: 1.4rem;
@@ -33,4 +39,14 @@ h3 {
 nav {
   color: orange;
   font-weight: bold;
+}
+a {
+  cursor: pointer;
+  font-size: .9rem;
+  text-decoration: none;
+  color: purple;
+  font-weight: bold;
+}
+a:hover {
+  background-color: orange;
 }

@@ -8,6 +8,8 @@ import Card from '../components/Card';
 const AboutPage = () => {
   return (
     <Layout pageTitle='About Marmalade AI, Inc.'>
+      <Seo title="About" description="About Marmalade AI, Inc." />
+      <br />
       <p>Hi there! We're the proud operators of this site, built with Gatsby and Tailwind. Original development work by Justin Blake and Jim Tyhurst. Updated in 2023 by Craig Fisk.</p>
     
 
