@@ -10,8 +10,8 @@ const IndexPage = () => {
   return (
     <Layout pageTitle="">
       <br />
-      <p style={{fontFamily: "Sans-serif"}} class="base-text">Marmalade AI is an app that provides <u>virtual networking</u> for specialists in <b>UX design</b>, <b>digital 
-        marketing</b>, or <b>machine learning</b> who really need to connect with each other and are 
+      <p style={{fontFamily: "Sans-serif"}} class="base-text">Marmalade AI provides <u>virtual networking</u> for specialists -- starting with <b>UX design</b>, <b>digital 
+        marketing</b>, and <b>machine learning</b> -- who really need to connect with each other and are 
         dissatisfied with traditional networking. Those are the areas where we're starting. Based on profiles, Marmalade 
         matches specialists with specialists using NLP and machine learning. When, where, and with whom you connect is up to you.
       </p>
@@ -25,7 +25,7 @@ const IndexPage = () => {
       <button class="bg-green-500 px-4 py-0 rounded items-center hover:bg-green-600 font-bold" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Schedule a demo over Zoom</button>
       </div>
       <StaticImage
-        src="../images/emily_screen_640.png" 
+        src="../images/emily_screen_640_3.png" 
         alt="Emily screen from Marmalade AI" 
         width={600}
       />
