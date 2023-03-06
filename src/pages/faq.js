@@ -1,28 +1,19 @@
 import React from 'react';
 import { Link } from 'gatsby';
-// import Button from '../components/Button';
 import Layout from '../components/layout';
 import Seo from '../components/seo';
 
 const Faq = () => (
   <Layout pageTitle="Frequently Asked Questions">
-    {/* <br /> */}
+
     <Seo title="FAQ" description="Frequently Asked Questions" />
-    {/* <div className="container mx-auto mt-10">
-      <h1>Frequently Asked Questions</h1>
-    </div> */}
     <article className="pt-5">
       <div className="container mx-auto">
-        {/* <div className="pt-5 divide-y-4 divide-primary"> */}
-          {/* <div /> */}
           <div>
             <h2>Getting Started</h2>
             <h3>How do I get started?</h3>
             <p>
               Click the book a demo button on the homepage.
-              {/* <Link to="/alphaGoogleForm">apply for Early Access</Link>. 
-              Fill in your profile, which Marmalade AI will use to create a virtual
-              network. */}
             </p>
             <h3>What does it cost?</h3>
             <p>Free forever for Early Access users.</p>
@@ -92,14 +83,6 @@ const Faq = () => (
         </div>
         </div>
         <br />
-        {/* <div>
-          <p className="mt-8">
-            <Link to="/alphaGoogleForm">
-              <Button size="lg">Apply for Early Access</Button>
-            </Link>
-          </p>
-        </div> */}
-      {/* </div> */}
     </article>
   </Layout>
 );

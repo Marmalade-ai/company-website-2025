@@ -4,7 +4,6 @@ import { StaticImage } from 'gatsby-plugin-image'
 import Seo from '../components/seo'
 import { navigate } from 'gatsby'
 import "../styles/global.css";
-// 
 
 const IndexPage = () => {
   return (
@@ -16,12 +15,6 @@ const IndexPage = () => {
         dissatisfied with traditional networking. Based on profiles, Marmalade 
         matches specialists with specialists using NLP and machine learning. When, where, and with whom you connect is up to you.
       </p>
-      {/* <Link to="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-        <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-        <a href="https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes" onClick="Calendly.initPopupWidget({url: 'https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes'});return false;">
-          {/* <button class="bg-green-500 text-white px-5 py-2 mt-4 mb-4 rounded">Schedule a demo over Zoom</button></a> */}
-          {/* <button className="bg-red-500 text-white px-4 py-2 mt-3 mb-4 rounded">Schedule a demo over Zoom</button></a> */}
-      {/* </Link> */}
       <div class="container flex flex-col items-center">
       <button class="bg-green-500 mt-2 mb-2 px-4 py-0 rounded items-center hover:bg-green-600 font-bold" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Schedule a demo over Zoom</button>
       </div>
