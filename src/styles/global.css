@@ -3,9 +3,12 @@
 @tailwind components;
 @tailwind utilities;
 
-/* .text-sm {
-  font-size: .8rem;
-} */
+.card {
+  background-color: theme('colors.white');
+  border-radius: theme('borderRadius.lg');
+  padding: theme('spacing.6');
+  box-shadow: theme('boxShadow.xl');
+}
 .base-text {
   font-size: .8rem;  /* 11px */
   font-family: "Titillium Web", sans-serif;

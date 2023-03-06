@@ -2,7 +2,7 @@ import * as React from 'react'
 import Layout from '../components/layout'
 import Seo from '../components/seo'
 import { StaticImage } from 'gatsby-plugin-image'
-import Card from '../components/Card';
+// import Card from '../components/Card';
 
 
 const AboutPage = () => {
@@ -21,8 +21,8 @@ const AboutPage = () => {
             Innovation is key to the future.
           </p>
           <p>
-            We came together through user research into the problems people have with
-            networking and decided to make it better.
+            Marmalade AI started with user research into the problems people have with
+            networking. We decided to try to make it better.
           </p>
         </div>
         {/* mb-8 = 2rem of margin added to the bottom 
@@ -33,7 +33,7 @@ const AboutPage = () => {
         <div className="grid grid-cols-2">
         {/* <div className="pt-8 grid grid-cols-1 flex-col -mx-3 md:grid-cols-2"> */}
           {/* <div className="flex-1 px-3"> */}
-            <Card>
+            <div>
             {/* <Card className="mb-4"> */}
               <StaticImage
                 // className="mb-4 w-16 h-16 rounded-lg shadow-lg"
@@ -46,10 +46,10 @@ const AboutPage = () => {
               <p className="cardSubHeading text-sm slate">CEO<br/>
                 Series A mobile CRM, new software products/channels at Intel.
                 Chicago Booth MBA. (San Jose, CA).</p>
-            </Card>
+            </div>
           {/* </div> */}
           {/* <div className="flex-1 px-3"> */}
-            <Card>
+            <div>
             {/* <Card className="mb-4"> */}
               <StaticImage
                 // className="mb-4 w-16 h-16 rounded-lg shadow-lg	"
@@ -62,38 +62,38 @@ const AboutPage = () => {
               <p className="cardSubHeading text-sm">CTO< br/>
                 Software architect, Machine Learning / Natural Language
                 Processing (ML/NLP), Object Computing, Inc. UCLA PhD. (Portland, OR).</p>
-            </Card>
+            </div>
           {/* </div> */}
           {/* <div className="flex-1 px-3"> */}
-            <Card>
+            <div>
             {/* <Card className="mb-4"> */}
               <StaticImage
                 // className="mb-4 w-16 h-16 rounded-lg shadow-lg	"
                 src="../images/vivian_tran_headshot_150.jpg"
-                alt="Photo of Vivian Tran."
+                alt="Photo of Vivian Tran, Marketing Advisor."
                 title="Vivian Tran, Marketing Advisor"
               />
               <h3>Vivian Tran</h3>
               {/* <h3 className="mt-0">Vivian Tran</h3> */}
               <p className="cardSubHeading text-sm">Marketing Advisor<br />
-              New segment marketing, healthcare industry marketing manager.
+              New segment marketing, healthcare focus marketing manager.
               UC Berkeley (Berkeley, CA).</p>
-            </Card>
+            </div>
           {/* </div> */}
           {/* <div className="flex-1 px-3"> */}
-            <Card>
+            <div>
             {/* <Card className="mb-4"> */}
               <StaticImage
                 // className="mb-4 w-16 h-16 rounded-lg shadow-lg	"
                 src="../images/michael_porto_headshot_150.jpg"
-                alt="Photo of Michael Porto."
+                alt="Photo of Michael Porto, Product Advisor."
                 title="Michael Porto, Product Management Advisor"
               />
               <h3>Michael Porto</h3>
               {/* <h3 className="mt-0">Michael Porto</h3> */}
               <p className="cardSubHeading text-sm">Product Management Advisor<br/>
               Big data, mobile, ML, Intel, Wells Fargo, EY. Princeton MS CS (Charlotte, NC).</p>
-            </Card>
+            </div>
           {/* </div> */}
         </div>
       </div>
