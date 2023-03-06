@@ -18,11 +18,24 @@ const IndexPage = () => {
       <div class="container flex flex-col items-center">
       <button class="bg-green-500 mt-2 mb-2 px-4 py-0 rounded items-center hover:bg-green-600 font-bold" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Schedule a demo over Zoom</button>
       </div>
-      <StaticImage
-        src="../images/emily_screen_640_3.png" 
-        alt="Emily screen from Marmalade AI" 
-        width={600}
-      />
+
+      <div className="grid grid-cols-2">
+        <h3>User profile</h3>
+        <h3>Virtual network</h3>
+      </div>
+      <div className="grid grid-cols-2">
+
+        <StaticImage
+          src="../images/emily_profile.png" 
+          alt="Emily screen from Marmalade AI" 
+          width={280}
+        />
+        <StaticImage
+          src="../images/emily_profiles.png" 
+          alt="Profiles from Marmalade AI" 
+          width={320}
+        />
+      </div>
       <h2>Accurate</h2>
       <h3>Your network should reflect what you do</h3>
       <StaticImage
