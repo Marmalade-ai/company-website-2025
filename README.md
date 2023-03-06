@@ -1,3 +1,31 @@
+## Company Website - 2023
+
+Changes: 
+- Upgrade from Gatsby 3 to Gatsby 5.
+- Compact site to include elevator pitch.
+- Add a button linked to Calendly to schedule a demo over Zoom.
+- Insert a user profile with matching user profiles.
+- Simplify use of Tailwind (there is likely some unused code).
+
+Note: Gatsby 5 requires Node 18. If a version is installed using nvm, you can switch to it like
+
+    nvm use 18.14.0 
+
+## Installation steps:
+
+Git clone, check `node --version` is 18+, then run 
+
+    npm i
+    gatsby develop 
+  
+Then browse to localhost:8000/ 
+
+Or `gatsby develop -H 0.0.0.0` and browse to <IP server address>:8000/ 
+
+May require `gatsby develop --legacy-peer-deps`
+ 
+
+
 <p align="center">
   <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
     <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
