@@ -53,3 +53,9 @@ a {
 a:hover {
   background-color: orange;
 }
+bg-rebeccapurple-300 {
+  color: #663399;
+}
+bg-rebeccapurple-600 {
+  color: #663399;
+}
