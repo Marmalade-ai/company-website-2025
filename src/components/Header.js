@@ -11,7 +11,7 @@ const Header = () => (
         {/* <div className="w-12 mr-3"> */}
           {/* <Link> */}
             <h1><StaticImage
-              src="../images/marmalade-logo-sm.jpg"
+              src="../images/Marmalade_Logo_trans_white_M_100.png"
               alt="The Marmalade AI Logo."
               title="Marmalade AI, Inc."
               width={40}
