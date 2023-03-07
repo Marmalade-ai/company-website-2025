@@ -1,0 +1,55 @@
+/* ./src/styles/global.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+  background-color: theme('colors.white');
+  border-radius: theme('borderRadius.lg');
+  padding: theme('spacing.6');
+  box-shadow: theme('boxShadow.xl');
+}
+.base-text {
+  font-size: .8rem;  /* 11px */
+  font-family: "Titillium Web", sans-serif;
+  color: black;
+}
+.link-text {
+  font-size: .8rem;  /* 11px */
+  font-family: sans-serif;
+}
+h1 {
+  font-size: 1.6rem;
+  font-weight: 900;
+  color: #ff7f00; /* #fa5b46; */ /* #ff7f00; */ /* #fe6201; */
+}
+h2 {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+h3 {
+  font-size: 1.0rem;
+  font-weight: bold;
+  color: purple;
+}
+.navLinkItem {
+  color: red;
+  font-weight: bold;
+}
+.navLinkText {
+  color: blue;
+}
+nav {
+  color: orange;
+  font-weight: bold;
+}
+a {
+  cursor: pointer;
+  font-size: .9rem;
+  text-decoration: none;
+  color: purple;
+  font-weight: bold;
+}
+a:hover {
+  background-color: orange;
+}
