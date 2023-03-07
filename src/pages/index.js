@@ -16,7 +16,7 @@ const IndexPage = () => {
         matches specialists with specialists using NLP and machine learning. When, where, and with whom you connect is up to you.
       </p>
       <div class="container flex flex-col items-center">
-      <button class="bg-purple-300 mt-2 mb-2 px-4 py-0 rounded items-center hover:bg-purple-600 font-bold" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Schedule a demo over Zoom</button>
+      <button class="hover:bg-orange-300 bg-orange-400 border-slate-800 mt-2 mb-2 px-4 py-0 rounded items-centerfont-bold" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Schedule a demo over Zoom</button>
       </div>
       <div className="grid grid-cols-2">
         <h3>User profile</h3>

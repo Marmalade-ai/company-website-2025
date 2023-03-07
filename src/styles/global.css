@@ -51,11 +51,13 @@ a {
   font-weight: bold;
 }
 a:hover {
-  background-color: orange;
+  background-color: #ff7f00;
 }
-bg-rebeccapurple-300 {
-  color: #663399;
+bg-orange-400 {
+  color: #ff7f00;
 }
-bg-rebeccapurple-600 {
-  color: #663399;
+button {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #ff7f00;
 }
