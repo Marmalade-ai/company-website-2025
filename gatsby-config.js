@@ -3,7 +3,12 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Marmalade AI 2023`,
+    title: `Marmalade AI networking for software people`,
+    description: `Virtual networking for software specialists in UX design, digital marketing, and machine learning.`,
+    twitterUsername: `@MarmaladeAI`,
+    image: `./src/images/Marmalade_Logo_trans_white_M_100.png`,
+    siteUrl: `https://www.marmalade.ai`,
+ 
   },
   plugins: [
     "gatsby-plugin-image",
