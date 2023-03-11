@@ -1,0 +1,45 @@
+## Created with gatsby-plugin-netlify
+
+/*
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+/component---src-pages-404-js-b2661b47f8cd22ce31a7.js
+  Cache-Control: public, max-age=31536000, immutable
+/styles.c90f1c061c2dd7eaeb42.css
+  Cache-Control: public, max-age=31536000, immutable
+/542cdd13a133e517e35d757931957c8cb06bb792-937b9b74be45e678a931.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-about-js-ff1d0452aacfebe31d5e.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-code-of-conduct-js-ee7232851115fdb29c62.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-faq-js-4f35ef5dec4cb742be64.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-flexphotos-js-bc8e18c622026de19da4.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-index-js-272ba5d80adf9c8e1451.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-privacy-policy-js-8e10bee0c267e929ea61.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-blog-index-js-d717d05bfdea1f62c6e7.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-blog-mdx-frontmatter-slug-js-content-file-path-home-fisk-github-company-website-2023-faq-fourth-post-index-mdx-408c89aa603f79edc077.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-blog-mdx-frontmatter-slug-js-content-file-path-home-fisk-github-company-website-2023-faq-another-post-index-mdx-93bade4337d1e54abd8e.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-blog-mdx-frontmatter-slug-js-content-file-path-home-fisk-github-company-website-2023-faq-my-first-post-index-mdx-bb4fe52868461afbde21.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-blog-mdx-frontmatter-slug-js-content-file-path-home-fisk-github-company-website-2023-faq-yet-another-post-index-mdx-70db840254abea1d1f9f.js
+  Cache-Control: public, max-age=31536000, immutable
+/webpack-runtime-4b8094d73544acad6275.js
+  Cache-Control: public, max-age=31536000, immutable
+/framework-fb2a967a985659c555e2.js
+  Cache-Control: public, max-age=31536000, immutable
+/app-a25838636c91a9cf9d47.js
+  Cache-Control: public, max-age=31536000, immutable
+/static/*
+  Cache-Control: public, max-age=31536000, immutable
+/sw.js
+  Cache-Control: no-cache
