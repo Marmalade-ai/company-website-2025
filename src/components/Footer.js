@@ -64,7 +64,7 @@ const Footer = () => (
       {/* <section> */}
         <ul>
           {/* <li><Link to="/faq">FAQ</Link></li> */}
-          <li><Link to="mailto:info@marmalade.ai">Contact Us</Link></li>
+          <li><a href="mailto:info@marmalade.ai">Contact Us</a></li>
           <li><Link to="/code-of-conduct">Code of Conduct</Link></li>
           <li><Link to="/privacy-policy">Privacy Policy</Link></li>
           {/* <li><Link to="/flexphotos">Flex photos</Link></li> */}
