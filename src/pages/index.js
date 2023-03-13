@@ -7,16 +7,16 @@ import "../styles/global.css";
 
 const IndexPage = () => {
   return (
-    <Layout class="layout" pageTitle="">
+    <Layout className="layout" pageTitle="">
       <br />
-      <p style={{fontFamily: "Sans-serif"}} class="base-text">Marmalade AI provides <b>virtual 
+      <p style={{fontFamily: "Sans-serif"}} className="base-text">Marmalade AI provides <b>virtual 
         networking</b> for specialists -- starting with <b>UX design</b>, <b>digital marketing</b>, and <b>machine 
           learning</b> -- who really need to connect with each other and are 
         dissatisfied with traditional networking. Based on profiles, Marmalade 
         matches specialists with specialists using NLP and machine learning. When, where, and with whom you connect is up to you.
       </p>
-      <div class="container flex flex-col items-center">
-      <button class="hover:bg-orange-300 bg-orange-400 border-slate-800 mt-2 mb-2 px-4 py-0 rounded items-centerfont-bold" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Schedule a demo over Zoom</button>
+      <div className="container flex flex-col items-center">
+      <button className="hover:bg-orange-300 bg-orange-400 border-slate-800 mt-2 mb-2 px-4 py-0 rounded items-centerfont-bold" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Schedule a demo over Zoom</button>
       </div>
       <div className="grid grid-cols-2">
         <h3>User profile</h3>
