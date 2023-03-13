@@ -70,7 +70,7 @@ const Footer = () => (
           {/* <li><Link to="/flexphotos">Flex photos</Link></li> */}
         </ul>
         <br />
-        <h4 class="base-text">Copyright © 2021-2023 Marmalade AI, Inc.</h4>
+        <h4 className="base-text">Copyright © 2021-2023 Marmalade AI, Inc.</h4>
       {/* </section> */}
     </div>
   </footer>
