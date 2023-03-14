@@ -3,6 +3,20 @@ import { Link } from 'gatsby';
 import Layout from '../components/layout';
 import Seo from '../components/seo';
 
+export const Head = () => (
+  <> 
+    <meta charSet="utf-8" />
+    <title>Marmalade AI Networking - About</title>
+    <meta 
+      name="description"
+      content="Marmalade AI - FAQ 
+      Marmalade AI, Inc. is focused in 2023 on working closely with specialists in UX design, 
+      digital marketing, and machine learning to understand networking problems."
+    />
+  </>
+);
+
+
 const Faq = () => (
   <Layout pageTitle="Frequently Asked Questions">
 
