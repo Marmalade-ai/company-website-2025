@@ -1,9 +1,27 @@
 import * as React from 'react'
 import Layout from '../components/layout'
 import { StaticImage } from 'gatsby-plugin-image'
-import Seo from '../components/seo'
+// import Seo from '../components/seo'
 import { navigate } from 'gatsby'
-import "../styles/global.css";
+import "../styles/global.css"
+
+export const Head = () => (
+  <> 
+    <meta charSet="utf-8" />
+    <title>Marmalade AI Networking</title>
+    <meta 
+      name="description"
+      content="Marmalade AI creates an easy way to do virtual networking for specialists in UX design, digital marketing,
+      and machine learning. It targets people who really need to connect to each other and find traditional 
+      networking through meetups or one-on-ones, or through online services like Linkedin, TopTal, UpWork, or Indeed 
+      to be not all that useful, too expensive for the value received, and too time-consuming. Using their profiles, 
+      Marmalade AI automatically creates a virtual network of specialists using NLP (natural language processing) and 
+      ML (machine learning) to suggest relevant connections. When, where, and with who you connect is under your 
+      control. Marmalade AI is a subscription web-based service in the U.S. on phones, laptops, and desktops."
+    />
+  </>
+);
+
 
 const IndexPage = () => {
   return (
@@ -51,6 +69,6 @@ const IndexPage = () => {
   )
 }
 
-export const Head = () => <Seo title="Home Page" />
+// export const Head = () => <Seo title="Home Page" />
 
 export default IndexPage

@@ -3,10 +3,34 @@ import Layout from '../components/layout'
 import Seo from '../components/seo'
 import { StaticImage } from 'gatsby-plugin-image'
 
+export const Head = () => (
+  <> 
+    <meta charSet="utf-8" />
+    <title>Marmalade AI Networking - About</title>
+    <meta 
+      name="description"
+      content="Marmalade AI - About 
+      Marmalade AI, Inc. formed as a result on doing user research into the common problems people in various career 
+      stages and professions encountered in networking: 
+      1) Missed opportunity: You go to an event and learn later there was someone there you should have met. 
+      2) Staying in touch: People you know from the past have no idea what you are doing now. They could be helpful, but they don't know. 
+      3) Inefficiency: Networking can be powerful. There's only so much time you can put into it, however, because of efficiency. 
+      We found each other through user research, then connected remotely and developed a prototype in Figma.
+      Software development prototyping was done in React, then Flutter, and then finally Vue. We wanted a 
+      component-orient software framework that be reponsive on phones, as well as laptops and desktops. We
+      did not know what the backend data schema should look like, but did know that we did not want to develop
+      an authentication framework. Consequently, Google Cloud Platform, especially Firebase and Firestore, fit
+      the bill. 
+      One of the co-founders, Craig Fisk (CEO), had raised classic Series A for a previous company. We wanted 
+      to be able to get product available to solve problems in networking first, and then see where that led."
+    />
+  </>
+);
+
 const AboutPage = () => {
   return (
     <Layout pageTitle='About Marmalade AI, Inc.'>
-      <Seo title="About" description="About Marmalade AI, Inc." />
+      <Seo title="About Marmalade AI, Inc." />
       <br />
       <p>Hi there! We're the proud operators of this site, built with Gatsby and Tailwind. Original development work by Justin Blake and Jim Tyhurst. Updated in 2023 by Craig Fisk.</p>
 
@@ -77,6 +101,6 @@ const AboutPage = () => {
   )
 }
 
-export const Head = () => <Seo title="About Me" />
+// export const Head = () => <Seo title="About Me" />
 
 export default AboutPage

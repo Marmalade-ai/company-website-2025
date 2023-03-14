@@ -8,7 +8,6 @@ module.exports = {
     twitterUsername: `@MarmaladeAI`,
     image: `./src/images/Marmalade_Logo_trans_white_M_100.png`,
     siteUrl: `https://www.marmalade.ai`,
- 
   },
   plugins: [
     "gatsby-plugin-netlify",

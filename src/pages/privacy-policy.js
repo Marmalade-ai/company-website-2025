@@ -2,6 +2,18 @@ import React from 'react';
 import Layout from '../components/layout';
 import Seo from '../components/seo';
 
+export const Head = () => (
+  <> 
+    <meta charSet="utf-8" />
+    <title>Marmalade AI Networking - Privacy Policy</title>
+    <meta 
+      name="description"
+      content="Marmalade AI - Privacy Policy 
+      Marmalade AI, Inc. intends to keep information private and not do advertising."
+    />
+  </>
+);
+
 const PrivacyPolicy = () => (
   <Layout>
     <Seo title="Privacy Policy" description="Privacy Policy" />
@@ -55,7 +67,7 @@ const PrivacyPolicy = () => (
           use the Internet. We use IP addresses to help diagnose problems with
           our server, administer our site, analyze trends, gather broad
           demographic information for aggregate use in order for us to improve
-          the site, and deliver customized, personalized content. In some case
+          the site, and deliver customized, personalized content. In some cases
           we may use your IP address to customize content based on your
           location.
         </p>
@@ -163,7 +175,7 @@ const PrivacyPolicy = () => (
         <p>
           If you have any questions about this Privacy Notice, the practices of
           this site, or your dealings with this site, you can send email to{' '}
-          <i>privacy@marmalade.ai</i>.
+          <a href="mailto:privacy@marmalade.ai">privacy@marmalade.ai</a>.
         </p>
       </div>
     </article>

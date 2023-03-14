@@ -2,6 +2,18 @@ import React from 'react';
 import Layout from '../components/layout';
 import Seo from '../components/seo';
 
+export const Head = () => (
+  <> 
+    <meta charSet="utf-8" />
+    <title>Marmalade AI Networking - Code of Conduct</title>
+    <meta 
+      name="description"
+      content="Marmalade AI - Code of Conduct 
+      Marmalade AI, Inc. Code of Conduct is based on Contributor Covenant, version 1.4."
+    />
+  </>
+);
+
 const CodeOfConduct = () => (
   <Layout>
     <Seo title="Code of Conduct" description="Code of Conduct" />
@@ -26,7 +38,7 @@ const CodeOfConduct = () => (
           Examples of behavior that contributes to creating a positive
           environment include:
         </p>
-        <ul>
+        <ul class="list-disc list-inside text-sm">
           <li>Using welcoming and inclusive language</li>
           <li>Being respectful of differing viewpoints and experiences</li>
           <li>Gracefully accepting constructive criticism</li>
@@ -34,7 +46,7 @@ const CodeOfConduct = () => (
           <li>Showing empathy towards other community members</li>
         </ul>
         <p>Examples of unacceptable behavior by participants include:</p>
-        <ul>
+        <ul class="list-disc list-inside text-sm">
           <li>
             The use of sexualized language or imagery and unwelcome sexual
             attention or advances
@@ -81,8 +93,8 @@ const CodeOfConduct = () => (
         <h2>Enforcement</h2>
         <p>
           Instances of abusive, harassing, or otherwise unacceptable behavior
-          may be reported by contacting the community administrators at
-          community-administrators@marmalade.ai. All complaints will be reviewed
+          may be reported by contacting <a href="mailto:community-administrators@marmalade.ai">community administrators</a>. 
+          All complaints will be reviewed
           and investigated and will result in a response that is deemed
           necessary and appropriate to the circumstances. The community
           administrators are obligated to maintain confidentiality with regard
@@ -90,7 +102,7 @@ const CodeOfConduct = () => (
           enforcement policies may be posted separately. Community
           administrators who do not follow or enforce the Code of Conduct in
           good faith may face temporary or permanent repercussions as determined
-          by other members of the community’s leadership.
+          by other members of the community&apos;s leadership.
         </p>
 
         <h2>Attribution</h2>
