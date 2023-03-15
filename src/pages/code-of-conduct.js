@@ -18,7 +18,7 @@ const CodeOfConduct = () => (
     {/* <Seo title="Code of Conduct" description="Code of Conduct" /> */}
     <h1>Code of Conduct</h1>
     <article className="pt-5">
-      <div className="px-10 mx-auto">
+      <div className="mx-auto">
         <h2>Our Pledge</h2>
         <p>
           In the interest of fostering an open and welcoming environment, we as

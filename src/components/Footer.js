@@ -3,6 +3,7 @@ import { Link } from 'gatsby';
 
 const Footer = () => (
   <footer>
+    <br />
     <div>
         <ul>
           <li><a href="mailto:info@marmalade.ai">Contact Us</a></li>
