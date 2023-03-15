@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '../components/layout';
-import Seo from '../components/seo';
+// import Seo from '../components/seo';
 
 export const Head = () => (
   <> 
@@ -8,21 +8,23 @@ export const Head = () => (
     <title>Marmalade AI Networking - Privacy Policy</title>
     <meta 
       name="description"
-      content="Marmalade AI - Privacy Policy 
-      Marmalade AI, Inc. intends to keep information private and not do advertising."
+      content="Marmalade AI, Inc. will keep your information private and will not do advertising."
     />
   </>
 );
 
+// const Faq = () => (
+//   <Layout>
+//   <main><h1>About Marmalade Networking - FAQ</h1>
+//     <article className="pt-5"></article>
+
 const PrivacyPolicy = () => (
   <Layout>
-    <Seo title="Privacy Policy" description="Privacy Policy" />
-    <div className="px-10 mx-auto mt-10">
-      <h1>Privacy Policy</h1>
-    </div>
+  <main>
+    <h1>Privacy Policy</h1>
     <article className="pt-5">
       <div className="px-10 mx-auto">
-        <p className="mt-6 font-semibold text-xl">
+        <p>
           Last Updated: <time dateTime="2023-02-05">February 5, 2023</time>
         </p>
 
@@ -179,6 +181,7 @@ const PrivacyPolicy = () => (
         </p>
       </div>
     </article>
+  </main>
   </Layout>
 );
 

@@ -1,16 +1,16 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import Layout from '../components/layout';
-import Seo from '../components/seo';
+// import Seo from '../components/seo';
 
 export const Head = () => (
   <> 
     <meta charSet="utf-8" />
-    <title>Marmalade AI Networking - About</title>
+    <title>Marmalade Networking - FAQ</title>
     <meta 
       name="description"
-      content="Marmalade AI - FAQ 
-      Marmalade AI, Inc. is focused in 2023 on working closely with specialists in UX design, 
+      content="Marmalade Networking - FAQ 
+      Marmalade AI, Inc. is focused in 2023 on working closely with specialists in UX design,
       digital marketing, and machine learning to understand networking problems."
     />
   </>
@@ -18,19 +18,18 @@ export const Head = () => (
 
 
 const Faq = () => (
-  <Layout pageTitle="Frequently Asked Questions">
-
-    <Seo title="FAQ" description="Frequently Asked Questions" />
+  <Layout>
+  <main><h1>About Marmalade Networking - FAQ</h1>
     <article className="pt-5">
       <div className="container mx-auto">
           <div>
             <h2>Getting Started</h2>
             <h3>How do I get started?</h3>
             <p>
-              Click the book a demo button on the homepage.
+              Click the &quot;book a demo&quot; button on the homepage.
             </p>
             <h3>What does it cost?</h3>
-            <p>Free forever for Early Access users who register now.</p>
+            <p>Free for Early Access users who register now.</p>
             <h3>Is this a global service?</h3>
             <p>
               No. The Early Access program is only available in the U.S.
@@ -41,12 +40,11 @@ const Faq = () => (
             <h2>Building Your Network</h2>
             <h3>How do I connect with other people?</h3>
             <p>
-              Marmalade AI creates a virtual network automatically based on your
-              profile. You control communications.
+              Based on your profile, Marmalade AI creates automatically a network that is virtual. You control communications.
             </p>
             <h3>Can I find a job through this?</h3>
             <p>
-              Not directly. Marmalade AI helps build your professional network, which is said to be how 75-80% of jobs are found.
+              Not directly. Marmalade AI helps build your professional network, which is how 75-80% of work is found.
             </p>
             <h3>What can I learn through this?</h3>
             <p>
@@ -65,9 +63,9 @@ const Faq = () => (
               What if my specialization is not supported?
             </h3>
             <p>
-              Although virtual networking applies to everyone, for "Early
-              Access" the focus is on specific areas. If you are outside of
-              that, you are welcome to participate, but you may not find the
+              Networking applies to everyone. For "Early Access" with Marmalade AI, 
+              the focus is on specific areas. If outside of those,
+              you are welcome to participate, but you may not find the
               matching to be as good. We expect to expand over time.
             </p>
             <div className="pt-5" />
@@ -99,6 +97,7 @@ const Faq = () => (
         </div>
         <br />
     </article>
+  </main>
   </Layout>
 );
 

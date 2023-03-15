@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '../components/layout';
-import Seo from '../components/seo';
+// import Seo from '../components/seo';
 
 export const Head = () => (
   <> 
@@ -8,18 +8,15 @@ export const Head = () => (
     <title>Marmalade AI Networking - Code of Conduct</title>
     <meta 
       name="description"
-      content="Marmalade AI - Code of Conduct 
-      Marmalade AI, Inc. Code of Conduct is based on Contributor Covenant, version 1.4."
+      content="The Marmalade AI, Inc. Code of Conduct is based on Contributor Covenant, version 1.4."
     />
   </>
 );
 
 const CodeOfConduct = () => (
   <Layout>
-    <Seo title="Code of Conduct" description="Code of Conduct" />
-    <div className="px-10 mx-auto mt-10">
-      <h1>Code of Conduct</h1>
-    </div>
+    {/* <Seo title="Code of Conduct" description="Code of Conduct" /> */}
+    <h1>Code of Conduct</h1>
     <article className="pt-5">
       <div className="px-10 mx-auto">
         <h2>Our Pledge</h2>
