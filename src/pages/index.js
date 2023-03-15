@@ -27,9 +27,9 @@ const IndexPage = () => {
   return (
     <Layout>
     <main><h1>Networking Virtually</h1>
-      <p style={{fontFamily: "Sans-serif"}} className="base-text">Marmalade AI provides <b>networking</b> for specialists that is <b>virtual</b>
-      -- starting with specialists in <b>UX design</b>, <b>digital marketing</b>, and <b>machine learning</b> -- who really need to connect 
-      with each other and are dissatisfied with traditional networking. Based on profiles, Marmalade 
+      <p style={{fontFamily: "Sans-serif"}} className="base-text">Marmalade AI introduces <b>networking</b> for specialists that is <b>virtual</b> &mdash; starting
+      with specialists in <b>UX design</b>, <b>digital marketing</b>, and <b>machine learning</b> &mdash; who really need to connect 
+      with each other and find traditional networking to be slow and irrelevant. Based on profiles, Marmalade 
         matches specialists with specialists using NLP and machine learning. When, where, and with whom you connect is up to you.
       </p>
       <div className="container flex flex-col items-center">
@@ -38,6 +38,10 @@ const IndexPage = () => {
       <div className="grid grid-cols-2">
         <h3>User profile</h3>
         <h3>Networking virtually</h3>
+      </div>
+      <div className="grid grid-cols-2">
+        <p style={{fontFamily: "Sans-serif"}} className="base-text">Create a profile describing your work.</p>
+        <p style={{fontFamily: "Sans-serif"}} className="base-text">Connect with a network of virtual matches.</p>
       </div>
       <div className="grid grid-cols-2">
 
