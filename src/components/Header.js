@@ -5,7 +5,7 @@ const Header = () => (
   <header>
     <nav>
       <div className="titleStyle"><StaticImage
-        src="../../images/Marmalade_Logo_trans_white_M_100.svg"
+        src="../../images/Marmalade_Logo_trans_white_M_100.png"
         alt="The Marmalade AI Logo."
         title="Marmalade AI, Inc."
         width={40}
