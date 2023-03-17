@@ -11,7 +11,7 @@ export const Head = () => (
     <title>Marmalade Networking</title>
     <meta 
       name="description"
-      content="Marmalade AI, Inc. provides an easy way for specialists in UX design, digital marketing, and machine learning
+      content="Marmalade AI, Inc. provides an easy way for every specialist in UX design, digital marketing, and machine learning
       to network virtually. It targets people who really need to connect to each other and find traditional
       networking through meetups or one-on-ones, or through online services like Linkedin, TopTal, UpWork, or Indeed
       to be not all that useful, too expensive for the value received, and too time-consuming. Using their profiles, 
