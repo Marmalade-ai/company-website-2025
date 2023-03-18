@@ -6,11 +6,11 @@ import { StaticImage } from 'gatsby-plugin-image'
 export const Head = () => (
   <> 
     <meta charSet="utf-8" />
-    <title>Marmalade Networking - About</title>
+    <title>Professional Networking virtually - Why?</title>
     <meta 
       name="description"
-      content="Marmalade AI, Inc. formed as a result of user research into the common problems people in various career
-      stages and professions encounter in networking:
+      content="Why do this? We started with user research into the common problems people in various 
+      career stages and professions encounter in networking:
       1) Missed opportunity: You go to an event and learn later there was someone there you should have met.
       2) Staying in touch: People you know from the past have no idea what you are doing now. They could be helpful, but they don't know.
       3) Inefficiency: Networking can be powerful. But there's only so much time you can put into it.
@@ -34,9 +34,15 @@ const AboutPage = () => {
       <div className="container mx-auto">
         <h2>Founders</h2>
         <div className="container">
-          <p>
-            Marmalade AI started with user research into the problems people have with
-            networking. We decided to try to make networking better.
+          <p style={{fontFamily: "Sans-serif"}} className="base-text">
+          Why do this? We started with user research into the common problems people in various 
+      career stages and professions encounter in networking:
+      1) Missed opportunity: You go to an event and learn later there was someone there you should have met.
+      2) Staying in touch: People you know from the past have no idea what you are doing now. They could be helpful, but they don't know.
+      3) Inefficiency: Networking can be powerful. But there's only so much time you can put into it.
+      We found each other through user research into networking, then connected remotely, and developed a prototype in Figma.
+      Software development prototyping for a web subscription service was done in Vue with a GCP backend. We wanted an exceptionally easy-to-use,
+      &quot;responsive&quot; interaction that could work equally well on phones, laptops, and desktops.
           </p>
         </div>
         <div className="grid grid-cols-2">
