@@ -16,6 +16,7 @@ module.exports = {
     "gatsby-plugin-gatsby-cloud",
     "gatsby-plugin-postcss",
     "gatsby-plugin-robots-txt",
+    "gatsby-plugin-sitemap",
     // {
     //   resolve: "gatsby-source-filesystem",
     //   options: {
