@@ -41,7 +41,7 @@ const IndexPage = () => {
       <button className="hover:bg-orange-300 bg-orange-400 border-slate-800 mt-2 mb-2 px-4 py-0 rounded items-centerfont-bold" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Schedule a demo over Zoom</button>
       </div>
       <div className="grid grid-cols-2">
-        <h3>User profile</h3>
+        <h3>User profile &#8594;</h3>
         <h3>Networking virtually</h3>
       </div>
       <div className="grid grid-cols-2">
