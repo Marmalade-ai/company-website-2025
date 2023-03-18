@@ -29,10 +29,10 @@ const IndexPage = () => {
   return (
     <Layout>
     <main><h1>Professional Networking Virtually for Specialists Using AI</h1>
-      <p style={{fontFamily: "Sans-serif"}} className="base-text">How do I do professional networking in specialist areas like UX design, 
-      digital marketing, or machine learning? The best result would be: just have a profile, and automatically create
+      <p style={{fontFamily: "Sans-serif"}} className="base-text">How do I do <b>professional networking</b> in specialist areas like <b>UX design, 
+      digital marketing, or machine learning</b>? The best result would be: all I need is a profile, and I automatically create
       a professional network based on my description of what I do. That is what the professional networking service
-      by Marmalade AI, Inc. does. Marmalade provides an easy way to network virtually to other specialists by specialists
+      by Marmalade AI, Inc. does. Marmalade provides an easy way for specialists to network virtually to other specialists
       in <b>UX design</b>, <b>digital marketing</b>, and <b>machine learning</b> &mdash; who really need to connect 
       with each other, and find traditional networking to be slow and irrelevant. Based on profiles, behind the scenes Marmalade 
       matches specialists with specialists by using NLP and machine learning. When, where, and who you connect with is up to you.
@@ -41,7 +41,8 @@ const IndexPage = () => {
       <button className="hover:bg-orange-300 bg-orange-400 border-slate-800 mt-2 mb-2 px-4 py-0 rounded items-centerfont-bold" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Schedule a demo over Zoom</button>
       </div>
       <div className="grid grid-cols-2">
-        <h3>User profile</h3>
+        <h3>User profile</h3>  
+        {/* <span class="largeText">&#8594;</span> */}
         <h3>Networking virtually</h3>
       </div>
       <div className="grid grid-cols-2">

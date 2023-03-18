@@ -18,6 +18,9 @@
   font-size: .8rem;  /* 11px */
   font-family: sans-serif;
 }
+.largeText {
+  font-size: 26px;
+}
 .titleStyle {
   font-size: 1.6rem;
   font-weight: 900;
