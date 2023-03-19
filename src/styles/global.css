@@ -9,10 +9,18 @@
   padding: theme('spacing.6');
   box-shadow: theme('boxShadow.xl');
 }
-.base-text {
+.smallText {
   font-size: .8rem;  /* 11px */
   font-family: "Titillium Web", sans-serif;
   color: black;
+}
+p {
+  font-size: 1rem;  /* 11px */
+  font-family: "Titillium Web", sans-serif;
+  color: black;
+}
+li {
+  font-size: .9rem;
 }
 .link-text {
   font-size: .8rem;  /* 11px */
