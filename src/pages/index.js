@@ -1,7 +1,6 @@
 import * as React from 'react'
 import Layout from '../components/layout'
 import { StaticImage } from 'gatsby-plugin-image'
-// import Seo from '../components/seo'
 import { navigate } from 'gatsby'
 import "../styles/global.css"
 
@@ -28,29 +27,35 @@ export const Head = () => (
 const IndexPage = () => {
   return (
     <Layout>
-    <main><h1>Professional Networking Virtually for Specialists Using AI</h1>
-      <p style={{fontFamily: "Sans-serif"}} className="base-text">How do I do <b>professional networking</b> in specialist areas like <b>UX design, 
-      digital marketing, or machine learning</b>? The best result would be: all I need is a profile, and I automatically create
-      a professional network based on my description of what I do. That is what the professional networking service
-      by Marmalade AI, Inc. does. Marmalade provides an easy way for specialists to network virtually to other specialists
-      in <b>UX design</b>, <b>digital marketing</b>, and <b>machine learning</b> &mdash; who really need to connect 
-      with each other, and find traditional networking to be slow and irrelevant. Based on profiles, behind the scenes Marmalade 
-      matches specialists with specialists by using NLP and machine learning. When, where, and who you connect with is up to you.
+    <main><h1>Professional Networking for Specialists</h1>
+      <p>How do I do <b>professional networking</b> in specialist areas like <b>UX design, 
+      digital marketing, or machine learning</b>? The best result would be: all I need is a profile, and I automatically get
+      a professional network based on my description of what I do. 
       </p>
+      <br/>
+      <p>That is what the professional networking service
+      by Marmalade AI, Inc. does. Marmalade enables specialists to network virtually to other specialists
+      in <b>UX design</b>, <b>digital marketing</b>, and <b>machine learning</b> &mdash; who really need to connect 
+      with each other, and find traditional networking to be slow and irrelevant. Behind the scenes Marmalade 
+      matches specialists with specialists by using NLP and machine learning. </p><br /><p>When, where, and who is up to you.
+      </p>
+      <br/>
       <div className="container flex flex-col items-center">
       <button className="hover:bg-orange-300 bg-orange-400 border-slate-800 mt-2 mb-2 px-4 py-0 rounded items-centerfont-bold" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Schedule a demo over Zoom</button>
       </div>
-      <div className="grid grid-cols-2">
+      {/* <div className="grid sm:grid-cols-2 md_grid-cols-3 gap-5"> */}
+      <div className="grid grid-cols-2 gap-5">
         <h3>User profile</h3>  
         {/* <span class="largeText">&#8594;</span> */}
         <h3>Networking virtually</h3>
       </div>
-      <div className="grid grid-cols-2">
-        <p style={{fontFamily: "Sans-serif"}} className="base-text">Create a profile describing your work.</p>
-        <p style={{fontFamily: "Sans-serif"}} className="base-text">Open a matching professional network.</p>
+      {/* <div className="grid sm:grid-cols-2 md_grid-cols-3 gap-5"> */}
+      <div className="grid grid-cols-2 gap-5">
+        <p class="smallText">Create a profile describing your work.</p>
+        <p class="smallText">Open a matching professional network.</p>
       </div>
-      <div className="grid grid-cols-2">
-
+      {/* <div className="grid sm:grid-cols-2 md_grid-cols-3 gap-5"> */}
+      <div className="grid grid-cols-2 gap-5">
         <StaticImage
           src="../../images/emily_profile.png" 
           alt="Emily screen from Marmalade AI" 
@@ -59,21 +64,21 @@ const IndexPage = () => {
         <StaticImage
           src="../../images/emily_profiles.png" 
           alt="Profiles from Marmalade AI" 
-          width={320}
+          width={310}
         />
       </div>
-      <h2>Accurate</h2>
+      <h2 class="border-t-8">Accurate</h2>
       <h3>Your network should reflect what you do</h3>
-      <p style={{fontFamily: "Sans-serif"}} className="base-text">Accuracy is what you want in a professional network. You don't have time for inaccuracy. Specialists need to connect with
+      <p>Accuracy is what you want in a professional network. You don&apos;t have time for inaccuracy. Specialists need to connect with
         other specialists to share work and stay up to date. Seredipidty? We have nothing against it. But accuracy comes first.</p>
       <StaticImage
         alt="Marmalade AI gives you a network that reflects you."
         src="../../images/iStockphoto-1220226086-400.jpg"
       />
-      <h2>Automatic</h2>
+      <h2 class="border-t-8">Automatic</h2>
       <h3>Your network should be effortless</h3>
-      <p style={{fontFamily: "Sans-serif"}} className="base-text">You can't spend half your time in professional networking. It should &quot;just happen.&quot; Frankly, we started with the idea
-        that people should rate their matches. Who has time for that? If you want your network to change because you're doing something
+      <p>You can&apos;t spend half your time in professional networking. It should &quot;just happen.&quot; Frankly, we started with the idea
+        that people should rate their matches. Who has time for that? If you want your network to change because you&apos;re doing something
         new, just put it in your profile, and your network will automatically change to reflect that.
       </p>
       <StaticImage
