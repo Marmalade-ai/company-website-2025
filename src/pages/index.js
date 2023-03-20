@@ -45,9 +45,8 @@ const IndexPage = () => {
       </div>
       {/* <div className="grid sm:grid-cols-2 md_grid-cols-3 gap-5"> */}
       <div className="grid grid-cols-2 gap-5">
-        <h3>User profile</h3>  
-        {/* <span class="largeText">&#8594;</span> */}
-        <h3>Networking virtually</h3>
+        <h3>User profile <span className="text-xl hover:bg-orange-600">&#8594;</span></h3>  
+        <h3>Networking virtually<span className="text-xl hover:bg-orange-600"></span></h3>
       </div>
       {/* <div className="grid sm:grid-cols-2 md_grid-cols-3 gap-5"> */}
       <div className="grid grid-cols-2 gap-5">
