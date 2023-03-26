@@ -7,7 +7,7 @@ module.exports = {
         sans: ["sans-serif"],
       },
       fontSize: {
-        "base": "11px",
+        "base": "10px",
       },
     },
   },
