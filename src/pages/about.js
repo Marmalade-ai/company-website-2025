@@ -47,7 +47,7 @@ const AboutPage = () => {
           {/* <div className="grid grid-cols-2"> */}
           <div class="black-border flex justify-start border-spacing-0 py-2">
 
-            <div>
+            <div class="flex">
               <div class="bg-red-500 h-4 w-6"></div>
               <div class="bg-blue-500 h-8 w-6"></div>
               <div class="bg-green-500 h-12 w-6"></div>
