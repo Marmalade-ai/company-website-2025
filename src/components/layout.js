@@ -30,7 +30,7 @@ const Layout = ({ pageTitle, children }) => {
          className={siteTitle}{data.site.siteMetadata.title}
       </Header>
       {/* <header className={siteTitle}>{data.site.siteMetadata.title}</header> */}
-      <nav>
+      <nav class="black-border">
         <ul className={navLinks}>
           <li className={navLinkItem}>
             <Link to="/" className={navLinkText}>
@@ -47,10 +47,15 @@ const Layout = ({ pageTitle, children }) => {
               About
             </Link>
           </li>
+          <li className={navLinkItem}>
+            <Link to="/newabout" className={navLinkText}>
+              New About
+            </Link>
+          </li>
         </ul>
       </nav>
       
-      <main>
+      <main class="black-border">
         <div className={heading}>{pageTitle}</div>
         {children}
       </main>
