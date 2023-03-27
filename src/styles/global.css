@@ -37,7 +37,7 @@ li {
 h1 {
   font-size: 1.1rem;
   font-weight: 900;
-  color: #ff7f00; /* #fa5b46; #ff7f00; #fe6201; */
+  color: #ff7f00; /* marmalade; /* #fa5b46; #ff7f00; #fe6201; */
 }
 h2 {
   font-size: 1.4rem;
@@ -86,4 +86,7 @@ button {
   /* border: 1px solid black;
   padding: 1rem;
   margin: .25rem; */
+  padding: .1rem;
+  border: 1px solid black;
+  margin: 0rem;
 }

@@ -12,7 +12,8 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "build-css": "tailwindcss build -i src/styles.css -o public/styles.css"
   },
   "dependencies": {
     "@mdx-js/react": "^2.3.0",
