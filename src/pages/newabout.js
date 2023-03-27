@@ -29,16 +29,19 @@ const NewAboutPage = () => {
     
     <div class="p-4 max-w-5xl grid gap-4">
       <h1 class="text-4xl font-extrabold">Grid layout with Tailwind CSS.</h1>
+
       <p>Lorem ipsum dolor amet consectetur adipiscing elit. Distinctio hic itaque alias officilis. Distinctio hic itaque alias officilis. Distinctio hic itaque alias officilis. Distinctio hic itaque alias officilis. </p>
  
-    <div class="h-16 bg-blue-500"></div>
-    <div class="h-16 bg-blue-500"></div>
-    <div class="h-16 bg-blue-500"></div>
-    <div class="h-16 bg-blue-500"></div>
-    <div class="h-16 bg-blue-500"></div>
-    <div class="h-16 bg-blue-500"></div>
-    <div class="h-16 bg-blue-500"></div>
-    <div class="h-16 bg-blue-500"></div>
+      <div class="h-16 bg-blue-500"></div>
+      <div class="h-16 bg-blue-500"></div>
+      <div class="h-16 bg-pink-500"></div>
+      <div class="h-16 bg-blue-500"></div>
+      <div class="h-16 bg-pink-500"></div>
+      <div class="h-16 bg-blue-500"></div>
+      <div class="h-16 bg-blue-500"></div>
+      <div class="h-16 bg-pink-500"></div>
+
+      <p>Lorem ipsum dolor amet consectetur adipiscing elit. Distinctio hic itaque alias officilis. Distinctio hic itaque alias officilis. Distinctio hic itaque alias officilis. Distinctio hic itaque alias officilis. </p>
 
     </div>
     
