@@ -28,25 +28,24 @@ const IndexPage = () => {
   return (
     <Layout>
     <main><h1>Professional Networking for Specialists</h1>
-      <p>How do I do <b>professional networking</b> in specialist areas like <b>UX design, 
-      digital marketing, or machine learning</b>? The best result would be: all I need is a profile, and I automatically get
-      a professional network based on my description of what I do. 
+      <p>How can I optimize <b>professional networking</b> as a specialist in <b>UX design, 
+      digital marketing, or machine learning</b>? What if, given my profile, I automatically could get
+      a network based on it? 
       </p>
       <br/>
-      <p>That is what the professional networking service
-      by Marmalade AI, Inc. does. Marmalade enables specialists to network virtually to other specialists
+      <p>Marmalade enables specialists to network with specialists
       in <b>UX design</b>, <b>digital marketing</b>, and <b>machine learning</b> &mdash; who really need to connect 
-      with each other, and find traditional networking to be slow and irrelevant. Behind the scenes Marmalade 
-      matches specialists with specialists by using NLP and machine learning. </p><br /><p>When, where, and who is up to you.
+      with each other, and find traditional networking slow and irrelevant. Marmalade 
+      uses cloud functions with NLP and machine learning in a simple UI on phone or desktop. All you need is a profile.
       </p>
       <br/>
       <div className="container flex flex-col items-center">
-      <button className="hover:bg-orange-300 bg-orange-400 border-slate-800 mt-2 mb-2 px-4 py-0 rounded items-centerfont-bold" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Schedule a demo over Zoom</button>
+      <button className="hover:bg-orange-300 bg-orange-400 border-slate-800 mt-2 mb-2 px-4 py-0 rounded items-centerfont-bold" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Schedule a demo (Zoom)</button>
       </div>
       {/* <div className="grid sm:grid-cols-2 md_grid-cols-3 gap-5"> */}
       <div className="grid grid-cols-2 gap-5">
-        <h3>User profile <span className="text-xl hover:bg-orange-600">&#8594;</span></h3>  
-        <h3>Networking virtually<span className="text-xl hover:bg-orange-600"></span></h3>
+        <h3>Profile <span className="text-xl hover:bg-orange-600">&#8594;</span></h3>  
+        <h3>Virtual network<span className="text-xl hover:bg-orange-600"></span></h3>
       </div>
       {/* <div className="grid sm:grid-cols-2 md_grid-cols-3 gap-5"> */}
       <div className="grid grid-cols-2 gap-5">
@@ -69,19 +68,18 @@ const IndexPage = () => {
       <h2 class="border-t-8">Accurate</h2>
       <h3>Your network should reflect what you do</h3>
       <p>Accuracy is what you want in a professional network. You don&apos;t have time for inaccuracy. Specialists need to connect with
-        other specialists to share work and stay up to date. Seredipidty? We have nothing against it. But accuracy comes first.</p>
+        other specialists to share work and stay up to date. Seredipidty? Fine. But accuracy comes first.</p>
       <StaticImage
         alt="Marmalade AI gives you a network that reflects you."
         src="../../images/iStockphoto-1220226086-400.jpg"
       />
       <h2 class="border-t-8">Automatic</h2>
       <h3>Your network should be effortless</h3>
-      <p>You can&apos;t spend half your time in professional networking. It should &quot;just happen.&quot; Frankly, we started with the idea
-        that people should rate their matches. Who has time for that? If you want your network to change because you&apos;re doing something
-        new, just put it in your profile, and your network will automatically change to reflect that.
+      <p>You can&apos;t spend half your time in networking. It should &quot;just happen.&quot; Who has time to rate their matches? Instead, 
+        if you want your network to change - maybe you have a new skill - just put it in your profile. Your network automatically changes.
       </p>
       <StaticImage
-        alt="Using your profile, Marmalade AI automatically provides a network that is virtual."
+        alt="Using your profile, Marmalade AI automatically creates an accurate virtual network."
         src="../../images/matching.jpg"
       />
     </main>

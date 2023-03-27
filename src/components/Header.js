@@ -3,9 +3,9 @@ import { StaticImage } from 'gatsby-plugin-image';
 
 const Header = () => (
   <header>
-    <nav>
-      <div className="titleStyle"><StaticImage
-        src="../../images/Marmalade_Logo_trans_white_M_100.png"
+    <nav class="black-border">
+      <div class="black-border" className="titleStyle"><StaticImage
+        src="../../images/Marmalade_Logo_trans_white_M_100.webp"
         alt="The Marmalade AI Logo."
         title="Marmalade AI, Inc."
         width={40}

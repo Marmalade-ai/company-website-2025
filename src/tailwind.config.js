@@ -1,5 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  // variants: {
+    // width: ["responsive", "hover", "focus"],
+  // },
+  // corePlugins: {
+  //   width: false,
+  // },
   content: [],
   theme: {
     extend: {
@@ -7,8 +13,13 @@ module.exports = {
         sans: ["sans-serif"],
       },
       fontSize: {
-        "base": "11px",
+        "base": "10px",
       },
+      spacing: {
+        "72": "18rem",
+        "84": "21rem",
+        "96": "24rem",
+      }
     },
   },
   plugins: [],
