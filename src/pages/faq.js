@@ -22,7 +22,7 @@ export const Head = () => (
 
 const Faq = () => (
   <Layout>
-    <div><h1>How do I do professional networking virtually</h1>
+    <div><h1>How do I do professional networking virtually?</h1>
         <div className="container mx-auto">
 
             <div className="pt-5">

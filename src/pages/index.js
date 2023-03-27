@@ -29,8 +29,8 @@ const IndexPage = () => {
     <Layout>
     <main><h1>Professional Networking for Specialists</h1>
       <p>How can I optimize <b>professional networking</b> as a specialist in <b>UX design, 
-      digital marketing, or machine learning</b>? What if: given my profile, I automatically got
-      a network based on my profile. 
+      digital marketing, or machine learning</b>? What if, given my profile, I automatically could get
+      a network based on it? 
       </p>
       <br/>
       <p>Marmalade enables specialists to network with specialists
