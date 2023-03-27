@@ -86,4 +86,7 @@ button {
   /* border: 1px solid black;
   padding: 1rem;
   margin: .25rem; */
+  padding: .1rem;
+  border: 1px solid black;
+  margin: 0rem;
 }
