@@ -59,7 +59,7 @@ const AboutPage = () => {
               </div>
               <div class="black-border border-spacing-0">
                 <h3>Craig Fisk</h3>
-                <p className="cardSubHeading text-sm slate">CEO<br/>
+                <p className="cardSubHeading text-sm slate px-2">CEO<br/>
                   Series A mobile CRM, new software products/channels at Intel.
                   Chicago Booth MBA. (San Jose, CA).</p>
               </div>
@@ -76,9 +76,9 @@ const AboutPage = () => {
                   height="150"
                 />
               </div>
-              <div class="black-border">
+              <div class="black-border px-0">
                 <h3>Jim Tyhurst</h3>
-                <p className="cardSubHeading text-sm slate">CTO<br />
+                <p className="cardSubHeading text-sm slate px-2">CTO<br />
                 Software architect, Machine Learning / Natural Language
                   Processing (ML/NLP), Object Computing, Inc. UCLA PhD. (Portland, OR).</p>
               </div>
@@ -97,7 +97,7 @@ const AboutPage = () => {
               </div>
               <div class="black-border">
                 <h3>Vivian Tran</h3>
-                <p className="cardSubHeading text-sm slate">Marketing Advisor<br />
+                <p className="cardSubHeading text-sm slate px-2">Marketing Advisor<br />
                 New segment marketing, healthcare focus marketing manager.
                 UC Berkeley (Berkeley, CA).</p>
               </div>
@@ -116,7 +116,7 @@ const AboutPage = () => {
               </div>
               <div class="black-border">
                 <h3>Michael Porto</h3>
-                <p className="cardSubHeading text-sm slate">Product Management Advisor<br/>
+                <p className="cardSubHeading text-sm slate px-2">Product Management Advisor<br/>
                 Big data, mobile, ML, Intel, Wells Fargo, EY. Princeton MS CS (Charlotte, NC).</p>
               </div>
             </div>
