@@ -44,88 +44,92 @@ const AboutPage = () => {
             </p><br/><br/>
           </div>
 
-          <div className="grid grid-cols-2">
-          {/* <div class="flex justify-start border-spacing-0 py-2"> */}
+          {/* <div className="grid grid-cols-2"> */}
+          <div class="grid grid-rows-2 justify-items-start border-spacing-0 py-2">
 
-            {/* <div class="flex items-end">
+            <div class="grid grid-cols-4 justify-items-start">
               <div class="bg-red-500 h-4 w-6"></div>
               <div class="bg-blue-500 h-8 w-6"></div>
               <div class="bg-green-500 h-12 w-6"></div>
               <div class="bg-yellow-500 h-16 w-6"></div>
-            </div> */}
-            
-            <div class="border-spacing-0">
-              <div class="border-spacing-0">
-                <StaticImage
-                  src="../../images/craig_fisk_headshot_150.jpg"
-                  alt="Photo of Craig Fisk."
-                  title="Craig Fisk, CEO"
-                  width="150"
-                  height="150"
-                />
-              </div>
-              <div class="border-spacing-0">
-                <h3>Craig Fisk</h3>
-                <p className="cardSubHeading text-sm slate px-2">CEO<br/>
-                  Series A mobile CRM, new software products/channels at Intel.
-                  Chicago Booth MBA. (San Jose, CA).</p>
-              </div>
             </div>
+            
+            <div class="grid grid-cols-4 justify-items-start border-spacing-0">
 
-            <div class="py-2">
-              <div>
-                <StaticImage
-                  // className="mb-4 w-16 h-16 rounded-lg shadow-lg	"
-                  src="../../images/jim_tyhurst_headshot_150.jpg"
-                  alt="Photo of Jim Tyhurst."
-                  title="Jim Tyhurst, CTO"
-                  width="150"
-                  height="150"
-                />
-              </div>
-              <div class="px-0">
-                <h3>Jim Tyhurst</h3>
-                <p className="cardSubHeading text-sm slate px-2">CTO<br />
-                Software architect, Machine Learning / Natural Language
+              <div class="grid grid-rows-2 justify-items-start">
+                <div class="border-spacing-0">
+                  <StaticImage
+                    src="../../images/craig_fisk_headshot_150.jpg"
+                    alt="Photo of Craig Fisk."
+                    title="Craig Fisk, CEO"
+                    width="150"
+                    height="150"
+                  />
+                </div>
+                <div class="border-spacing-0 bg-red-500 sm:bg-green-500 md:bg-yellow-500 xl:bg-blue-500">
+                  <h3>Craig Fisk</h3>
+                  <p className="cardSubHeading text-sm slate px-2">CEO<br/>
+                    Series A mobile CRM, new software products/channels at Intel.
+                    Chicago Booth MBA. (San Jose, CA).</p>
+                </div>
+              </div>  
+
+              <div class="grid grid-rows-2 justify-items-start">
+                <div class="border-spacing-0">
+                  <StaticImage
+                    // className="mb-4 w-16 h-16 rounded-lg shadow-lg	"
+                    src="../../images/jim_tyhurst_headshot_150.jpg"
+                    alt="Photo of Jim Tyhurst."
+                    title="Jim Tyhurst, CTO"
+                    width="150"
+                    height="150"
+                  />
+                </div>
+                <div class="px-0">
+                  <h3>Jim Tyhurst</h3>
+                  <p className="cardSubHeading text-sm slate px-2">CTO<br />
+                  Software architect, Machine Learning / Natural Language
                   Processing (ML/NLP), Object Computing, Inc. UCLA PhD. (Portland, OR).</p>
-              </div>
-            </div>
+                </div>
+              </div>  
 
-            <div class="py-2">
-              <div>
-                <StaticImage
-                  // className="mb-4 w-16 h-16 rounded-lg shadow-lg	"
-                  src="../../images/vivian_tran_headshot_150.jpg"
-                  alt="Photo of Vivian Tran, Marketing Advisor."
-                  title="Vivian Tran, Marketing Advisor"
-                  width="150"
-                  height="150"
-                />
+              <div class="grid grid-rows-2 justify-items-start">
+                <div class="border-spacing-0">
+                  <StaticImage
+                    // className="mb-4 w-16 h-16 rounded-lg shadow-lg	"
+                    src="../../images/vivian_tran_headshot_150.jpg"
+                    alt="Photo of Vivian Tran, Marketing Advisor."
+                    title="Vivian Tran, Marketing Advisor"
+                    width="150"
+                    height="150"
+                  />
+                </div>
+                <div>
+                  <h3>Vivian Tran</h3>
+                  <p className="cardSubHeading text-sm slate px-2">Marketing Advisor<br />
+                  New segment marketing, healthcare focus marketing manager.
+                  UC Berkeley (Berkeley, CA).</p>
+                </div>
+              </div>  
+              
+              <div class="grid grid-rows-2 justify-items-start">
+                <div class="border-spacing-0">
+                  <StaticImage
+                    // className="mb-4 w-16 h-16 rounded-lg shadow-lg	"
+                    src="../../images/michael_porto_headshot_150.jpg"
+                    alt="Photo of Michael Porto, Product Advisor."
+                    title="Michael Porto, Product Management Advisor"
+                    width="150"
+                    height="150"
+                  />
+                </div>
+                <div>
+                  <h3>Michael Porto</h3>
+                  <p className="cardSubHeading text-sm slate px-2">Product Management Advisor<br/>
+                  Big data, mobile, ML, Intel, Wells Fargo, EY. Princeton MS CS (Charlotte, NC).</p>
+                </div>
               </div>
-              <div>
-                <h3>Vivian Tran</h3>
-                <p className="cardSubHeading text-sm slate px-2">Marketing Advisor<br />
-                New segment marketing, healthcare focus marketing manager.
-                UC Berkeley (Berkeley, CA).</p>
-              </div>
-            </div>
-            
-            <div class="py-2">
-              <div>
-                <StaticImage
-                  // className="mb-4 w-16 h-16 rounded-lg shadow-lg	"
-                  src="../../images/michael_porto_headshot_150.jpg"
-                  alt="Photo of Michael Porto, Product Advisor."
-                  title="Michael Porto, Product Management Advisor"
-                  width="150"
-                  height="150"
-                />
-              </div>
-              <div>
-                <h3>Michael Porto</h3>
-                <p className="cardSubHeading text-sm slate px-2">Product Management Advisor<br/>
-                Big data, mobile, ML, Intel, Wells Fargo, EY. Princeton MS CS (Charlotte, NC).</p>
-              </div>
+
             </div>
 
           </div>
