@@ -21,8 +21,8 @@ module.exports = {
         "96": "24rem",
       },
       colors: {
-        marmalade: "#aa7f00",
-      }
+        marmalade: "#ff7f00",
+      },
     },
   },
   plugins: [],

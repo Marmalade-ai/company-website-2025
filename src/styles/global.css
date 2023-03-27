@@ -3,8 +3,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Note: "marmalade" color is defined in tailwind.config.js */
-
 .card {
   background-color: theme('colors.white');
   border-radius: theme('borderRadius.lg');
@@ -34,12 +32,12 @@ li {
 .titleStyle {
   font-size: 1.6rem;
   font-weight: 900;
-  color: marmalade; 
+  color: #ff7f00; 
 }
 h1 {
   font-size: 1.1rem;
   font-weight: 900;
-  color: marmalade; /* marmalade; /* #fa5b46; #ff7f00; #fe6201; */
+  color: #ff7f00; /* marmalade; /* #fa5b46; #ff7f00; #fe6201; */
 }
 h2 {
   font-size: 1.4rem;
@@ -69,16 +67,16 @@ a {
   font-weight: bold;
 }
 a:hover {
-  background-color: marmalade;
+  background-color: #ff7f00;
   filter: brightness(70%);
 }
 bg-orange-300 {
-  color: marmalade;
+  color: #ff7f00;
 }
 button {
   font-size: 18px;
   font-weight: bold;
-  background-color: marmalade;
+  background-color: #ff7f00;
 }
 .saturate_effect {
   filter: saturate(.5);
