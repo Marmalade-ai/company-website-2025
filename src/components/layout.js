@@ -30,7 +30,7 @@ const Layout = ({ pageTitle, children }) => {
          className={siteTitle}{data.site.siteMetadata.title}
       </Header>
       {/* <header className={siteTitle}>{data.site.siteMetadata.title}</header> */}
-      <nav class="black-border">
+      <nav>
         <ul className={navLinks}>
           <li className={navLinkItem}>
             <Link to="/" className={navLinkText}>
@@ -50,7 +50,7 @@ const Layout = ({ pageTitle, children }) => {
         </ul>
       </nav>
       
-      <main class="black-border">
+      <main>
         <div className={heading}>{pageTitle}</div>
         {children}
       </main>

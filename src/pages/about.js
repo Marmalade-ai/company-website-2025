@@ -1,7 +1,7 @@
 import * as React from 'react'
 import Layout from '../components/layout'
 import { navigate } from 'gatsby'
-// import { StaticImage } from 'gatsby-plugin-image'
+import { StaticImage } from 'gatsby-plugin-image'
 
 export const Head = () => (
   <> 
@@ -29,7 +29,7 @@ const AboutPage = () => {
         <p>Hi there! We're the proud operators of this site, built with Gatsby and Tailwind. Original development work by Justin Blake and Jim Tyhurst. 
           Updated in 2023 by Craig Fisk.</p>
 
-        <div class="black-border">
+        <div>
           <h2>Founders</h2>
           <div>
             <p>Why do this? We started with user research into the common problems people encounter in networking:</p><br/>
@@ -44,18 +44,18 @@ const AboutPage = () => {
             </p><br/><br/>
           </div>
 
-          {/* <div className="grid grid-cols-2"> */}
-          <div class="black-border flex justify-start border-spacing-0 py-2">
+          <div className="grid grid-cols-2">
+          {/* <div class="flex justify-start border-spacing-0 py-2"> */}
 
-            <div class="flex items-end">
+            {/* <div class="flex items-end">
               <div class="bg-red-500 h-4 w-6"></div>
               <div class="bg-blue-500 h-8 w-6"></div>
               <div class="bg-green-500 h-12 w-6"></div>
               <div class="bg-yellow-500 h-16 w-6"></div>
-            </div>
+            </div> */}
             
-            {/* <div class="black-border border-spacing-0">
-              <div class="black-border border-spacing-0">
+            <div class="border-spacing-0">
+              <div class="border-spacing-0">
                 <StaticImage
                   src="../../images/craig_fisk_headshot_150.jpg"
                   alt="Photo of Craig Fisk."
@@ -64,7 +64,7 @@ const AboutPage = () => {
                   height="150"
                 />
               </div>
-              <div class="black-border border-spacing-0">
+              <div class="border-spacing-0">
                 <h3>Craig Fisk</h3>
                 <p className="cardSubHeading text-sm slate px-2">CEO<br/>
                   Series A mobile CRM, new software products/channels at Intel.
@@ -72,8 +72,8 @@ const AboutPage = () => {
               </div>
             </div>
 
-            <div class="black-border py-2">
-              <div class="black-border">
+            <div class="py-2">
+              <div>
                 <StaticImage
                   // className="mb-4 w-16 h-16 rounded-lg shadow-lg	"
                   src="../../images/jim_tyhurst_headshot_150.jpg"
@@ -83,7 +83,7 @@ const AboutPage = () => {
                   height="150"
                 />
               </div>
-              <div class="black-border px-0">
+              <div class="px-0">
                 <h3>Jim Tyhurst</h3>
                 <p className="cardSubHeading text-sm slate px-2">CTO<br />
                 Software architect, Machine Learning / Natural Language
@@ -91,8 +91,8 @@ const AboutPage = () => {
               </div>
             </div>
 
-            <div class="black-border py-2">
-              <div class="black-border">
+            <div class="py-2">
+              <div>
                 <StaticImage
                   // className="mb-4 w-16 h-16 rounded-lg shadow-lg	"
                   src="../../images/vivian_tran_headshot_150.jpg"
@@ -102,7 +102,7 @@ const AboutPage = () => {
                   height="150"
                 />
               </div>
-              <div class="black-border">
+              <div>
                 <h3>Vivian Tran</h3>
                 <p className="cardSubHeading text-sm slate px-2">Marketing Advisor<br />
                 New segment marketing, healthcare focus marketing manager.
@@ -110,8 +110,8 @@ const AboutPage = () => {
               </div>
             </div>
             
-            <div class="black-border py-2">
-              <div class="black-border">
+            <div class="py-2">
+              <div>
                 <StaticImage
                   // className="mb-4 w-16 h-16 rounded-lg shadow-lg	"
                   src="../../images/michael_porto_headshot_150.jpg"
@@ -121,12 +121,12 @@ const AboutPage = () => {
                   height="150"
                 />
               </div>
-              <div class="black-border">
+              <div>
                 <h3>Michael Porto</h3>
                 <p className="cardSubHeading text-sm slate px-2">Product Management Advisor<br/>
                 Big data, mobile, ML, Intel, Wells Fargo, EY. Princeton MS CS (Charlotte, NC).</p>
               </div>
-            </div> */}
+            </div>
 
           </div>
 
