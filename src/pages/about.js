@@ -45,10 +45,16 @@ const AboutPage = () => {
           </div>
 
           {/* <div className="grid grid-cols-2"> */}
-          <div class="black-border flex border-spacing-0 py-2">
+          <div class="black-border flex justify-start border-spacing-0 py-2">
+
+            <div>
+              <div class="bg-red-500 h-4 w-6"></div>
+              <div class="bg-blue-500 h-8 w-6"></div>
+              <div class="bg-green-500 h-12 w-6"></div>
+              <div class="bg-yellow-500 h-16 w-6"></div>
+            </div>
             
-            {/* <div class="black-border grid grid-cols-2 border-spacing-0"> */}
-            <div class="black-border border-spacing-0">
+            {/* <div class="black-border border-spacing-0">
               <div class="black-border border-spacing-0">
                 <StaticImage
                   src="../../images/craig_fisk_headshot_150.jpg"
@@ -120,7 +126,7 @@ const AboutPage = () => {
                 <p className="cardSubHeading text-sm slate px-2">Product Management Advisor<br/>
                 Big data, mobile, ML, Intel, Wells Fargo, EY. Princeton MS CS (Charlotte, NC).</p>
               </div>
-            </div>
+            </div> */}
 
           </div>
 
