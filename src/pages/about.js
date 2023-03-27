@@ -1,7 +1,7 @@
 import * as React from 'react'
 import Layout from '../components/layout'
 import { navigate } from 'gatsby'
-import { StaticImage } from 'gatsby-plugin-image'
+// import { StaticImage } from 'gatsby-plugin-image'
 
 export const Head = () => (
   <> 
@@ -47,7 +47,7 @@ const AboutPage = () => {
           {/* <div className="grid grid-cols-2"> */}
           <div class="black-border flex justify-start border-spacing-0 py-2">
 
-            <div class="flex">
+            <div class="flex items-end">
               <div class="bg-red-500 h-4 w-6"></div>
               <div class="bg-blue-500 h-8 w-6"></div>
               <div class="bg-green-500 h-12 w-6"></div>
