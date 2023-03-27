@@ -45,9 +45,10 @@ const AboutPage = () => {
           </div>
 
           {/* <div className="grid grid-cols-2"> */}
-          <div class="black-border border-spacing-0 py-2">
+          <div class="black-border flex border-spacing-0 py-2">
             
-            <div class="black-border grid grid-cols-2 border-spacing-0">
+            {/* <div class="black-border grid grid-cols-2 border-spacing-0"> */}
+            <div class="black-border border-spacing-0">
               <div class="black-border border-spacing-0">
                 <StaticImage
                   src="../../images/craig_fisk_headshot_150.jpg"
@@ -65,7 +66,7 @@ const AboutPage = () => {
               </div>
             </div>
 
-            <div class="black-border grid grid-cols-2 py-2">
+            <div class="black-border py-2">
               <div class="black-border">
                 <StaticImage
                   // className="mb-4 w-16 h-16 rounded-lg shadow-lg	"
@@ -84,7 +85,7 @@ const AboutPage = () => {
               </div>
             </div>
 
-            <div class="black-border grid grid-cols-2 py-2">
+            <div class="black-border py-2">
               <div class="black-border">
                 <StaticImage
                   // className="mb-4 w-16 h-16 rounded-lg shadow-lg	"
@@ -103,7 +104,7 @@ const AboutPage = () => {
               </div>
             </div>
             
-            <div class="black-border grid grid-cols-2 py-2">
+            <div class="black-border py-2">
               <div class="black-border">
                 <StaticImage
                   // className="mb-4 w-16 h-16 rounded-lg shadow-lg	"
