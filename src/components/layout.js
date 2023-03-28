@@ -2,7 +2,7 @@ import * as React from 'react'
 // import { useStaticQuery, graphql } from 'gatsby'
 // Link
 import {
-  // container,
+  container,
   // heading,
   // navLinks,
   // navLinkItem,
@@ -26,8 +26,8 @@ const Layout = ({ pageTitle, children }) => {
   // console.log("data.site.siteMetadata is: " + JSON.stringify(data.site.siteMetadata))
 
   return (
-    <div>
-    {/* // <div className={container}> */}
+    // <div>
+    <div className={container}>
       {/* <Header> 
          className={siteTitle}{data.site.siteMetadata.title}
       </Header>  */}
