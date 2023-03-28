@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { useStaticQuery, graphql } from 'gatsby'
+// import { useStaticQuery, graphql } from 'gatsby'
 // Link
 import {
   container,
@@ -7,29 +7,29 @@ import {
   // navLinks,
   // navLinkItem,
   // navLinkText,
-  siteTitle,
+  // siteTitle,
 } from './layout.module.css'
-import Header from './Header'
-import Footer from './Footer'
+// import Header from './Header'
+// import Footer from './Footer'
 
 const Layout = ({ pageTitle, children }) => {
-  const data = useStaticQuery(graphql`
-    query {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
+  // const data = useStaticQuery(graphql`
+  //   query {
+  //     site {
+  //       siteMetadata {
+  //         title
+  //       }
+  //     }
+  //   }
+  // `)
   // console.log("data is: " + JSON.stringify(data))
   // console.log("data.site.siteMetadata is: " + JSON.stringify(data.site.siteMetadata))
 
   return (
     <div className={container}>
-      <Header> 
+      {/* <Header> 
          className={siteTitle}{data.site.siteMetadata.title}
-      </Header> */}
+      </Header>  */}
       {/* <header className={siteTitle}>{data.site.siteMetadata.title}</header>
       {/* <nav>
         <ul className={navLinks}>
@@ -61,7 +61,7 @@ const Layout = ({ pageTitle, children }) => {
         {children}
       </main>
       {/* <div>Testing</div> */}
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }
