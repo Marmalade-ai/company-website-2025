@@ -27,9 +27,9 @@ const NewAboutPage = () => {
   return (
     <body class="grid place-items-center min-h-screen"><p>Experimenting page</p>
     
-    <div class="p-4 max-w-xl grid gap-4 sm:grid-cols-2">
+    <div class="p-4 max-w-5xl grid gap-4 sm:grid-cols-2">
 
-      <h1 class="text-4xl font-extrabold">Grid layout with Tailwind CSS.</h1>
+      <h1 class="text-4xl font-extrabold sm:col-span-2 bg-yellow-200 sm:w-1/2">Grid layout with Tailwind CSS.</h1>
 
       <p>Lorem ipsum dolor amet consectetur adipiscing elit. Distinctio hic itaque alias officilis. Distinctio hic itaque alias officilis. Distinctio hic itaque alias officilis. Distinctio hic itaque alias officilis. </p>
  
