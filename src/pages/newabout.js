@@ -27,20 +27,22 @@ const NewAboutPage = () => {
   return (
     <body class="grid place-items-center min-h-screen"><p>Experimenting page</p>
     
-    <div class="p-4 max-w-5xl grid gap-4 sm:grid-cols-2">
+    <div class="p-4 max-w-5xl grid gap-4 xs:grid-cols-2">
 
-      <h1 class="text-4xl font-extrabold sm:col-span-2 bg-yellow-200 sm:w-1/2">Grid layout with Tailwind CSS.</h1>
+      <h1 class="text-4xl font-extrabold xs:col-span-2 xs:grid xs:gap-4 xs:grid-cols-2">
+        <span class="bg-yellow-200">Grid layout with Tailwind CSS.</span>
+      </h1>
 
       <p>Lorem ipsum dolor amet consectetur adipiscing elit. Distinctio hic itaque alias officilis. Distinctio hic itaque alias officilis. Distinctio hic itaque alias officilis. Distinctio hic itaque alias officilis. </p>
  
-      <div class="h-16 bg-blue-500"></div>
-      <div class="h-16 bg-blue-500"></div>
-      <div class="h-16 bg-pink-500"></div>
-      <div class="h-16 bg-blue-500"></div>
-      <div class="h-16 bg-pink-500"></div>
-      <div class="h-16 bg-blue-500"></div>
-      <div class="h-16 bg-blue-500"></div>
-      <div class="h-16 bg-pink-500"></div>
+      <div class="h-16 bg-blue-500 xs:h-auto xs:square"></div>
+      <div class="h-16 bg-blue-500 xs:h-auto xs:square"></div>
+      <div class="h-16 bg-pink-500 xs:h-auto xs:square"></div>
+      <div class="h-16 bg-blue-500 xs:h-auto xs:square"></div>
+      <div class="h-16 bg-pink-500 xs:h-auto xs:square"></div>
+      <div class="h-16 bg-blue-500 xs:h-auto xs:square"></div>
+      <div class="h-16 bg-blue-500 xs:h-auto xs:square"></div>
+      <div class="h-16 bg-pink-500 xs:h-auto xs:square"></div>
 
       <p>Lorem ipsum dolor amet consectetur adipiscing elit. Distinctio hic itaque alias officilis. Distinctio hic itaque alias officilis. Distinctio hic itaque alias officilis. Distinctio hic itaque alias officilis. </p>
 
@@ -90,7 +92,7 @@ const NewAboutPage = () => {
     //                 height="150"
     //               />
     //             </div>
-    //             <div class="border-spacing-0 bg-red-500 sm:bg-green-500 md:bg-yellow-500 xl:bg-blue-500">
+    //             <div class="border-spacing-0 bg-red-500 xs:bg-green-500 md:bg-yellow-500 xl:bg-blue-500">
     //               <h3>Craig Fisk</h3>
     //               <p className="cardSubHeading text-sm slate px-2">CEO<br/>
     //                 Series A mobile CRM, new software products/channels at Intel.

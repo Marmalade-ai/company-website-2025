@@ -83,8 +83,9 @@
   "component---src-pages-index-js-fa8e384fa3a6781c5ae6.js.map": "component---src-pages-index-js-fa8e384fa3a6781c5ae6.js.map",
   "component---src-pages-index-js.js": "component---src-pages-index-js-f1f2841c089525f6fc54.js",
   "component---src-pages-newabout-js-3725da229e9f7187e52c.js.map": "component---src-pages-newabout-js-3725da229e9f7187e52c.js.map",
+  "component---src-pages-newabout-js-737e10f00ea361e86a46.js.map": "component---src-pages-newabout-js-737e10f00ea361e86a46.js.map",
   "component---src-pages-newabout-js-bb4decfae054325a2cb8.js.map": "component---src-pages-newabout-js-bb4decfae054325a2cb8.js.map",
-  "component---src-pages-newabout-js.js": "component---src-pages-newabout-js-3725da229e9f7187e52c.js",
+  "component---src-pages-newabout-js.js": "component---src-pages-newabout-js-737e10f00ea361e86a46.js",
   "component---src-pages-privacy-policy-js-8e10bee0c267e929ea61.js.map": "component---src-pages-privacy-policy-js-8e10bee0c267e929ea61.js.map",
   "component---src-pages-privacy-policy-js-963ba8b0da7c281999e4.js.map": "component---src-pages-privacy-policy-js-963ba8b0da7c281999e4.js.map",
   "component---src-pages-privacy-policy-js.js": "component---src-pages-privacy-policy-js-963ba8b0da7c281999e4.js",
@@ -93,7 +94,7 @@
   "framework-fb2a967a985659c555e2.js.LICENSE.txt": "framework-fb2a967a985659c555e2.js.LICENSE.txt",
   "framework-fb2a967a985659c555e2.js.map": "framework-fb2a967a985659c555e2.js.map",
   "framework.js": "framework-fb2a967a985659c555e2.js",
-  "styles.css": "styles.6ab523002730e83a2d7f.css",
+  "styles.css": "styles.6aae42d7a80f8f6e678f.css",
   "webpack-runtime-10c97b5118c9af711a85.js.map": "webpack-runtime-10c97b5118c9af711a85.js.map",
   "webpack-runtime-11de7f144131b88d2dba.js.map": "webpack-runtime-11de7f144131b88d2dba.js.map",
   "webpack-runtime-28eefe4e1fb233a4098c.js.map": "webpack-runtime-28eefe4e1fb233a4098c.js.map",
@@ -101,6 +102,7 @@
   "webpack-runtime-4220d79aefb2c72424f2.js.map": "webpack-runtime-4220d79aefb2c72424f2.js.map",
   "webpack-runtime-4822911eb43bf69f7a3a.js.map": "webpack-runtime-4822911eb43bf69f7a3a.js.map",
   "webpack-runtime-4b8094d73544acad6275.js.map": "webpack-runtime-4b8094d73544acad6275.js.map",
+  "webpack-runtime-5c0b4df3164898ed2519.js.map": "webpack-runtime-5c0b4df3164898ed2519.js.map",
   "webpack-runtime-871d90a242e93fc5658b.js.map": "webpack-runtime-871d90a242e93fc5658b.js.map",
   "webpack-runtime-8e1e29d28f762f679c01.js.map": "webpack-runtime-8e1e29d28f762f679c01.js.map",
   "webpack-runtime-8ef16df9da55b71a4848.js.map": "webpack-runtime-8ef16df9da55b71a4848.js.map",
@@ -111,5 +113,5 @@
   "webpack-runtime-cfc4ee3d53e26f6bdcd6.js.map": "webpack-runtime-cfc4ee3d53e26f6bdcd6.js.map",
   "webpack-runtime-e13a92d395abc9709a11.js.map": "webpack-runtime-e13a92d395abc9709a11.js.map",
   "webpack-runtime-fc81598d35af99ca30d6.js.map": "webpack-runtime-fc81598d35af99ca30d6.js.map",
-  "webpack-runtime.js": "webpack-runtime-a06b9b05ee768ac649c0.js"
+  "webpack-runtime.js": "webpack-runtime-5c0b4df3164898ed2519.js"
 }
