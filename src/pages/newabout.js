@@ -71,117 +71,86 @@ const NewAboutPage = () => {
             Our development aimed for easy-to-use, <i>responsive</i> interaction that could work equally well on phones, laptops, and desktops.
             </p><br/><br/>
           </div>
+        </div>
 
-          {/* <div className="grid grid-cols-2"> */}
-          <div>
-          {/* <div class="grid grid-rows-2 justify-items-start border-spacing-0 py-2"> */}
-
-            {/* <div class="grid grid-cols-4 justify-items-start">
-              <div class="bg-red-500 h-4 w-6"></div>
-              <div class="bg-blue-500 h-8 w-6"></div>
-              <div class="bg-green-500 h-12 w-6"></div>
-              <div class="bg-yellow-500 h-16 w-6"></div>
-            </div>
-             */}
-             <div>
-            {/* <div class="grid grid-cols-4 justify-items-start border-spacing-0"> */}
-              <div>
-              {/* <div class="grid grid-rows-2 justify-items-start"> */}
-                <div>
-                {/* <div class="border-spacing-0"> */}
-                  <StaticImage
-                    src="../../images/craig_fisk_headshot_150.jpg"
-                    alt="Photo of Craig Fisk."
-                    title="Craig Fisk, CEO"
-                    width="150"
-                    height="150"
-                  />
-                </div>
-                <div>
-                {/* <div class="border-spacing-0 bg-red-500 sm:bg-green-500 md:bg-yellow-500 xl:bg-blue-500"> */}
-                  <h3>Craig Fisk</h3>
-                  <p className="cardSubHeading text-sm slate px-2">CEO<br/>
-                    Series A mobile CRM, new software products/channels at Intel.
-                    Chicago Booth MBA. (San Jose, CA).</p>
-                </div>
-              </div>  
-
-              <div>
-              {/* <div class="grid grid-rows-2 justify-items-start"> */}
-                <div>
-                  {/* <div class="border-spacing-0"> */}
-                  <StaticImage
-                    // className="mb-4 w-16 h-16 rounded-lg shadow-lg	"
-                    src="../../images/jim_tyhurst_headshot_150.jpg"
-                    alt="Photo of Jim Tyhurst."
-                    title="Jim Tyhurst, CTO"
-                    width="150"
-                    height="150"
-                  />
-                </div>
-                <div>
-                {/* <div class="px-0"> */}
-                  <h3>Jim Tyhurst</h3>
-                  <p className="cardSubHeading text-sm slate px-2">CTO<br />
-                  Software architect, Machine Learning / Natural Language
-                  Processing (ML/NLP), Object Computing, Inc. UCLA PhD. (Portland, OR).</p>
-                </div>
-              </div>  
-
-             <div>
-              {/* <div class="grid grid-rows-2 justify-items-start"> */}
-                <div>
-                {/* <div class="border-spacing-0"> */}
-                  <StaticImage
-                    // className="mb-4 w-16 h-16 rounded-lg shadow-lg	"
-                    src="../../images/vivian_tran_headshot_150.jpg"
-                    alt="Photo of Vivian Tran, Marketing Advisor."
-                    title="Vivian Tran, Marketing Advisor"
-                    width="150"
-                    height="150"
-                  />
-                </div>
-                <div>
-                  <h3>Vivian Tran</h3>
-                  <p className="cardSubHeading text-sm slate px-2">Marketing Advisor<br />
-                  New segment marketing, healthcare focus marketing manager.
-                  UC Berkeley (Berkeley, CA).</p>
-                </div>
-              </div>  
-              
-              <div>
-              {/* <div class="grid grid-rows-2 justify-items-start"> */}
-                <div>
-                {/* <div class="border-spacing-0"> */}
-                  <StaticImage
-                    // className="mb-4 w-16 h-16 rounded-lg shadow-lg	"
-                    src="../../images/michael_porto_headshot_150.jpg"
-                    alt="Photo of Michael Porto, Product Advisor."
-                    title="Michael Porto, Product Management Advisor"
-                    width="150"
-                    height="150"
-                  />
-                </div>
-                <div>
-                  <h3>Michael Porto</h3>
-                  <p className="cardSubHeading text-sm slate px-2">Product Management Advisor<br/>
-                  Big data, mobile, ML, Intel, Wells Fargo, EY. Princeton MS CS (Charlotte, NC).</p>
-                </div>
-              </div>
-
-            </div>
-
-          </div>
+        <div class="grid gap-4 grid-cols-2 grid-rows-2">
 
           <div>
-          {/* <div className="container flex flex-col items-center"> */}
-            <button className="hover:bg-orange-300 bg-orange-400 border-slate-800 mt-2 mb-2 px-4 py-0 rounded items-centerfont-bold" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Schedule a demo (Zoom)</button>
+            <figure>
+              <StaticImage
+                src="../../images/craig_fisk_headshot_150.jpg"
+                alt="Photo of Craig Fisk."
+                title="Craig Fisk, CEO"
+                width="150"
+                height="150"
+              />
+              <figcaption className="cardSubHeading text-sm slate">
+                <b>Craig Fisk</b>, CEO<br/>
+                Series A mobile CRM, new software products/channels at Intel.
+                Chicago Booth MBA. (San Jose, CA).
+              </figcaption>
+            </figure>
+          </div>  
+
+          <div>
+            <figure>
+              <StaticImage
+                src="../../images/jim_tyhurst_headshot_150.jpg"
+                alt="Photo of Jim Tyhurst."
+                title="Jim Tyhurst, CTO"
+                width="150"
+                height="150"
+              />
+              <figcaption className="cardSubHeading text-sm slate">
+                <b>Jim Tyhurst</b>, CTO<br/>
+                Software architect, Machine Learning / Natural Language
+                Processing (ML/NLP), Object Computing, Inc. UCLA PhD. (Portland, OR).
+              </figcaption>
+            </figure>
+          </div>  
+
+          <div>
+            <figure>
+              <StaticImage
+                src="../../images/vivian_tran_headshot_150.jpg"
+                alt="Photo of Vivian Tran, Marketing Advisor."
+                title="Vivian Tran, Marketing Advisor"
+                width="150"
+                height="150"
+              />
+            <figcaption className="cardSubHeading text-sm slate">
+              <b>Vivian Tran</b>, Marketing Advisor<br />
+              New segment marketing, healthcare focus marketing manager.
+              UC Berkeley (Berkeley, CA).
+            </figcaption>
+          </figure> 
+          </div>  
+          
+          <div>
+            <figure>
+              <StaticImage
+                src="../../images/michael_porto_headshot_150.jpg"
+                alt="Photo of Michael Porto, Product Advisor."
+                title="Michael Porto, Product Management Advisor"
+                width="150"
+                height="150"
+              />
+              <figcaption className="cardSubHeading text-sm slate">
+                <b>Michael Porto</b>, Product Management Advisor<br/>
+                Big data, mobile, ML, Intel, Wells Fargo, EY. Princeton MS CS (Charlotte, NC).
+              </figcaption>
+            </figure>
           </div>
 
         </div>
-        </body>
-      </main>
 
+        <div className="container flex flex-col items-center">
+          <button className="hover:bg-orange-300 bg-orange-400 border-slate-800 mt-2 mb-2 px-4 py-0 rounded items-centerfont-bold" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Schedule a demo (Zoom)</button>
+        </div>
+
+
+      </body>
+      </main>
     </Layout>
   )
 }
