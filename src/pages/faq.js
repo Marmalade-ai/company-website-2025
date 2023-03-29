@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'gatsby';
 import Layout from '../components/layout';
 import { navigate } from 'gatsby'
-// import Seo from '../components/seo';
 
 export const Head = () => (
   <> 
