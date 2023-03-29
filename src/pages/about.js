@@ -51,7 +51,7 @@ const AboutPage = () => {
         <div class="grid gap-4 grid-cols-2 grid-rows-2">
 
           <div>
-            <figure>
+            <figure class="w-48">
               <StaticImage
                 src="../../images/craig_fisk_headshot_150.jpg"
                 alt="Photo of Craig Fisk."
@@ -68,7 +68,7 @@ const AboutPage = () => {
           </div>  
 
           <div>
-            <figure>
+            <figure class="w-48">
               <StaticImage
                 src="../../images/jim_tyhurst_headshot_150.jpg"
                 alt="Photo of Jim Tyhurst."
@@ -84,7 +84,7 @@ const AboutPage = () => {
           </div>  
 
           <div>
-            <figure>
+            <figure class="w-48">
               <StaticImage
                 src="../../images/vivian_tran_headshot_150.jpg"
                 alt="Photo of Vivian Tran, Marketing Advisor."
@@ -101,7 +101,7 @@ const AboutPage = () => {
           </div>  
           
           <div>
-            <figure>
+            <figure class="w-48">
               <StaticImage
                 src="../../images/michael_porto_headshot_150.jpg"
                 alt="Photo of Michael Porto, Product Advisor."
