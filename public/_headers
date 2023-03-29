@@ -7,11 +7,11 @@
   Referrer-Policy: same-origin
 /component---src-pages-404-js-b2661b47f8cd22ce31a7.js
   Cache-Control: public, max-age=31536000, immutable
-/styles.559d829c448ebcb0cf46.css
+/styles.6aae42d7a80f8f6e678f.css
   Cache-Control: public, max-age=31536000, immutable
-/1ba5adcd077092c97dfc4c22367a7ec25a938b35-d8a9daf03c8060d33aaf.js
+/1ba5adcd077092c97dfc4c22367a7ec25a938b35-cae735924a2e9d28a7e7.js
   Cache-Control: public, max-age=31536000, immutable
-/component---src-pages-about-js-cd349ee238a875095c30.js
+/component---src-pages-about-js-6b4e2acdaf44e7b5a549.js
   Cache-Control: public, max-age=31536000, immutable
 /component---src-pages-code-of-conduct-js-7b8ac8e97ef7c359ad65.js
   Cache-Control: public, max-age=31536000, immutable
@@ -21,11 +21,13 @@
   Cache-Control: public, max-age=31536000, immutable
 /component---src-pages-privacy-policy-js-963ba8b0da7c281999e4.js
   Cache-Control: public, max-age=31536000, immutable
-/webpack-runtime-11de7f144131b88d2dba.js
+/component---src-pages-newabout-js-737e10f00ea361e86a46.js
+  Cache-Control: public, max-age=31536000, immutable
+/webpack-runtime-5c0b4df3164898ed2519.js
   Cache-Control: public, max-age=31536000, immutable
 /framework-fb2a967a985659c555e2.js
   Cache-Control: public, max-age=31536000, immutable
-/app-6e4da917dda60a594e4d.js
+/app-6f93cb2c4b993f725800.js
   Cache-Control: public, max-age=31536000, immutable
 /static/*
   Cache-Control: public, max-age=31536000, immutable

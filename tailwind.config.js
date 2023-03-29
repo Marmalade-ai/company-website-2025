@@ -1,25 +1,25 @@
 /** @type {import('tailwindcss').Config} */
-// Tailwind CSS 3.0 release = 2021-12-9
 module.exports = {
-  // purge: {
-  //   content: [
-  //   // Example content paths...
-  //   './public/**/*.html',
-  //   './src/**/*.{js,jsx,ts,tsx}',
-  //   ],
-  // },
+  mode: "jit",
   content: [
     "./src/pages/**/*.{js,jsx,ts,tsx}",
     "./src/components/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    fontSize: {
-      sm: ['14px', '20px'],
-      base: ['16px', '24px'],
-      lg: ['20px', '28px'],
-      xl: ['24px', '32px'],
+    screens: {
+      // from https://tailwindcss.com/docs/screens
+      'xs': "540px", 
+      // ... default Theme screens
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px',
     },
-    extend: {},
+    extend: {
+    },
   },
-  plugins: [],
+  variants: {
+    extend: [],
+  }
 }

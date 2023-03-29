@@ -65,17 +65,17 @@ const IndexPage = () => {
           width={310}
         />
       </div>
-      <h2 class="border-t-8">Accurate</h2>
+      <h2 class="mt-6 border-t-8">Accurate</h2>
       <h3>Your network should reflect what you do</h3>
-      <p>Accuracy is what you want in a professional network. You don&apos;t have time for inaccuracy. Specialists need to connect with
+      <p class="mb-8">Accuracy is what you want in a professional network. You don&apos;t have time for inaccuracy. Specialists need to connect with
         other specialists to share work and stay up to date. Seredipidty? Fine. But accuracy comes first.</p>
       <StaticImage
         alt="Marmalade AI gives you a network that reflects you."
         src="../../images/iStockphoto-1220226086-400.jpg"
       />
-      <h2 class="border-t-8">Automatic</h2>
+      <h2 class="mt-6 border-t-8">Automatic</h2>
       <h3>Your network should be effortless</h3>
-      <p>You can&apos;t spend half your time in networking. It should &quot;just happen.&quot; Who has time to rate their matches? Instead, 
+      <p class="mb-8">You can&apos;t spend half your time in networking. It should &quot;just happen.&quot; Who has time to rate their matches? Instead, 
         if you want your network to change - maybe you have a new skill - just put it in your profile. Your network automatically changes.
       </p>
       <StaticImage

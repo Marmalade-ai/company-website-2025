@@ -21,16 +21,16 @@ const Layout = ({ pageTitle, children }) => {
       }
     }
   `)
-  // console.log("data is: " + JSON.stringify(data))
-  // console.log("data.site.siteMetadata is: " + JSON.stringify(data.site.siteMetadata))
+  console.log("data is: " + JSON.stringify(data))
+  console.log("data.site.siteMetadata is: " + JSON.stringify(data.site.siteMetadata))
 
   return (
+    // <div>
     <div className={container}>
       <Header> 
          className={siteTitle}{data.site.siteMetadata.title}
-      </Header>
-      {/* <header className={siteTitle}>{data.site.siteMetadata.title}</header> */}
-      <nav>
+      </Header> 
+      <nav class="m-4">
         <ul className={navLinks}>
           <li className={navLinkItem}>
             <Link to="/" className={navLinkText}>
@@ -47,6 +47,11 @@ const Layout = ({ pageTitle, children }) => {
               About
             </Link>
           </li>
+          {/* <li className={navLinkItem}>
+            <Link to="/newabout" className={navLinkText}>
+              NewAbout
+            </Link>
+          </li> */}
         </ul>
       </nav>
       
@@ -54,7 +59,6 @@ const Layout = ({ pageTitle, children }) => {
         <div className={heading}>{pageTitle}</div>
         {children}
       </main>
-      {/* <div>Testing</div> */}
       <Footer />
     </div>
   )

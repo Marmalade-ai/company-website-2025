@@ -11,7 +11,7 @@ const Footer = () => (
           <li><Link to="/privacy-policy">Privacy Policy</Link></li>
         </ul>
         <br />
-        <h4 className="base-text">Copyright © 2021-2023 Marmalade AI, Inc.</h4>
+        <h4>Copyright © 2021-2023 Marmalade AI, Inc.</h4>
     </div>
   </footer>
 );
