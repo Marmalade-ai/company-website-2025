@@ -59,7 +59,7 @@ const AboutPage = () => {
                 width="150"
                 height="150"
               />
-              <figcaption className="cardSubHeading text-sm slate">
+              <figcaption className="text-sm py-3">
                 <b>Craig Fisk</b>, CEO<br/>
                 Series A mobile CRM, Intel software products / channels.
                 Univ. Chicago Booth MBA. (San Jose, CA).
@@ -76,7 +76,7 @@ const AboutPage = () => {
                 width="150"
                 height="150"
               />
-              <figcaption className="cardSubHeading text-sm slate">
+              <figcaption className="text-sm py-3">
                 <b>Jim Tyhurst</b>, CTO<br/>
                 Software architect, ML/NLP, Python, GCP, Object Computing, Inc. UCLA PhD. (Portland, OR).
               </figcaption>
@@ -92,7 +92,7 @@ const AboutPage = () => {
                 width="150"
                 height="150"
               />
-            <figcaption className="cardSubHeading text-sm slate">
+            <figcaption className="text-sm py-3">
               <b>Vivian Tran</b>, Marketing Advisor<br />
               New segment marketing, healthcare marketing manager.
               UC Berkeley (Berkeley, CA).
@@ -109,7 +109,7 @@ const AboutPage = () => {
                 width="150"
                 height="150"
               />
-              <figcaption className="cardSubHeading text-sm slate">
+              <figcaption className="text-sm py-3">
                 <b>Michael Porto</b>, Product Advisor<br/>
                 Big data, mobile, machine learning, Intel, Wells Fargo, EY. Princeton MS CS (Charlotte, NC).
               </figcaption>
