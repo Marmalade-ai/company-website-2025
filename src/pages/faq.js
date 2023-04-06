@@ -21,7 +21,7 @@ export const Head = () => (
 
 const Faq = () => (
   <Layout>
-    <div><h1>How to do professional networking <i>virtually</i>?</h1>
+    <div><h1 className="pt-3 pb-3">FAQ</h1>
         <div className="container mx-auto">
 
             <div className="pt-5">
@@ -29,7 +29,8 @@ const Faq = () => (
               <h2>Getting Started</h2>
 
               <h3>How do I start doing professional networking <i>virtually</i>?</h3>
-              <p>We haven&apos;t launched yet. We&quot;d love to listen to your needs and show you what we&apos;re building. Click the &quot;book a demo&quot; button on the homepage.</p>
+              <p>We haven&apos;t launched yet. We&quot;d love to listen to your needs and show you what we&apos;re building. 
+                Please click the &quot;book a demo&quot; button on the homepage.</p>
 
               <h3>What does it cost?</h3>
               <p>Free for Early Access users.</p>
@@ -46,10 +47,10 @@ const Faq = () => (
               <p>Fill out your profile, and you get a professional network that is virtual with other people that have registered. Check back regularly because the network will grow. You control communications.</p>
               
               <h3>Can I find a job through this?</h3>
-              <p>Not directly. Indirectly, sure, because being on the platform helps build your professional network, which is how 75-80% of work is found.</p>
+              <p>Well, 80% of jobs are found by networking, so sure, because being on the platform helps build your professional network.</p>
 
               <h3>What can I learn through this?</h3>
-              <p>A professional network is a great resource for learning and sharing whatever is new or relevant in your work.</p>
+              <p>Your network is a great resource for learning and sharing whatever is new or relevant in your work.</p>
               
               <h3>What if I want to be mentored? Or to mentor?</h3>
               <p>Indicate that in your profile.</p>
