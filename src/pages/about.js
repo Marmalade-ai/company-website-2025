@@ -28,12 +28,12 @@ const AboutPage = () => {
     <Layout>
       <main>
       <body>
-        <h1>About Marmalade AI, Inc.</h1>
-        <p>Hi there! We're the proud operators of this site, built with Gatsby and Tailwind. Original development work by Justin Blake and Jim Tyhurst. 
+        <h1 className="pt-3 pb-3">About Marmalade AI, Inc.</h1>
+        <p>Hi there! We're the proud operators of this site. Original development work by Justin Blake and Jim Tyhurst. 
           Updated in 2023 by Craig Fisk.</p>
 
         <div class="max-w-screen-lg mx-auto">
-          <h2>Founders</h2>
+          <h2 className="pt-3 pb-3">Why?</h2>
           <div>
             <p>Why do this? We started with user research into the common problems people encounter in networking:</p><br/>
             <ol class="list-decimal list-inside">
@@ -44,9 +44,10 @@ const AboutPage = () => {
             <br/>
             <p>We found each other through user research into networking, connected remotely, and developed a prototype in Figma.
             Our development aimed for easy-to-use, <i>responsive</i> interaction that could work equally well on phones, laptops, and desktops.
-            </p><br/><br/>
+            </p>
           </div>
         </div>
+        <h2 className="pt-3 pb-3">Founders</h2>
 
         <div class="grid gap-4 grid-cols-2 grid-rows-2">
 
