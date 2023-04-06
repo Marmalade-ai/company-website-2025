@@ -48,19 +48,19 @@ const IndexPage = () => {
       <div className="grid sm:grid-cols-2 gap-5">
         <div>
         <h3>Your Profile <span className="text-xl hover:bg-orange-600">&#8594;</span></h3>  
-        <p class="smallText">Create a profile describing your work.</p>
+        <p className="text-base">Create a profile describing your work.</p>
         <StaticImage
           src="../../images/emily_profile.png" 
           alt="Emily screen from Marmalade AI" 
-          width={280}
+          // width={280}
         />
         </div><div>
         <h3>Your Virtual Network<span className="text-xl hover:bg-orange-600"></span></h3>
-        <p class="smallText">Open a matching professional network.</p>
+        <p className="text-base">Open a matching professional network.</p>
         <StaticImage
           src="../../images/emily_profiles.png" 
           alt="Profiles from Marmalade AI" 
-          width={310}
+          // width={310}
         />
         </div>
       </div>
