@@ -27,43 +27,42 @@ export const Head = () => (
 const IndexPage = () => {
   return (
     <Layout>
-    <main><h1>Professional Networking for Specialists</h1>
-      <p>How can I optimize <b>professional networking</b> as a specialist in <b>UX design, 
-      digital marketing, or machine learning</b>? What if, given my profile, I automatically could get
-      a network based on it? 
+
+    <main>
+      <p class="pt-6 pb-6 text-5xl font-extrabold">Professional Networking for Specialists</p>
+      <hr/>
+      <p>What if, given my profile, I automatically had an accurate virtual network? 
       </p>
       <br/>
-      <p>Marmalade enables specialists to network with specialists
-      in <b>UX design</b>, <b>digital marketing</b>, and <b>machine learning</b> &mdash; who really need to connect 
-      with each other, and find traditional networking slow and irrelevant. Marmalade 
-      uses cloud functions with NLP and machine learning in a simple UI on phone or desktop. All you need is a profile.
+      <hr/>
+      <p>Marmalade enables specialists to do just that, starting in 2023 with people
+      in <b>UX design</b>, <b>digital marketing</b>, and <b>machine learning</b>. Traditional networking 
+      is too much work for too little gain. Marmalade is automatic. Beneath a simple 
+      UI, it runs NLP cloud functions to create your network. All you need is a profile.
       </p>
       <br/>
       <div className="container flex flex-col items-center">
       <button className="hover:bg-orange-300 bg-orange-400 border-slate-800 mt-2 mb-2 px-4 py-0 rounded items-centerfont-bold" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Schedule a demo (Zoom)</button>
       </div>
       {/* <div className="grid sm:grid-cols-2 md_grid-cols-3 gap-5"> */}
-      <div className="grid grid-cols-2 gap-5">
-        <h3>Profile <span className="text-xl hover:bg-orange-600">&#8594;</span></h3>  
-        <h3>Virtual network<span className="text-xl hover:bg-orange-600"></span></h3>
-      </div>
-      {/* <div className="grid sm:grid-cols-2 md_grid-cols-3 gap-5"> */}
-      <div className="grid grid-cols-2 gap-5">
+      <div className="grid sm:grid-cols-2 gap-5">
+        <div>
+        <h3>Your Profile <span className="text-xl hover:bg-orange-600">&#8594;</span></h3>  
         <p class="smallText">Create a profile describing your work.</p>
-        <p class="smallText">Open a matching professional network.</p>
-      </div>
-      {/* <div className="grid sm:grid-cols-2 md_grid-cols-3 gap-5"> */}
-      <div className="grid grid-cols-2 gap-5">
         <StaticImage
           src="../../images/emily_profile.png" 
           alt="Emily screen from Marmalade AI" 
           width={280}
         />
+        </div><div>
+        <h3>Your Virtual Network<span className="text-xl hover:bg-orange-600"></span></h3>
+        <p class="smallText">Open a matching professional network.</p>
         <StaticImage
           src="../../images/emily_profiles.png" 
           alt="Profiles from Marmalade AI" 
           width={310}
         />
+        </div>
       </div>
       <h2 class="mt-6 border-t-8">Accurate</h2>
       <h3>Your network should reflect what you do</h3>
