@@ -51,11 +51,11 @@ const IndexPage = () => {
       {/* <div className="grid sm:grid-cols-2 md_grid-cols-3 gap-5"> */}
       <div className="grid sm:grid-cols-2 gap-5">
         <div>
-        <h3>Your Profile <span className="text-xl hover:bg-orange-600">&#8594;</span></h3>  
+        <h3>Your Profile</h3>  
         <p className="text-base">Create a profile describing your work.</p>
         {/* StaticImage is responsive by default */}
         <StaticImage
-          src="../../images/emily_profile.png" 
+          src="../../images/emily_profile_a.png" 
           alt="Emily screen from Marmalade AI" 
           // width={280}
           width={600}
