@@ -52,15 +52,15 @@ const IndexPage = () => {
         <StaticImage
           src="../../images/emily_profile.png" 
           alt="Emily screen from Marmalade AI" 
-          // width={280}
+          width={280}
         />
         </div><div>
         <h3>Your Virtual Network<span className="text-xl hover:bg-orange-600"></span></h3>
         <p className="text-base">Open a matching professional network.</p>
         <StaticImage
-          src="../../images/emily_profiles.png" 
+          src="./images/emily_profiles.png" 
           alt="Profiles from Marmalade AI" 
-          // width={310}
+          width={310}
         />
         </div>
       </div>
@@ -70,7 +70,7 @@ const IndexPage = () => {
         other specialists to share work and stay up to date. Seredipidty? Fine. But accuracy comes first.</p>
       <StaticImage
         alt="Marmalade AI gives you a network that reflects you."
-        src="../../images/iStockphoto-1220226086-400.jpg"
+        src="./images/iStockphoto-1220226086-400.jpg"
       />
       <h2 class="mt-6 border-t-8">Automatic</h2>
       <h3>Your network should be effortless</h3>
