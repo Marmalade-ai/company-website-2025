@@ -31,7 +31,7 @@ const IndexPage = () => {
     <main>
       <p class="w-96 pt-6 pb-6 text-5xl font-extrabold">Professional Networking for Specialists</p>
       <hr/>
-      <div  className="grid sm:grid-cols-2 gap-5">
+      <div className="grid sm:grid-cols-2 gap-5">
         <div>
           <p>What if, given my profile, I automatically had an accurate virtual network? 
           </p>

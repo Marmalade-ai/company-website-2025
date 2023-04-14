@@ -25,6 +25,11 @@ const Footer = () => (
             </Link>
           </li>
           <li className={navLinkItem}>
+            <Link to="/userresearch" className={navLinkText}>
+              User Research
+            </Link>
+          </li>
+          <li className={navLinkItem}>
             <Link to="/faq" className={navLinkText}>
               FAQ
             </Link>
