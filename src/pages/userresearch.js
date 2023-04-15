@@ -1,7 +1,7 @@
+import { navigate } from 'gatsby';
 import { StaticImage } from 'gatsby-plugin-image';
 import * as React from 'react';
 import Layout from '../components/layout';
-import { navigate } from 'gatsby'
 import "../styles/global.css";
 
 
@@ -25,23 +25,23 @@ const UserResearch = () => {
       <main>
 
         <div className="grid sm:grid-cols-2 gap-4">
-          <StaticImage height={200} alt="User Research" src="../../images/ux-indonesia-w00FkE6e8zE-unsplash.jpg"/>
+          <StaticImage height={200} alt="User Research" src="../../images/ux-indonesia-w00FkE6e8zE-unsplash_800.jpg"/>
           <p className="largeText gap-5"><b>User Research</b> on networking ("professional networking")<br /><br /><b><span className="purpleFont">Please help!!</span></b></p>
           <p>Are you a specialist in:</p>
         </div>
         <div className="grid sm:grid-cols-2 gap-4 p-4">
           <p className="sm:text-lg"><b><input type="checkbox"/> UX Design?</b></p>
-          <StaticImage height={200} alt="UX design" src="../../images/alvaro-reyes-KxVlKiqQObU-unsplash.jpg"/>
+          <StaticImage height={200} alt="UX design" src="../../images/alvaro-reyes-KxVlKiqQObU-unsplash_800.png"/>
         </div>
 
         <div className="grid sm:grid-cols-2 gap-4 p-4">
           <p className="sm:text-lg"><b><input type="checkbox"/> Digital Marketing?</b></p>
-          <StaticImage height={200} alt="digital marketing" src="../../images/jason-goodman-Oalh2MojUuk-unsplash.jpg"/>
+          <StaticImage height={200} alt="digital marketing" src="../../images/jason-goodman-Oalh2MojUuk-unsplash_800.png"/>
         </div>
 
         <div className="grid sm:grid-cols-2 gap-4 p-4">
           <p className="sm:text-lg"><b><input type="checkbox"/> Machine Learning?</b></p>
-          <StaticImage height={200} alt="machine learing" src="../../images/andy-kelly-0E_vhMVqL9g-unsplash.jpg"/>
+          <StaticImage height={200} alt="machine learing" src="../../images/andy-kelly-0E_vhMVqL9g-unsplash_800.png"/>
         </div>
 
         <div className="grid sm:grid-cols-2 gap-4 p-4">
@@ -61,12 +61,12 @@ const UserResearch = () => {
         </div>
          */}
         <div className="grid sm:grid-cols-2 gap-4">
-          <StaticImage width={200} height={200} alt="Free subscription" src="../../images/erik-mclean-cYQtW1HTpbg-unsplash.jpg"/>
+          <StaticImage width={200} height={200} alt="Free subscription" src="../../images/erik-mclean-cYQtW1HTpbg-unsplash_800.png"/>
           <p className="py-4"><b>Free Subscription</b>: We appreciate your help.</p>
         </div>
         
         <div className="grid sm:grid-cols-2 gap-4">
-          <StaticImage width={200} height={200} alt="Input into the design" src="../../images/med-badr-chemmaoui-ZSPBhokqDMc-unsplash.jpg"/>
+          <StaticImage width={200} height={200} alt="Input into the design" src="../../images/med-badr-chemmaoui-ZSPBhokqDMc-unsplash_800.png"/>
           <p className="py-4"><b>Make it work for you!</b> Here's your chance.</p>
         </div>
 
@@ -84,7 +84,7 @@ const UserResearch = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 gap-4 py-5">
-          <div><StaticImage width={400} alt="Accurate" src="../../images/pexels-iconcom-226569.jpg"/></div>
+          <div><StaticImage width={400} alt="Accurate" src="../../images/pexels-iconcom-226569_800.png"/></div>
           <div> 
             <p className="largeText gap-5"><b>Accurate</b></p>
             <p>It should be possible to make networking <b>accurate</b>.</p>
@@ -92,7 +92,7 @@ const UserResearch = () => {
         </div>
         
         <div className="grid sm:grid-cols-2 gap-4">
-          <div><StaticImage width={200} alt="Automatic" src="../../images/pexels-ivan-kazlouski-12175741.jpg"/></div>
+          <div><StaticImage width={200} alt="Automatic" src="../../images/pexels-ivan-kazlouski-12175741_800.png"/></div>
           <div>
             <p className="largeText gap-5"><b>Automatic</b></p>
             <p>It should &quot;just happen&quot; from your profile.</p>
@@ -104,17 +104,17 @@ const UserResearch = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 gap-4">
-          <StaticImage alt="What geographical scope?" src="../../images/pexels-photomix-company-5921677.jpg"/>
+          <StaticImage alt="What geographical scope?" src="../../images/pexels-photomix-company-5921677_800.png"/>
           <p className="py-4"><b>What geographical scope?</b> Should your range be a city, a metro area, a state, a region, like &quot;Upper Midwest&quot; or &quot;West Coast&quot;? What is a geography UI?</p>
         </div>
         
         <div className="grid sm:grid-cols-2 gap-4">
-          <StaticImage alt="How to contact people?" src="../../images/pexels-alteredsnaps-12699062_711.png"/>
+          <StaticImage alt="How to contact people?" src="../../images/pexels-alteredsnaps-12699062_711_800.png"/>
           <p className="py-4"><b>How to contact people?</b> From video calls to calendar scheduling. or controlling whether you can be contacted at all, or about what -- more questions.</p>
         </div>
         
         <div className="grid sm:grid-cols-2 gap-4">
-          <StaticImage alt="How to work with your history?" src="../../images/pexels-mikhail-nilov-7887040.jpg"/>
+          <StaticImage alt="How to work with your history?" src="../../images/pexels-mikhail-nilov-7887040_800.png"/>
           <p className="py-4"><b>How to work with your history?</b><br />Your network is like affective reality; it changes when you change your profile. What if you want to connect with someone from your &quot;old network&quot;?</p>
         </div>
 
