@@ -109,7 +109,7 @@ const UserResearch = () => {
         </div>
         
         <div className="grid sm:grid-cols-2 gap-4">
-          <StaticImage alt="How to contact people?" src="../../images/pexels-alteredsnaps-12699062_711_800.png"/>
+          <StaticImage alt="How to contact people?" src="../../images/pexels-alteredsnaps-12699062_800.png"/>
           <p className="py-4"><b>How to contact people?</b> From video calls to calendar scheduling. or controlling whether you can be contacted at all, or about what -- more questions.</p>
         </div>
         
