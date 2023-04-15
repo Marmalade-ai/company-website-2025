@@ -23,14 +23,16 @@
   "component---src-pages-newabout-js.js": "component---src-pages-newabout-js-4af636ee1ab2c059b163.js",
   "component---src-pages-privacy-policy-js-963ba8b0da7c281999e4.js.map": "component---src-pages-privacy-policy-js-963ba8b0da7c281999e4.js.map",
   "component---src-pages-privacy-policy-js.js": "component---src-pages-privacy-policy-js-963ba8b0da7c281999e4.js",
+  "component---src-pages-userresearch-js-5e9a024067d95c984104.js.map": "component---src-pages-userresearch-js-5e9a024067d95c984104.js.map",
   "component---src-pages-userresearch-js-fa9f46cce8a4c525337c.js.map": "component---src-pages-userresearch-js-fa9f46cce8a4c525337c.js.map",
-  "component---src-pages-userresearch-js.js": "component---src-pages-userresearch-js-fa9f46cce8a4c525337c.js",
+  "component---src-pages-userresearch-js.js": "component---src-pages-userresearch-js-5e9a024067d95c984104.js",
   "e3314eaa545344643bd8bee126a706397e14a512-38f9abb8c8854559cf04.js.map": "e3314eaa545344643bd8bee126a706397e14a512-38f9abb8c8854559cf04.js.map",
   "e3314eaa545344643bd8bee126a706397e14a512.js": "e3314eaa545344643bd8bee126a706397e14a512-38f9abb8c8854559cf04.js",
   "framework-fb2a967a985659c555e2.js.LICENSE.txt": "framework-fb2a967a985659c555e2.js.LICENSE.txt",
   "framework-fb2a967a985659c555e2.js.map": "framework-fb2a967a985659c555e2.js.map",
   "framework.js": "framework-fb2a967a985659c555e2.js",
-  "styles.css": "styles.60d747e0998f3b3d8336.css",
+  "styles.css": "styles.7c8d71037c9aa9229872.css",
+  "webpack-runtime-41c9a52a60992e27dffa.js.map": "webpack-runtime-41c9a52a60992e27dffa.js.map",
   "webpack-runtime-ae4b781e4362494c628a.js.map": "webpack-runtime-ae4b781e4362494c628a.js.map",
-  "webpack-runtime.js": "webpack-runtime-ae4b781e4362494c628a.js"
+  "webpack-runtime.js": "webpack-runtime-41c9a52a60992e27dffa.js"
 }

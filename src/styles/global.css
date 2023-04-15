@@ -8,6 +8,10 @@
   }
 };
  
+.purpleFont {
+  color: purple;
+}
+
 hr {
   color: red;
 }
