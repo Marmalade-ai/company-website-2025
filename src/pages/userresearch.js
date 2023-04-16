@@ -27,7 +27,7 @@ const UserResearch = () => {
         <div className="grid sm:grid-cols-2 gap-4">
           <StaticImage height={200} alt="User Research" src="../../images/ux-indonesia-w00FkE6e8zE-unsplash_800.png"/>
           <div>
-            <p className="largeText gap-5"><b>User Research</b> on &quot;networking&quot;</p><p>(Meaning: "professional networking")<br /><br /><b><span className="purpleFont">Please help!!</span></b></p>
+            <h1 className="largeText gap-5"><b>User Research</b> on &quot;networking&quot;</h1><p>(Meaning: "professional networking")<br /><br /><b><span className="purpleFont">Please help!!</span></b></p>
             <p>If you are in:</p>
           </div>
         </div>
@@ -54,7 +54,7 @@ const UserResearch = () => {
           </div>
 
           <div className="container flex flex-col items-center">
-            <button className="hover:bg-orange-300 bg-orange-400 border-slate-800 mt-2 mb-2 px-4 py-0 rounded items-centerfont-bold" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Schedule user research (Zoom)</button>
+            <button className="hover:bg-orange-300 bg-orange-400 border-slate-800 mt-2 mb-2 px-4 py-0 rounded items-centerfont-bold" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Schedule (Zoom)</button>
           </div>
 
         </div>
@@ -83,27 +83,27 @@ const UserResearch = () => {
         </div>
         
         <div>
-          <p className="largeText py-10 gap-5"><b>Networking is absurdly inefficient!</b></p>
+          <p className="bg-orange-400 largeText p-5"><b>Networking is absurdly inefficient!</b></p>
         </div>
 
-        <div className="grid sm:grid-cols-2 gap-4 py-5">
-          <div><StaticImage width={400} alt="Accurate" src="../../images/pexels-iconcom-226569_800.png"/></div>
-          <div> 
-            <p className="largeText gap-5"><b>Accurate</b></p>
-            <p>It should be possible to make networking <b>accurate</b>.</p>
+        <div className="grid sm:grid-cols-2 py-2">
+          <div><StaticImage width={200} alt="Accurate" src="../../images/pexels-iconcom-226569_534.png"/></div>
+          <div className="bg-slate-200"> 
+            <p className="largeText px-2 gap-5"><b>Accurate</b></p>
+            <p className="px-2">It should be possible to make networking <b>accurate</b>.</p>
           </div>
         </div>
         
-        <div className="grid sm:grid-cols-2 gap-4">
+        <div className="grid sm:grid-cols-2 py-2">
           <div><StaticImage width={200} alt="Automatic" src="../../images/pexels-ivan-kazlouski-12175741_800.png"/></div>
-          <div>
-            <p className="largeText gap-5"><b>Automatic</b></p>
-            <p>It should &quot;just happen&quot; from your profile.</p>
+          <div className="bg-slate-200">
+            <p className="largeText px-2 gap-5"><b>Automatic</b></p>
+            <p className="px-2">It should &quot;just happen&quot; from your profile.</p>
           </div>
         </div>
 
         <div className="largeText p-10">
-          <b>Ok, that's a start. But what do &quot;accurate&quot; and &quot;automatic&quot; mean to you? Discuss! Also, here are further questions</b>:
+          <b>Ok, that's a start. But what do &quot;accurate&quot; and &quot;automatic&quot; mean to you? Also, here are further questions</b>:
         </div>
 
         <div className="grid sm:grid-cols-2 gap-4">
@@ -118,15 +118,15 @@ const UserResearch = () => {
         
         <div className="grid sm:grid-cols-2 gap-4">
           <StaticImage alt="What about your &quot;history&quot;?" src="../../images/pexels-mikhail-nilov-7887040_800.png"/>
-          <p className="py-4"><b>What about your &quot;history&quot;?</b> &quot;Affective reality&quot;? If your network changes when you change your profile? How to contact someone from your &quot;old network&quot;?</p>
+          <p className="py-4"><b>History?</b> &quot;Affective reality&quot;? If your network changes when you change your profile? How to contact someone from your &quot;old network&quot;?</p>
         </div>
 
         <div className="largeText p-10">
-          <b>Piqued your curiosity? Please book a time to talk with us!</b>
+          <b>Piqued your curiosity? Please book a time to talk!</b>
         </div>
 
         <div className="container flex flex-col items-center">
-          <button className="hover:bg-orange-300 bg-orange-400 border-slate-800 mt-2 mb-2 px-4 py-0 rounded items-centerfont-bold" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Schedule user research (Zoom)</button>
+          <button className="hover:bg-orange-300 bg-orange-400 border-slate-800 mt-2 mb-2 px-4 py-0 rounded items-centerfont-bold" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Schedule (Zoom)</button>
         </div>
 
         <div>

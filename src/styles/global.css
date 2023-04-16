@@ -38,12 +38,13 @@ li {
   font-size: 26px;
 }
 .titleStyle {
-  font-size: 1.6rem;
+  font-size: 2.6rem;
   font-weight: 900;
-  color: #ff7f00; 
+  color: slate; 
+  /* #ff7f00;  */
 }
 h1 {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 900;
   color: #ff7f00; /* marmalade; /* #fa5b46; #ff7f00; #fe6201; */
 }
