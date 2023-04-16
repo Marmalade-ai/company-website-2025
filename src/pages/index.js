@@ -28,31 +28,29 @@ const IndexPage = () => {
   return (
     <Layout>
 
+{/* class="w-96 pt-6 pb-6 text-5xl font-extrabold" */}
     <main>
-      <p class="w-96 pt-6 pb-6 text-5xl font-extrabold">Professional Networking for Specialists</p>
+      <h1 className="largeText gap-5">Specialist Networking</h1>
       <hr/>
       <div  className="grid sm:grid-cols-2 gap-5">
-        <div>
-          <p>What if, given my profile, I automatically had an accurate virtual network? 
-          </p>
-        </div>
-        <div>
-          <p>Marmalade enables you to do just that, starting in 2023 in <b>UX design</b>, <b>digital marketing</b>, and <b>machine learning</b>. 
-          Traditional networking is so much work for so little gain. Marmalade is automatic. 
-          Beneath a simple UI, it runs NLP cloud functions to create your network. 
-          All you need is your profile.
-          </p>
-        </div>
+        <p>What if, given my profile, I automatically had a specialist network?</p>
+        {/* <br /> */}
+        <p>Marmalade enables you to do just that. Starting in 2023 in <b>UX design</b>, <b>digital marketing</b>, and <b>machine learning</b>.</p>
+        {/* <br /> */}
+        <p>Marmalade is automatic. 
+        Beneath a simple UI, it runs NLP cloud functions to create your network. 
+        All you need is your profile.
+        </p>
       </div>
       <br/>
       <div className="container flex flex-col items-center">
-      <button className="hover:bg-orange-300 bg-orange-400 border-slate-800 mt-2 mb-2 px-4 py-0 rounded items-centerfont-bold" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Schedule a demo (Zoom)</button>
+      <button className="hover:bg-orange-300 bg-orange-400 border-slate-800 mt-2 mb-2 px-4 py-0 rounded items-centerfont-bold" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Book a demo (Zoom)</button>
       </div>
       {/* <div className="grid sm:grid-cols-2 md_grid-cols-3 gap-5"> */}
       <div className="grid sm:grid-cols-2 gap-5">
         <div>
         <h3>Your Profile</h3>  
-        <p className="text-base">Create a profile describing your work.</p>
+        <p className="smallText">Create a profile describing your work.</p>
         {/* StaticImage is responsive by default */}
         <StaticImage
           src="../../images/emily_profile_a.png" 
@@ -62,7 +60,7 @@ const IndexPage = () => {
         />
         </div><div>
         <h3>Your Virtual Network<span className="text-xl hover:bg-orange-600"></span></h3>
-        <p className="text-base">Open a matching professional network.</p>
+        <p className="smallText">Open a matching professional network.</p>
         <StaticImage
           src="../../images/emily_profiles.png" 
           alt="Profiles from Marmalade AI" 
@@ -74,10 +72,10 @@ const IndexPage = () => {
 
       <div className="grid sm:grid-cols-2 gap-5">
         <div>
-          <h2 class="mt-6 border-t-8">Accurate</h2>
+          <h2 className="mt-6 py-4">Accurate</h2>
           <h3>Your network should reflect what you do</h3>
-          <p class="mb-8">Accuracy is what you want in a professional network. You don&apos;t have time for inaccuracy. Specialists need to connect with
-            other specialists to share work and stay up to date. Seredipidty? Fine. But accuracy comes first.</p>
+          <p class="mb-8">Specialists want to connect with
+            other specialists to share work and stay up to date.</p>
           
           <StaticImage
             alt="Marmalade AI gives you a network that reflects you."
@@ -85,10 +83,10 @@ const IndexPage = () => {
           />
         </div>
         <div>
-          <h2 class="mt-6 border-t-8">Automatic</h2>
+          <h2 class="mt-6 py-4">Automatic</h2>
           <h3>Your network should be effortless</h3>
-          <p class="mb-8">You can&apos;t spend half your time in networking. It should &quot;just happen.&quot; Who has time to rate their matches? Instead, 
-            if you want your network to change - maybe you have a new skill - just put it in your profile. Your network automatically changes.
+            <p class="mb-8">It should &quot;just happen.&quot; Change your profile and  
+            your network automatically changes.
           </p>
           
           <StaticImage
