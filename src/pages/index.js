@@ -1,7 +1,7 @@
+import { navigate } from 'gatsby'
+import { StaticImage } from 'gatsby-plugin-image'
 import * as React from 'react'
 import Layout from '../components/layout'
-import { StaticImage } from 'gatsby-plugin-image'
-import { navigate } from 'gatsby'
 import "../styles/global.css"
 
 export const Head = () => (

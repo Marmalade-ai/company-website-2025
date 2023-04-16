@@ -1,6 +1,5 @@
 import React from 'react';
 import Layout from '../components/layout';
-// import Seo from '../components/seo';
 
 export const Head = () => (
   <> 
@@ -13,17 +12,6 @@ export const Head = () => (
   </>
 );
 
-// const Faq = () => (
-//   <Layout>
-//   <main><h1>About Marmalade Networking - FAQ</h1>
-//     <article className="pt-5"></article>
-// const AboutPage = () => {
-//   return (
-//     <Layout>
-//     <main><h1>About Marmalade AI, Inc.</h1>
-//       {/* <Seo title="About Marmalade AI, Inc." /> */}
-//       <p>Hi there! We're the proud operators of this site, built with Gatsby and Tailwind. Original development work by Justin Blake and Jim Tyhurst. 
-//         Updated in 2023 by Craig Fisk.</p>
 
 const PrivacyPolicy = () => {
   return (
