@@ -7,9 +7,9 @@
   Referrer-Policy: same-origin
 /component---src-pages-404-js-b2661b47f8cd22ce31a7.js
   Cache-Control: public, max-age=31536000, immutable
-/styles.b35cb6e95777c0af28ba.css
+/styles.03c7f3ae505b840a9418.css
   Cache-Control: public, max-age=31536000, immutable
-/e245c95ddc5fd0c0c13c918506e6aec1c04db5b7-a605d6cba68a37fbb4c8.js
+/e3314eaa545344643bd8bee126a706397e14a512-f10208c277f62fa8267f.js
   Cache-Control: public, max-age=31536000, immutable
 /component---src-pages-about-js-fb74d8b68dcf0d152cc8.js
   Cache-Control: public, max-age=31536000, immutable
@@ -17,17 +17,19 @@
   Cache-Control: public, max-age=31536000, immutable
 /component---src-pages-faq-js-d00025fd3821ea0883fa.js
   Cache-Control: public, max-age=31536000, immutable
-/component---src-pages-index-js-940f91c7fad7a1881ac7.js
-  Cache-Control: public, max-age=31536000, immutable
-/component---src-pages-privacy-policy-js-963ba8b0da7c281999e4.js
+/component---src-pages-index-js-8b0d03f2280dbe1dc54d.js
   Cache-Control: public, max-age=31536000, immutable
 /component---src-pages-newabout-js-4af636ee1ab2c059b163.js
   Cache-Control: public, max-age=31536000, immutable
-/webpack-runtime-ed528a47064e58a53a73.js
+/component---src-pages-privacy-policy-js-963ba8b0da7c281999e4.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-userresearch-js-8d24a0d00119e6c19dae.js
+  Cache-Control: public, max-age=31536000, immutable
+/webpack-runtime-a526d986505f81623ef5.js
   Cache-Control: public, max-age=31536000, immutable
 /framework-fb2a967a985659c555e2.js
   Cache-Control: public, max-age=31536000, immutable
-/app-1aef8ed4e160fcf60c1e.js
+/app-11406f93a0566e41e02f.js
   Cache-Control: public, max-age=31536000, immutable
 /static/*
   Cache-Control: public, max-age=31536000, immutable
