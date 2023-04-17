@@ -27,7 +27,7 @@ const UserResearch = () => {
         <div className="grid sm:grid-cols-2 gap-4">
           <StaticImage height={200} alt="User Research" src="../../images/ux-indonesia-w00FkE6e8zE-unsplash_800.png"/>
           <div>
-            <h1 className="largeText gap-5"><b>User Research</b> on &quot;networking&quot;</h1><p>(Meaning: "professional networking")<br /><br /><b><span className="purpleFont">Please help!!</span></b></p>
+            <h1 className="largeText gap-5" style={{ color: '#ff7f00' }}><b>User Research</b> on &quot;networking&quot;</h1><p>(Meaning: "professional networking")<br /><br /><b><span className="purpleFont">Please help!!</span></b></p>
             <p>If you are in:</p>
           </div>
         </div>
@@ -53,8 +53,9 @@ const UserResearch = () => {
             <p>If &quot;no,&quot; please forward.</p>
           </div>
 
+          {/* hover:bg-orange-300 bg-orange-400 */}
           <div className="container flex flex-col items-center">
-            <button className="hover:bg-orange-300 bg-orange-400 border-slate-800 mt-2 mb-2 px-4 py-0 rounded items-centerfont-bold" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Schedule (Zoom)</button>
+            <button className="hover:bg-slate-200 bg-slate-300 border-slate-800 mt-2 mb-2 px-4 py-0 rounded items-centerfont-bold" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Schedule (Zoom)</button>
           </div>
 
         </div>
@@ -81,29 +82,29 @@ const UserResearch = () => {
           <StaticImage alt="Networking is absurdly inefficient" src="../../images/Marmalade_AI_banner_1200.png"/>
           {/* <p><b>Networking is absurdly inefficient</b>: Lorem ipsum dolor sit amet...</p> */}
         </div>
-        
+        {/* className="bg-orange-400 largeText p-5" */}
         <div>
-          <p className="bg-orange-400 largeText p-5"><b>Networking is absurdly inefficient!</b></p>
+          <p className="largeText p-5" style={{ color: 'red' }}><b>Networking is absurdly inefficient!</b></p>
         </div>
 
-        <div className="grid sm:grid-cols-2 py-2">
+        <div className="grid sm:grid-cols-3 py-2">
           <div><StaticImage width={200} alt="Accurate" src="../../images/pexels-iconcom-226569_534.png"/></div>
-          <div className="bg-slate-200"> 
+          <div className="bg-slate-300 col-span-2"> 
             <p className="largeText px-2 gap-5"><b>Accurate</b></p>
-            <p className="px-2">It should be possible to make networking <b>accurate</b>.</p>
+            <p className="px-2">Let&apos;s make networking really <b>accurate</b>.</p>
           </div>
         </div>
         
-        <div className="grid sm:grid-cols-2 py-2">
+        <div className="grid sm:grid-cols-3 py-2">
           <div><StaticImage width={200} alt="Automatic" src="../../images/pexels-ivan-kazlouski-12175741_800.png"/></div>
-          <div className="bg-slate-200">
+          <div className="bg-slate-300 col-span-2">
             <p className="largeText px-2 gap-5"><b>Automatic</b></p>
             <p className="px-2">It should &quot;just happen&quot; from your profile.</p>
           </div>
         </div>
 
         <div className="largeText p-10">
-          <b>Ok, that's a start. But what do &quot;accurate&quot; and &quot;automatic&quot; mean to you? Also, here are further questions</b>:
+          <b>Ok, that's a start. But what do &quot;accurate&quot; and &quot;automatic&quot; mean? Also, more questions:</b>
         </div>
 
         <div className="grid sm:grid-cols-2 gap-4">
@@ -122,11 +123,12 @@ const UserResearch = () => {
         </div>
 
         <div className="largeText p-10">
-          <b>Piqued your curiosity? Please book a time to talk!</b>
+          <b>Piqued your curiosity? Book a conversation!</b>
         </div>
 
+        {/* "hover:bg-orange-300 bg-orange-400 */}
         <div className="container flex flex-col items-center">
-          <button className="hover:bg-orange-300 bg-orange-400 border-slate-800 mt-2 mb-2 px-4 py-0 rounded items-centerfont-bold" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Schedule (Zoom)</button>
+          <button className="hover:bg-slate-200 bg-slate-300 border-slate-800 mt-2 mb-2 px-4 py-0 rounded items-centerfont-bold" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Schedule (Zoom)</button>
         </div>
 
         <div>
