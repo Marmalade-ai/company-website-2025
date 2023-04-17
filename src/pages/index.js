@@ -102,6 +102,10 @@ const IndexPage = () => {
         </div>
       </div>
 
+      <div className="container flex flex-col items-center">
+        <button className="hover:bg-slate-200 bg-slate-300 border-slate-800 mt-2 mb-2 px-4 py-0 rounded items-centerfont-bold" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Schedule Demo</button>
+      </div>
+
     </main>
     </Layout>
   )
