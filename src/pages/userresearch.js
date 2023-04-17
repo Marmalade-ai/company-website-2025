@@ -1,4 +1,4 @@
-import { navigate } from 'gatsby';
+import { Link, navigate } from 'gatsby';
 import { StaticImage } from 'gatsby-plugin-image';
 import * as React from 'react';
 import Layout from '../components/layout';
@@ -8,10 +8,14 @@ import "../styles/global.css";
 export const Head = () => (
   <> 
     <meta charSet="utf-8" />
-    <title>Professional Networking in UX Design, Digital Marketing, and Machine Learning</title>
+    <title>Networking in UX Design, Digital Marketing, and Machine Learning</title>
     <meta 
       name="description"
-      content="User research for people in UX design, digital marketing, or machine learning."
+      content="User research for people in UX design, digital marketing, or machine learning.
+      The goals is to understand better what accuracy and automatic mean to people when networking, 
+      how people want to set geographical scope to their networks, how people want to be contacted
+      or contact others, and how they want to work with the history of their network, which will
+      change to reflect any changes to the user's profile."
     />
   </>
 );
@@ -31,17 +35,17 @@ const UserResearch = () => {
             <p>If you are in:</p>
           </div>
         </div>
-        <div className="grid sm:grid-cols-2 gap-4 p-4">
+        <div className="grid sm:grid-cols-2">
           <p className="p-2 sm:text-lg p-12"><b><input type="checkbox"/> UX Design?</b></p>
           <StaticImage height={200} alt="UX design" src="../../images/alvaro-reyes-KxVlKiqQObU-unsplash_800.png"/>
         </div>
 
-        <div className="grid sm:grid-cols-2 gap-4 p-4">
+        <div className="grid sm:grid-cols-2">
           <p className="p-2 sm:text-lg p-12"><b><input type="checkbox"/> Digital Marketing?</b></p>
           <StaticImage height={200} alt="digital marketing" src="../../images/jason-goodman-Oalh2MojUuk-unsplash_800.png"/>
         </div>
-
-        <div className="grid sm:grid-cols-2 gap-4 p-4">
+{/* gap-4 p-4 */}
+        <div className="grid sm:grid-cols-2">
           <p className="p-2 sm:text-lg p-12"><b><input type="checkbox"/> Machine Learning?</b></p>
           <StaticImage height={200} alt="machine learing" src="../../images/andy-kelly-0E_vhMVqL9g-unsplash_800.png"/>
         </div>
@@ -87,34 +91,34 @@ const UserResearch = () => {
           <p className="largeText p-5" style={{ color: 'red' }}><b>Networking is absurdly inefficient!</b></p>
         </div>
 
-        <div className="grid sm:grid-cols-3 py-2">
+        <div className="grid sm:grid-cols-3">
           <div><StaticImage width={200} alt="Accurate" src="../../images/pexels-iconcom-226569_534.png"/></div>
           <div className="bg-slate-300 col-span-2"> 
             <p className="largeText px-2 gap-5"><b>Accurate</b></p>
-            <p className="px-2">Let&apos;s make networking really <b>accurate</b>.</p>
+            <p className="px-2 pb-4">Let&apos;s make networking really <b>accurate</b>.</p>
           </div>
         </div>
         
-        <div className="grid sm:grid-cols-3 py-2">
+        <div className="grid sm:grid-cols-3">
           <div><StaticImage width={200} alt="Automatic" src="../../images/pexels-ivan-kazlouski-12175741_800.png"/></div>
           <div className="bg-slate-300 col-span-2">
             <p className="largeText px-2 gap-5"><b>Automatic</b></p>
-            <p className="px-2">It should &quot;just happen&quot; from your profile.</p>
+            <p className="px-2 pb-4">It should &quot;just happen&quot; from your profile.</p>
           </div>
         </div>
 
         <div className="largeText p-10">
-          <b>Ok, that's a start. But what do &quot;accurate&quot; and &quot;automatic&quot; mean? Also, more questions:</b>
+          <b>Ok, that's a start. But what do &quot;accurate&quot; and &quot;automatic&quot; mean? Also...</b>
         </div>
 
         <div className="grid sm:grid-cols-2 gap-4">
           <StaticImage alt="What geographical scope?" src="../../images/pexels-photomix-company-5921677_800.png"/>
-          <p className="py-4"><b>What&apos;s the geographical scope?</b> Should it be a city, a metropolitan area, a state, a region (like &quot;Upper Midwest&quot; or &quot;West Coast&quot;)? What is the UI?</p>
+          <p className="py-4"><b>Geographical scope?</b> Should it be a city, a metropolitan area, a state, a region (like &quot;Upper Midwest&quot; or &quot;West Coast&quot;)? What is the UI?</p>
         </div>
         
         <div className="grid sm:grid-cols-2 gap-4">
           <StaticImage alt="How to contact people?" src="../../images/pexels-alteredsnaps-12699062_800.png"/>
-          <p className="py-4"><b>How to contact people?</b> Video calls? Calendar scheduling? What about whether you can be contacted at all, or about what? -- more questions!</p>
+          <p className="py-4 m-py-16"><b>How to contact people?</b> Video calls? Scheduling? Whether you <i>can</i> be contacted at all, or about what? -- more questions!</p>
         </div>
         
         <div className="grid sm:grid-cols-2 gap-4">
@@ -122,7 +126,7 @@ const UserResearch = () => {
           <p className="py-4"><b>History?</b> &quot;Affective reality&quot;? If your network changes when you change your profile? How to contact someone from your &quot;old network&quot;?</p>
         </div>
 
-        <div className="largeText p-10">
+        <div className="largeText p-5">
           <b>Piqued your curiosity? Book a conversation!</b>
         </div>
 
@@ -131,12 +135,20 @@ const UserResearch = () => {
           <button className="hover:bg-slate-200 bg-slate-300 border-slate-800 mt-2 mb-2 px-4 py-0 rounded items-centerfont-bold" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Schedule (Zoom)</button>
         </div>
 
-        <div>
-          <p className="py-10 gap-4"><b>Who are we?</b><br />Marmalade AI was started by people who are all remote, fascinated by networking, and have done a ton of freelancing, focus groups, and all kinds of software, and are passionate about making this useful! We know we can't do it without your help!</p>
+        <div className="grid sm:grid-cols-6 py-10">
+          <div></div>
+          {/* <div></div> */}
+          <div className="col-span-4">
+            <p className="px-2 gap-5"><b>Who are we?</b><br />Marmalade AI has <Link to="/about">a founding team</Link> that is all remote, fascinated by networking, and has worked in freelancing, focus groups, and all kinds of software. We are passionate about making this useful! We know we can't do it without your help!</p>
+            <p className="px-2"></p>
+          </div>
+          {/* <div></div> */}
+          <div></div>
         </div>
-        <div>
+
+        {/* <div>
           <StaticImage alt="Who are we?" src="../../images/Screenshot at 2023-04-14 19-16-47_834.png"/>
-        </div>
+        </div> */}
 
 
       </main>

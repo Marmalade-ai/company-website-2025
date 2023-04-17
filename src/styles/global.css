@@ -76,8 +76,8 @@ a {
   font-weight: bold;
 }
 a:hover {
-  background-color: #ff7f00;
-  filter: brightness(70%);
+  background-color: rgb(226 232 240);
+  filter: brightness(95%);
 }
 bg-orange-300 {
   color: #ff7f00;
