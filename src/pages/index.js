@@ -30,30 +30,62 @@ const IndexPage = () => {
 
 {/* class="w-96 pt-6 pb-6 text-5xl font-extrabold" */}
     <main>
-      <h1 className="largeText gap-5">Specialist Networking</h1>
-      <hr/>
-      <div  className="grid sm:grid-cols-2 gap-5">
-        <p>What if, given my profile, I automatically had a specialist network?</p>
-        {/* <br /> */}
-        <p>Marmalade enables you to do just that. Starting in 2023 in <b>UX design</b>, <b>digital marketing</b>, and <b>machine learning</b>.</p>
-        {/* <br /> */}
-        <p>Marmalade is automatic. 
+      <h1 className="largeText gap-5">Networking</h1>
+
+      <div  className="grid sm:grid-cols-1 gap-5">
+        <p>What if, given my profile, a specialist network could just <i>happen</i>?</p>
+      
+        <p>Marmalade is <i>automatic</i> and <i>accurate</i>. 
         Beneath a simple UI, it runs NLP cloud functions to create your network. 
-        All you need is your profile.
-        </p>
+        All you need is your profile.</p>
+      
+        <p>Marmalade will become available in 2023, starting in <b>UX design</b>, <b>digital marketing</b>, and <b>machine learning</b>.</p>
+      
       </div>
       <br/>
+
       <div className="container flex flex-col items-center">
-      <button className="hover:bg-orange-300 bg-orange-400 border-slate-800 mt-2 mb-2 px-4 py-0 rounded items-centerfont-bold" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Book a demo (Zoom)</button>
+        <button className="hover:bg-slate-200 bg-slate-300 border-slate-800 mt-2 mb-2 px-4 py-0 rounded items-centerfont-bold" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Schedule Demo</button>
       </div>
-      {/* <div className="grid sm:grid-cols-2 md_grid-cols-3 gap-5"> */}
+
       <div className="grid sm:grid-cols-2 gap-5">
+        <div>
+          <h2 className="py-2">Accurate</h2>
+          <h3>Your network should reflect what you do</h3>
+          <p class="mb-8">Specialists want to connect with
+            other specialists to share work and stay up to date.</p>
+          
+          <StaticImage
+            alt="Marmalade AI gives you a network that reflects you."
+            src="../../images/Link to istockphoto-1404293231-170667a.jpg"
+          />
+        </div>
+        <div>
+          <h2 class="py-2">Automatic</h2>
+          <h3>Your network should be effortless</h3>
+            <p class="mb-8">It should &quot;just happen.&quot; Change your profile and  
+            your network automatically changes.
+          </p>
+          
+          <StaticImage
+            alt="Using your profile, Marmalade AI automatically creates an accurate virtual network."
+            src="../../images/matching_640.png"
+          />
+        </div>
+      </div>
+
+
+      <div className="container flex flex-col items-center">
+        <button className="hover:bg-slate-200 bg-slate-300 border-slate-800 mt-2 mb-2 px-4 py-0 rounded items-centerfont-bold" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Schedule Demo</button>
+      </div>
+
+      <div className="grid sm:grid-cols-2 gap-5 py-10">
         <div>
         <h3>Your Profile</h3>  
         <p className="smallText">Create a profile describing your work.</p>
         {/* StaticImage is responsive by default */}
         <StaticImage
-          src="../../images/emily_profile_a.png" 
+          src="../../images/emily_profile_a_800.png" 
           alt="Emily screen from Marmalade AI" 
           // width={280}
           width={600}
@@ -62,37 +94,11 @@ const IndexPage = () => {
         <h3>Your Virtual Network<span className="text-xl hover:bg-orange-600"></span></h3>
         <p className="smallText">Open a matching professional network.</p>
         <StaticImage
-          src="../../images/emily_profiles.png" 
+          src="../../images/emily_profiles_800.png" 
           alt="Profiles from Marmalade AI" 
           // width={310}
           width={600}
         />
-        </div>
-      </div>
-
-      <div className="grid sm:grid-cols-2 gap-5">
-        <div>
-          <h2 className="mt-6 py-4">Accurate</h2>
-          <h3>Your network should reflect what you do</h3>
-          <p class="mb-8">Specialists want to connect with
-            other specialists to share work and stay up to date.</p>
-          
-          <StaticImage
-            alt="Marmalade AI gives you a network that reflects you."
-            src="../../images/iStockphoto-1220226086-400.jpg"
-          />
-        </div>
-        <div>
-          <h2 class="mt-6 py-4">Automatic</h2>
-          <h3>Your network should be effortless</h3>
-            <p class="mb-8">It should &quot;just happen.&quot; Change your profile and  
-            your network automatically changes.
-          </p>
-          
-          <StaticImage
-            alt="Using your profile, Marmalade AI automatically creates an accurate virtual network."
-            src="../../images/matching.jpg"
-          />
         </div>
       </div>
 
