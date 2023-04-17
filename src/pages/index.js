@@ -69,7 +69,7 @@ const IndexPage = () => {
           
           <StaticImage
             alt="Using your profile, Marmalade AI automatically creates an accurate virtual network."
-            src="../../images/matching_640.png"
+            src="../../images/matching_565.png"
           />
         </div>
       </div>
