@@ -57,7 +57,7 @@ const IndexPage = () => {
           
           <StaticImage
             alt="Marmalade AI gives you a network that reflects you."
-            src="../../images/Link to istockphoto-1404293231-170667a.jpg"
+            src="../../images/Screenshot at 2023-04-16 23-52-28.png"
           />
         </div>
         <div>
