@@ -1,40 +1,39 @@
-import React from 'react';
 import { Link } from 'gatsby';
+import React from 'react';
 import {
   // container,
   // heading,
   // navLinks,
   navLinkItem,
   navLinkText,
-  // siteTitle,
-} from './layout.module.css'
+} from './layout.module.css';
 
-import "../styles/global.css"
+import "../styles/global.css";
 
 
 const Footer = () => (
   <footer>
     <br />
-    <div className="grid grid-cols-2 gap-5 bg-orange-300">
+    <div className="grid grid-cols-2 gap-5 bg-orange-300 black-border p-4">
         <div>
         <ul>
-          <li className="navLinkItem">
-            <Link to="/" className="navLinkText">
+          <li className={navLinkItem}>
+            <Link to="/" className={navLinkText}>
               Home
             </Link>
           </li>
-          <li className="navLinkItem">
-            <Link to="/userresearch" className="navLinkText">
+          <li className={navLinkItem}>
+            <Link to="/userresearch" className={navLinkText}>
               User research
             </Link>
           </li>
-          <li className="navLinkItem">
-            <Link to="/faq" className="navLinkText">
+          <li className={navLinkItem}>
+            <Link to="/faq" className={navLinkText}>
               FAQ
             </Link>
           </li>
-          <li className="navLinkItem">
-            <Link to="/about" className="navLinkText">
+          <li className={navLinkItem}>
+            <Link to="/about" className={navLinkText}>
               About
             </Link>
           </li>
@@ -43,9 +42,9 @@ const Footer = () => (
 
         <div>
         <ul>
-          <li><a href="mailto:info@marmalade.ai" className="navLinkText">Contact Us</a></li>
-          <li><Link to="/code-of-conduct" className="navLinkText">Code of Conduct</Link></li>
-          <li><Link to="/privacy-policy" className="navLinkText">Privacy Policy</Link></li>
+          <li><a href="mailto:info@marmalade.ai" className={navLinkText}>Contact Us</a></li>
+          <li><Link to="/code-of-conduct" className={navLinkText}>Code of Conduct</Link></li>
+          <li><Link to="/privacy-policy" className={navLinkText}>Privacy Policy</Link></li>
         </ul>
         </div>
 
