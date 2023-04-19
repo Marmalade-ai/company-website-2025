@@ -5,6 +5,7 @@ import { navigate } from 'gatsby'
 
 export const Head = () => (
   <> 
+    <meta lang="en" />
     <meta charSet="utf-8" />
     <title>Marmalade Professional Networking - FAQ</title>
     <meta 

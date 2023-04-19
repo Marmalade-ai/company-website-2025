@@ -7,6 +7,7 @@ import "../styles/global.css";
 
 export const Head = () => (
   <> 
+    <meta lang="en" />
     <meta charSet="utf-8" />
     <title>Networking in UX Design, Digital Marketing, and Machine Learning</title>
     <meta 
