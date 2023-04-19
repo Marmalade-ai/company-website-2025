@@ -4,7 +4,7 @@ import Layout from '../components/layout';
 
 export const Head = () => (
   <> 
-    <meta lang="en" />
+    <html lang="en" />
     <meta charSet="utf-8" />
     <title>Marmalade AI Networking - Code of Conduct</title>
     <meta 

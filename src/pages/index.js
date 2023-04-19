@@ -6,7 +6,7 @@ import "../styles/global.css"
 
 export const Head = () => (
   <> 
-    <meta lang="en" />
+    <html lang="en" />
     <meta charSet="utf-8" />
     <title>Professional Networking in UX Design, Digital Marketing, and Machine Learning</title>
     <meta 
@@ -23,7 +23,6 @@ export const Head = () => (
     />
   </>
 );
-
 
 const IndexPage = () => {
   return (
