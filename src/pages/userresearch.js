@@ -7,6 +7,7 @@ import "../styles/global.css";
 
 export const Head = () => (
   <> 
+    <meta lang="en" />
     <meta charSet="utf-8" />
     <title>Networking in UX Design, Digital Marketing, and Machine Learning</title>
     <meta 
@@ -31,7 +32,13 @@ const UserResearch = () => {
         <div className="grid sm:grid-cols-2 gap-4">
           <StaticImage height={200} alt="User Research" src="../../images/ux-indonesia-w00FkE6e8zE-unsplash_800.png"/>
           <div>
-            <h1 className="largeText gap-5" style={{ color: '#ff7f00' }}><b>User Research</b> on &quot;networking&quot;</h1><p>(Meaning: "professional networking")<br /><br /><b><span className="purpleFont">Please help!!</span></b></p>
+            <h1 className="largeText gap-5" style={{ color: '#ff7f00' }}><b>User Research</b> on &quot;networking&quot;</h1><p>(Meaning: "professional networking")<br /><br />
+            
+            {/* <div className="container flex flex-col items-center">
+              <button className="hover:bg-slate-200 bg-slate-300 border-slate-800 mt-2 mb-2 px-4 py-0 rounded items-centerfont-bold" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Schedule (Zoom)</button>
+            </div> */}
+            
+            <b>Please help!!</b></p>
             <p>If you are in:</p>
           </div>
         </div>
@@ -54,20 +61,15 @@ const UserResearch = () => {
 
           <div>
             <p className="largeText"><b>Please click to schedule!</b></p>
-            <p>If &quot;no,&quot; please forward.</p>
+            <p>If &quot;no,&quot; please forward to people who do work in those areas.</p>
           </div>
 
-          {/* hover:bg-orange-300 bg-orange-400 */}
-          <div className="container flex flex-col items-center">
+        </div>
+
+        <div className="container flex flex-col items-center">
             <button className="hover:bg-slate-200 bg-slate-300 border-slate-800 mt-2 mb-2 px-4 py-0 rounded items-centerfont-bold" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Schedule (Zoom)</button>
-          </div>
+        </div>
 
-        </div>
-        {/* <div className="grid sm:grid-cols-2 gap-4">
-          <StaticImage width={303} alt="button" src="../../../images/Marmalade_user_research_button.png"/>
-          <p className="largeText py-5 gap-5"><b>What's in it for you?</b></p>
-        </div>
-         */}
         <div className="grid sm:grid-cols-2 gap-4">
           <StaticImage width={200} height={200} alt="Free subscription" src="../../images/erik-mclean-cYQtW1HTpbg-unsplash_800.png"/>
           <p className="py-2 sm:py-10"><b>Free Subscription</b>: We appreciate your help.</p>
@@ -130,7 +132,6 @@ const UserResearch = () => {
           <b>Piqued your curiosity? Book a conversation!</b>
         </div>
 
-        {/* "hover:bg-orange-300 bg-orange-400 */}
         <div className="container flex flex-col items-center">
           <button className="hover:bg-slate-200 bg-slate-300 border-slate-800 mt-2 mb-2 px-4 py-0 rounded items-centerfont-bold" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Schedule (Zoom)</button>
         </div>

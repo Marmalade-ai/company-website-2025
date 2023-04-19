@@ -5,6 +5,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 
 export const Head = () => (
   <> 
+    <meta lang="en" />
     <meta charSet="utf-8" />
     <title>Professional Networking virtually - Why?</title>
     <meta 
