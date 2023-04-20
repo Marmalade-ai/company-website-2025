@@ -79,7 +79,9 @@ const IndexPage = () => {
         <button className="hover:bg-slate-200 bg-slate-300 border-slate-800 mt-2 mb-2 px-4 py-0 rounded items-centerfont-bold" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Schedule Demo</button>
       </div>
 
-      <div className="grid sm:grid-cols-2 gap-5 py-10">
+      <div className="bg-slate-200 pl-5 pr-5 pt-5"><b>Example</b>:
+
+      <div className="grid sm:grid-cols-2 gap-5 py-5">
         <div>
         <h3>Your Profile</h3>  
         <p className="smallText">Create a profile describing your work.</p>
@@ -104,6 +106,8 @@ const IndexPage = () => {
 
       <div className="container flex flex-col items-center">
         <button className="hover:bg-slate-200 bg-slate-300 border-slate-800 mt-2 mb-2 px-4 py-0 rounded items-centerfont-bold" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Schedule Demo</button>
+      </div>
+
       </div>
 
     </main>
