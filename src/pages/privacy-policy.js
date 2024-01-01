@@ -22,7 +22,7 @@ const PrivacyPolicy = () => {
       {/* <article> */}
       <div className="mx-auto">
           <p>
-            Last Updated: <time dateTime="2023-02-05">February 5, 2023</time>
+            Last reviewed: <time dateTime="2023-12-31">December 31, 2023.</time>
           </p>
 
           <p>

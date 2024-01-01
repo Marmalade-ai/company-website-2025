@@ -50,7 +50,7 @@ const Footer = () => (
 
     </div>
     <br />
-    <h4>Copyright © 2021-2023 Marmalade AI, Inc.</h4>
+    <h4>Copyright © 2021-2024 Marmalade AI, Inc.</h4>
   </footer>
 );
 

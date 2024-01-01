@@ -36,16 +36,17 @@ const IndexPage = () => {
         <p>What if, given my profile, a specialist network could just <i>happen</i>?</p>
       
         <p>Marmalade is <i>automatic</i> and <i>accurate</i>. 
-        Beneath a simple UI, it runs NLP cloud functions to create your network. 
+        Beneath a simple UI, it runs ML/NLP cloud functions to create your network. 
         All you need is your profile.</p>
       
-        <p>Marmalade will become available in 2023, starting in <b>UX design</b>, <b>digital marketing</b>, and <b>machine learning</b>.</p>
+        <p>Marmalade will become available initially in three specializations: <b>UX design</b>, <b>digital marketing</b>, and <b>machine learning</b>. 
+        Yes, there will be many, many other specializations. It is important, however, to have some &quot;there there&quot; when starting out</p>
       
       </div>
       <br/>
 
       <div className="container flex flex-col items-center">
-        <button className="hover:bg-slate-200 bg-slate-300 border-slate-800 mt-2 mb-2 px-4 py-0 rounded items-centerfont-bold" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Schedule Demo</button>
+        <button className="hover:bg-slate-200 bg-slate-300 border-slate-800 mt-2 mb-2 px-4 py-0 rounded items-centerfont-bold" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Discuss Networking</button>
       </div>
 
       <div className="grid sm:grid-cols-2 gap-5">
@@ -76,7 +77,7 @@ const IndexPage = () => {
 
 
       <div className="container flex flex-col items-center">
-        <button className="hover:bg-slate-200 bg-slate-300 border-slate-800 mt-2 mb-2 px-4 py-0 rounded items-centerfont-bold" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Schedule Demo</button>
+        <button className="hover:bg-slate-200 bg-slate-300 border-slate-800 mt-2 mb-2 px-4 py-0 rounded items-centerfont-bold" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Discuss Networking</button>
       </div>
 
       <div className="bg-slate-200 pl-5 pr-5 pt-5"><b>Example</b>:
@@ -105,7 +106,7 @@ const IndexPage = () => {
       </div>
 
       <div className="container flex flex-col items-center">
-        <button className="hover:bg-slate-200 bg-slate-300 border-slate-800 mt-2 mb-2 px-4 py-0 rounded items-centerfont-bold" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Schedule Demo</button>
+        <button className="hover:bg-slate-200 bg-slate-300 border-slate-800 mt-2 mb-2 px-4 py-0 rounded items-centerfont-bold" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Discuss Networking</button>
       </div>
 
       </div>
