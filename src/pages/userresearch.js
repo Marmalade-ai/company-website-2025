@@ -32,36 +32,36 @@ const UserResearch = () => {
         <div className="grid sm:grid-cols-2 gap-4">
           <StaticImage height={200} alt="User Research" src="../../images/ux-indonesia-w00FkE6e8zE-unsplash_800.png"/>
           <div>
-            <h1 className="largeText gap-5" style={{ color: '#ff7f00' }}><b>User Research</b> on &quot;networking&quot;</h1><p>(Meaning: "professional networking")<br /><br />
+            <h1 className="largeText gap-5" style={{ color: '#ff7f00' }}><b>User Research</b> on &quot;networking&quot;</h1><p>(Meaning: &quot;professional networking&quot;)<br /><br />
             
             {/* <div className="container flex flex-col items-center">
               <button className="hover:bg-slate-200 bg-slate-300 border-slate-800 mt-2 mb-2 px-4 py-0 rounded items-centerfont-bold" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Schedule (Zoom)</button>
             </div> */}
             
-            <b>Please help!!</b></p>
+            <b>Please tell us your networking challenges.</b></p>
             <p>If you are in:</p>
           </div>
         </div>
         <div className="grid sm:grid-cols-2">
-          <p className="p-2 sm:text-lg p-12"><b><input type="checkbox"/> UX Design?</b></p>
+          <p className="p-2 sm:text-lg p-12"><b><input type="checkbox"/> UX Design</b></p>
           <StaticImage height={200} alt="UX design" src="../../images/alvaro-reyes-KxVlKiqQObU-unsplash_800.png"/>
         </div>
 
         <div className="grid sm:grid-cols-2">
-          <p className="p-2 sm:text-lg p-12"><b><input type="checkbox"/> Digital Marketing?</b></p>
+          <p className="p-2 sm:text-lg p-12"><b><input type="checkbox"/> Digital Marketing</b></p>
           <StaticImage height={200} alt="digital marketing" src="../../images/jason-goodman-Oalh2MojUuk-unsplash_800.png"/>
         </div>
 {/* gap-4 p-4 */}
         <div className="grid sm:grid-cols-2">
-          <p className="p-2 sm:text-lg p-12"><b><input type="checkbox"/> Machine Learning?</b></p>
+          <p className="p-2 sm:text-lg p-12"><b><input type="checkbox"/> Machine Learning</b></p>
           <StaticImage height={200} alt="machine learing" src="../../images/andy-kelly-0E_vhMVqL9g-unsplash_800.png"/>
         </div>
 
         <div className="grid sm:grid-cols-2 gap-4 p-4">
 
           <div>
-            <p className="largeText"><b>Please click to schedule!</b></p>
-            <p>If &quot;no,&quot; please forward to people who do work in those areas.</p>
+            <p className="largeText"><b>Click to schedule!</b></p>
+            <p>And please forward to people you know who work in those areas.</p>
           </div>
 
         </div>
@@ -72,12 +72,12 @@ const UserResearch = () => {
 
         <div className="grid sm:grid-cols-2 gap-4">
           <StaticImage width={200} height={200} alt="Free subscription" src="../../images/erik-mclean-cYQtW1HTpbg-unsplash_800.png"/>
-          <p className="py-2 sm:py-10"><b>Free Subscription</b>: We appreciate your help.</p>
+          <p className="py-2 sm:py-10"><b>Free Subscription</b>: Thank you!</p>
         </div>
         
         <div className="grid sm:grid-cols-2 gap-4">
           <StaticImage width={200} height={200} alt="Input into the design" src="../../images/med-badr-chemmaoui-ZSPBhokqDMc-unsplash_800.png"/>
-          <p className="py-2 sm:py-10"><b>Make it work for you!</b> Here's your chance.</p>
+          <p className="py-2 sm:py-10"><b>Make it work for you!</b></p>
         </div>
 
         <div>
@@ -86,11 +86,9 @@ const UserResearch = () => {
 
         <div>
           <StaticImage alt="Networking is absurdly inefficient" src="../../images/Marmalade_AI_banner_1200.png"/>
-          {/* <p><b>Networking is absurdly inefficient</b>: Lorem ipsum dolor sit amet...</p> */}
         </div>
-        {/* className="bg-orange-400 largeText p-5" */}
         <div>
-          <p className="largeText p-5" style={{ color: 'red' }}><b>Networking is absurdly inefficient!</b></p>
+          <p className="largeText p-5" style={{ color: 'red' }}><b>Networking is inefficient!</b></p>
         </div>
 
         <div className="grid sm:grid-cols-3">
@@ -110,17 +108,17 @@ const UserResearch = () => {
         </div>
 
         <div className="largeText p-10">
-          <b>Ok, that's a start. But what do &quot;accurate&quot; and &quot;automatic&quot; mean? Also...</b>
+          <b>That's a start. But what do &quot;accurate&quot; and &quot;automatic&quot; mean? Also...</b>
         </div>
 
         <div className="grid sm:grid-cols-2 gap-4">
           <StaticImage alt="What geographical scope?" src="../../images/pexels-photomix-company-5921677_800.png"/>
-          <p className="py-4"><b>Geographical scope?</b> Should it be a city, a metropolitan area, a state, a region (like &quot;Upper Midwest&quot; or &quot;West Coast&quot;)? What is the UI?</p>
+          <p className="py-4"><b>Geographical scope?</b> If the default is a metropolitan area, how would you want to narrow or expand the scope? How should the UI work?</p>
         </div>
         
         <div className="grid sm:grid-cols-2 gap-4">
           <StaticImage alt="How to contact people?" src="../../images/pexels-alteredsnaps-12699062_800.png"/>
-          <p className="py-4 m-py-16"><b>How to contact people?</b> Video calls? Scheduling? Whether you <i>can</i> be contacted at all, or about what? -- more questions!</p>
+          <p className="py-4 m-py-16"><b>How to contact people?</b> Video calls? Scheduling? Disable contact by default? Set the filter? -- more questions!</p>
         </div>
         
         <div className="grid sm:grid-cols-2 gap-4">
