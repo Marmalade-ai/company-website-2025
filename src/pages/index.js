@@ -95,7 +95,7 @@ const IndexPage = () => {
         />
         </div><div>
         <h3>Your Virtual Network<span className="text-xl hover:bg-orange-600"></span></h3>
-        <p className="smallText">Open a matching professional network.</p>
+        <p className="smallText">Open a professional virtual network.</p>
         <StaticImage
           src="../../images/emily_profiles_800.png" 
           alt="Profiles from Marmalade AI" 
