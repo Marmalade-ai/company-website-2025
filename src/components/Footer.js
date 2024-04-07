@@ -45,6 +45,7 @@ const Footer = () => (
           <li><a href="mailto:info@marmalade.ai" className={navLinkText}>Contact Us</a></li>
           <li><Link to="/code-of-conduct" className={navLinkText}>Code of Conduct</Link></li>
           <li><Link to="/privacy-policy" className={navLinkText}>Privacy Policy</Link></li>
+          <li><Link to="/terms-and-conditions" className={navLinkText}>Terms and Conditions</Link></li>
         </ul>
         </div>
 
