@@ -22,154 +22,153 @@ const PrivacyPolicy = () => {
       {/* <article> */}
       <div className="mx-auto">
           <p>
-            Last reviewed: <time dateTime="2023-12-31">April 4, 2024.</time>
+            Last reviewed: <time dateTime="2024-4-7">April 7, 2024.</time>
           </p>
 
           <p>
-            Marmalade AI, Inc. has created these Terms and Conditions to explain why we
-            collect particular information and how we will protect your personal
-            privacy when you visit our websites or otherwise engage with Marmalade
-            AI (e.g., web browsing, online chatting, and online messaging)
-            including through our company website and the Marmalade AI web
-            application.
-          </p>
-          <p>
-            The following discloses our information collection, use, storage, and
-            other data processing practices for Marmalade AI.
-          </p>
+          <h2>Who We Are</h2>
+Grammarly products are provided by Grammarly, Inc., a Delaware corporation. For more information about Grammarly, please visit https://www.grammarly.com/about.
+<h2>Paid Accounts</h2>
+Billing: You can upgrade your account to access paid features, which would turn your account into a paid account. When you do that, we’ll automatically bill you from the date you convert to a paid account and on each periodic renewal until cancellation. You are responsible for all applicable taxes, and we’ll charge tax when required. Some countries have mandatory local laws regarding your cancellation rights, and this paragraph doesn’t override these laws.
 
-          <h2>Collection of Personal Information</h2>
-          <p>
-            Personal information is any information that personally identifies you
-            or from which you could be identified. This may include your name,
-            physical address, telephone number, email address, social security
-            number or other numerical identifier, and IP address.
-          </p>
-          <p>
-            Marmalade AI may collect your personal information through your access
-            and use of websites, web-based applications, or mobile applications,
-            during conversations or correspondence with Marmalade AI
-            representatives, or when you complete an online application or inquiry
-            form.
-          </p>
+Refunds: You may cancel your Grammarly paid account at any time (instructions on how to do that are here). Refunds are issued if they are required by law.
 
-          <h2>We use various technologies to collect information</h2>
-          <h3>Cookies</h3>
-          <p>
-            The Marmalade AI website uses cookies. Cookies are text files that are
-            stored in a computer system via an Internet browser.
-          </p>
-          <h3>Internet Protocol Address</h3>
-          <p>
-            We collect an IP address from all visitors to our site. An IP address
-            is a number that is automatically assigned to your computer when you
-            use the Internet. We use IP addresses to help diagnose problems with
-            our server, administer our site, analyze trends, gather broad
-            demographic information for aggregate use in order for us to improve
-            the site, and deliver customized, personalized content. In some cases
-            we may use your IP address to customize content based on your
-            location.
-          </p>
+Downgrades: Your paid account will remain in effect until it’s canceled or terminated under these terms. If you don’t pay for your paid account on time, we reserve the right to suspend it or reduce your access to the free version of our products.
 
-          <h2>Third Parties</h2>
-          <p>We may disclose your information to third parties as follows:</p>
-          <h3>Third-Party Service Providers and Partners</h3>
-          <p>
-            At times Marmalade AI will use third parties to process your
-            information on our behalf, for example to provide services, analysis,
-            research and development, optimization and other internal purposes,
-            including, without limitation, to compile usage data.
-          </p>
-          <h3>Required by Law</h3>
-          <p>
-            We may share your information with third parties to the extent we are
-            required to do so by law, court order, or subpoena.
-          </p>
-          <h3>Consent</h3>
-          <p>
-            We may seek your consent to disclose your information to third parties
-            if we are required to do so. Where we have sought, and you have
-            provided, your express consent for a particular purpose, please note
-            you have the right to withdraw your consent at any time by notifying
-            us through the contact information shown below.
-          </p>
-          <h3>De-Identified and Aggregate Information</h3>
-          <p>
-            We may use and disclose information about our applicants in
-            de-identified or aggregate form without limitation.
-          </p>
-          <h3>International Transfers</h3>
-          <p>
-            We may transfer your information to third parties located in other
-            countries. These transfers are made subject to appropriate technical
-            safeguards and contractual provisions to ensure the security of your
-            information.
-          </p>
-          <p>
-            Occasionally, we may contract with a third party to communicate on our
-            behalf to the third-party&apos;s contacts. We do not collect the email
-            addresses or contact information from these third parties, and we do
-            not have access to their mailing lists.
-          </p>
-          <p>
-            We may provide third party mailers with a suppression list of contacts
-            to exclude from their email distribution list. In this situation, the
-            third party does not have permission to keep or market to contacts
-            contained in these suppression lists, or to use them in any way other
-            than as a suppression list for a mailing they are providing on our
-            behalf.
-          </p>
-          <p>
-            Other than as described above, we will not share your personal
-            information with any third parties.
-          </p>
+Free trials: Grammarly may offer a free trial membership. If you are using a free trial membership and cancel it before the end of the trial period, all your rights to any remaining free trial period will end (unless you started your trial via our iOS app, in which case your trial will continue until the end of the trial period). Typically, we will only offer one free trial per user. 
 
-          <h2>Children&apos;s Privacy</h2>
-          <p>
-            Marmalade AI does not knowingly collect information from children as
-            defined by local law, and does not target its websites or mobile
-            applications to children under these ages. We encourage parents and
-            guardians to take an active role in their children&apos;s online and
-            mobile activities and interests.
-          </p>
+Changes: We may change the fees in effect but will give you advance notice before those changes take effect. Any change in prices will apply to your next billing cycle.
+<h2>Your Ownership of Your Data and the Limited Permissions You Give Us</h2>
+User Content refers to the text and documents you enter, upload, and transmit when you use our products.
 
-          <h2>Data Retention</h2>
-          <p>
-            The need to retain data varies depending on the type of data.
-            Marmalade AI will retain your personal data as long as necessary for
-            the purpose of processing (e.g., archival, data analysis). We may also
-            retain and use your information in order to comply with our legal
-            obligations, resolve disputes, prevent abuse, and enforce our
-            agreements.
-          </p>
+You own your User Content; Grammarly doesn’t own it. To provide our products to you, we need your permission (in legal language, a license) to use your User Content.
 
-          <h2>Security</h2>
-          <p>
-            Marmalade AI takes seriously the trust you place in us. All
-            information provided to Marmalade AI is transmitted using SSL (Secure
-            Socket Layer) encryption. SSL is a proven coding system that allows
-            your browser to automatically encrypt, or scramble, data before you
-            send it to us. To prevent unauthorized access or disclosure, to
-            maintain data accuracy, and to ensure the appropriate use of the
-            information, Marmalade AI utilizes reasonable and appropriate
-            technical and administrative procedures to safeguard the information
-            we collect and process. We protect account information by placing it
-            on a secure portion of our website that is only accessible by certain
-            qualified employees of Marmalade AI. Unfortunately, however, no data
-            transmission over the internet is 100 percent secure. While we strive
-            to protect your information, we cannot ensure or warrant the security
-            of such information. We strongly advise you not to share your password
-            with anyone.
-          </p>
+You grant us a license to your User Content for the limited purposes of:
+Operating, providing, improving, troubleshooting, and debugging our products (for example, your acceptance or rejection of suggestions may help train our suggestion engine);
+Protecting our products (for example, to analyze patterns in usage to prevent abuse);
+Customizing our products (for example, to create personalized suggestions for you);
+Developing new products or features (for example, creating our tone detector); and
+Using information you upload or provide to us (such as your name) to encourage other people in your organization to join your Grammarly Business or Grammarly for Education team account.
 
-          <h2>Changes to the Privacy Notice</h2>
-          <p>
-            Changes may be made to this Privacy Notice and personal information
-            may be used for new purposes. When significant changes are made to our
-            privacy practices, they will be disclosed here. For your convenience
-            please refer to the last updated date displayed on this page.
-          </p>
+The license you give us is only for the above purposes. That means we will not, for example, sell or license your User Content to third-party data brokers.
 
+The license you grant us is:
+Worldwide (so you can access your User Content from anywhere in the world);
+Non-exclusive (meaning you own your User Content and can also license it to other people or companies);
+Royalty-free (meaning we don’t pay you for it); and
+For as long as intellectual property laws protect your User Content.
+
+The license you give us allows us to—solely for the purposes outlined above—store, reproduce, use, publish, and publicly display (to show your User Content to you), modify, and create derivative works of (such as providing writing suggestions and autocorrecting words) your User Content. The license you give us also permits our service providers to assist us in doing this. 
+
+Grammarly does not own, control, verify, or endorse User Content. You are responsible for all of your User Content. That means you should back up all your User Content and not do anything illegal or harmful with it (including violate any intellectual property or trade secret laws).
+<h2>Our Intellectual Property Rights and License to You</h2>
+Some of our products allow you to download client software. So long as you comply with these terms, we give you a limited, non-exclusive, non-transferable, revocable license to use our client software solely to access the products. 
+
+Our products are protected by copyright, trademark, and other laws. Except for this limited license, we reserve all right, title, and interest in our products, trademarks, logos, and other brand features. We welcome feedback, but you agree that we can use that feedback without restriction or any obligation to you.
+<h2>Your Use of Generative AI</h2>
+Additional terms apply when you use Grammarly’s generative AI services and features.
+
+Generated Content. You may use generative AI features to submit inputs and receive generated outputs. When you use generative AI features, the inputs and outputs are your User Data. You are responsible for your User Data and will not use Grammarly’s generative AI features in a way that infringes, violates, or misappropriates any of our rights or the rights of any third party. You acknowledge that due to the nature of machine learning and the technology powering generative AI, outputs may not be unique and Grammarly may generate the same or similar output for third parties.
+
+Usage Limits. Depending on your subscription plan, you may have a limit on your use of Grammarly’s generative AI features. You acknowledge and agree that if you exceed the usage limit allotted by your subscription plan: (i) you may be required to purchase additional usage to continue accessing and using generative AI assistance and (ii) Grammarly may suspend or degrade performance of the generative AI features. You acknowledge that any purchased usage for generative AI assistance is tied to your Grammarly subscription plan, and account termination will invalidate any remaining purchased usage.
+
+Usage Restrictions. You may not use Grammarly’s generative AI features:
+To develop foundation or large language models that compete with Grammarly; 
+To mislead any third party that any output from Grammarly’s generative AI was solely human generated;
+In a manner that violates these terms, Grammarly documentation, usage guidelines, or our Acceptable Use Policy.
+
+<h2>Grammarly Business and Grammarly for Education Users</h2>
+Business terms. When you sign up for Grammarly Business or Grammarly for Education, your organization’s terms will govern your use of your Grammarly team account.
+
+Using Grammarly Business or Grammarly for Education. If you join a Grammarly Business or Grammarly for Education team account, you must use the products in compliance with your organization’s terms and policies. Please note that Grammarly team accounts are subject to your organization’s control. Your administrators can downgrade, restrict, or terminate your access to a Grammarly team account and view information about it. Also, if you are a Grammarly for Education team member, your parents and school administrator may have the legal right to access your account or delete it.
+<h2>Limitations on Use and Responsibilities</h2>
+Acceptable Use Policy. You must comply with our Acceptable Use Policy when you use our products. 
+
+Keeping your account information up to date and safe. You are responsible for safeguarding your password to our products. Don’t share your account credentials or give others access to your account. We will use your account email address to contact you about our products, so you must ensure that your account information stays current.
+
+Minimum age requirements. To use our products, you must be at least 13 if you reside in the United States and 16 if you reside anywhere else. If the law where you reside requires that you are older for us to lawfully provide our products to you without parental consent (including using your information), you must be that age. You may not use our products if you don’t meet these age requirements. However, if your parents or guardians have allowed you to join a Grammarly for Education team, you may still use our products. 
+<h2>Termination</h2>
+We reserve the right to suspend or terminate your access to our products with notice to you if:
+
+(a) you have breached these terms or our Acceptable Use Policy,
+(b) you use the products in a manner that would cause a real risk of harm or loss to other Grammarly users or us, or
+(c) you don’t have a paid account and haven’t accessed our products for 12 consecutive months.
+
+Before suspending or terminating your account, we’ll (1) provide you with reasonable advance notice via the email address associated with your account so you can try to remedy the activity that prompted us to contact you and (2) allow you to export your documents from our products. If you fail to take the steps we ask of you after such notice, we’ll terminate or suspend your access to our products.
+
+We won’t provide notice before termination where we believe that:
+
+(a) you’re in material breach of these terms or our Acceptable Use Policy,
+(b) doing so would cause us legal liability or compromise our ability to provide our products to our other users, or
+(c) the law prohibits us from providing notice.
+
+When this agreement terminates for any reason, all the sections one would expect to survive will survive, including, but not limited to, “Warranty Disclaimers,” “Limitation of Liability,” “Resolving Disputes,” “Miscellaneous Legal Terms,” “Our Intellectual Property Rights and License,” and “Paid Accounts.” The termination of this agreement doesn’t affect any amounts owed before that termination. 
+<h2>Discontinuation and Modification of Products</h2>
+We are continually changing and improving our products, and we may add or remove features or functionality. If we discontinue a product, where reasonably possible we will give you reasonable advance notice and a chance to download your stored User Content.
+<h2>Open Source Software, Reverse Engineering, and Automatic Updates</h2>
+To the extent any component of our Software may be offered under open-source license terms that we make available to you, see here for a list of the open-source software that we use. The provisions of open-source licenses may expressly override some of these terms. 
+
+Unless the following restrictions are prohibited by law, you agree not to reverse engineer or decompile our products, attempt to do so, or assist anyone in doing so. Our products may update themselves automatically to ensure you’re using the latest version.
+<h2>Third-Party Websites</h2>
+Any links to third-party websites or apps are provided for your convenience only and are subject to the third party’s terms. Grammarly isn’t responsible or liable for those websites, products, or services.
+<h2>Beta Products</h2>
+We sometimes release products and features that we are still testing and evaluating. We will mark these products with the words “beta,” “preview,” “early access,” or “evaluation” (or with words or phrases with similar meanings). If you decide to use them, please remember that they may not be as reliable or as thoroughly tested as our other products. To improve and evaluate these products, we will log and analyze information about how you use and interact with them.
+<h2>Warranty Disclaimers</h2>
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, GRAMMARLY, ITS AFFILIATES, AND ITS AND THEIR SUPPLIERS AND DISTRIBUTORS (COLLECTIVELY, THE “GRAMMARLY ENTITIES”), EXPRESSLY DISCLAIM ANY AND ALL WARRANTIES AND CONDITIONS, EXPRESS OR IMPLIED, REGARDING OUR PRODUCTS, INCLUDING, BUT NOT LIMITED TO, ANY IMPLIED WARRANTIES OR CONDITIONS OF MERCHANTABILITY, MERCHANTABLE QUALITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, NONINFRINGEMENT, SATISFACTORY QUALITY OR ARISING FROM A COURSE OF DEALING, LAW, USAGE, OR TRADE PRACTICE, OR REGARDING SECURITY, QUIET ENJOYMENT, RELIABILITY, TIMELINESS, AND PERFORMANCE. YOU AGREE THAT YOUR USE OF OUR PRODUCTS ARE AT YOUR OWN SOLE RISK AND THAT OUR PRODUCTS ARE PROVIDED ON AN “AS IS,” “WHERE IS,” “AS AVAILABLE,” “WITH ALL FAULTS” BASIS, WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED. WITHOUT LIMITING THE FOREGOING, THE GRAMMARLY ENTITIES DO NOT WARRANT THAT THE OPERATION OF OUR PRODUCTS WILL MEET YOUR REQUIREMENTS OR WILL BE UNINTERRUPTED OR ERROR-FREE. GRAMMARLY’S AFFILIATES AND THE GRAMMARLY ENTITIES’ SUPPLIERS, LICENSORS, AND DISTRIBUTORS ARE INTENDED THIRD-PARTY BENEFICIARIES OF THIS SECTION.
+
+THE GRAMMARLY ENTITIES DO NOT MAKE ANY WARRANTY REGARDING THE OUTPUTS THAT MAY BE GENERATED FROM USE OF GENERATIVE AI FEATURES, INCLUDING WITH RESPECT TO THE FACTUAL ACCURACY OF ANY OUTPUTS OR SUITABILITY FOR YOUR USE CASE. YOU UNDERSTAND AND AGREE THAT YOUR USE OF ANY GENERATIVE AI OUTPUTS IS DONE AT YOUR SOLE RISK. DUE TO THE CURRENT NATURE OF GENERATIVE TECHNOLOGY, YOU SHOULD NOT RELY ON GRAMMARLY’S GENERATIVE AI AS A SINGLE SOURCE OF FACTUAL INFORMATION. NO INFORMATION OR ADVICE, WHETHER ORAL OR WRITTEN, OBTAINED BY YOU FROM OR THROUGH GRAMMARLY SHALL CREATE ANY WARRANTY NOT EXPRESSLY MADE HEREIN.
+<h2>Limitation of Liability</h2>
+IN COUNTRIES WHERE LIABILITY LIMITATIONS ARE ALLOWED, IN NO EVENT SHALL THE GRAMMARLY ENTITIES BE LIABLE WITH RESPECT TO THE PRODUCTS FOR (I) ANY AMOUNT IN THE AGGREGATE IN EXCESS OF THE FEES YOU HAVE ACTUALLY PAID TO THE GRAMMARLY ENTITIES DURING THE TWELVE (12) MONTHS IMMEDIATELY PRECEDING THE EVENT(S) GIVING RISE TO SUCH LIABILITY; (II) ANY LOST PROFITS, LOST OR DAMAGED CONTENT OR OTHER DATA, OR FAILURE TO MEET ANY DUTY, INCLUDING WITHOUT LIMITATION GOOD FAITH AND REASONABLE CARE; OR (III) ANY INDIRECT, INCIDENTAL, PUNITIVE, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES OF ANY KIND WHATSOEVER.
+
+YOU AGREE THAT THIS LIMITATION OF LIABILITY REPRESENTS A REASONABLE ALLOCATION OF RISK AND IS A FUNDAMENTAL ELEMENT OF THE BASIS OF THE BARGAIN BETWEEN GRAMMARLY AND YOU. YOU UNDERSTAND THAT OUR PRODUCTS WOULD NOT BE PROVIDED WITHOUT SUCH LIMITATIONS.
+
+Certain countries and states don’t allow the limitation of certain damages, so some or all of this limitation of liability may not apply to you, and you may have additional rights. In that case, you agree that the Grammarly Entities’ liability is limited to the maximum extent permissible in your country of residence.
+
+IF ANY PORTION OF THESE SECTIONS IS HELD TO BE INVALID, THE INVALIDITY OF SUCH PORTION SHALL NOT AFFECT THE VALIDITY OF THE REMAINING PORTIONS OF THESE TERMS. GRAMMARLY’S AFFILIATES AND THE GRAMMARLY ENTITIES’ SUPPLIERS, LICENSORS, AND DISTRIBUTORS ARE INTENDED THIRD-PARTY BENEFICIARIES OF THIS SECTION.
+<h2>Resolving Disputes</h2>
+Let’s try to sort things out first. Before filing a claim against Grammarly, you agree to try to resolve the dispute informally by contacting support@grammarly.com. We’ll try to resolve the dispute informally by contacting you via email. If you and we cannot resolve the dispute informally, then a party seeking to bring a formal proceeding must first send to the other, by certified mail, a written Notice of Dispute (“Notice”). The Notice to Grammarly should be sent to 548 Market Street, #35410, San Francisco, CA 94104, Attn: Legal Department. The Notice must (i) describe the nature and basis of the claim or dispute and (ii) set forth the specific relief sought. If Grammarly and you do not resolve the claim within sixty (60) calendar days after receiving the Notice, you or Grammarly may commence a formal proceeding. 
+
+Judicial forum for disputes. You and Grammarly agree that any judicial proceeding to resolve claims relating to these terms or our products will be brought in the federal or state courts of San Francisco County, California, subject to the mandatory arbitration provisions below. Both you and Grammarly consent to venue and personal jurisdiction in such courts. If you reside in a country with laws that give consumers the right to bring disputes in their local courts (for example, European Union member states), this paragraph doesn’t affect those requirements.
+
+<h3>IF YOU’RE A U.S. RESIDENT, YOU ALSO AGREE TO THE FOLLOWING MANDATORY ARBITRATION PROVISIONS:</h3>
+
+We both agree to arbitrate. You and Grammarly agree to resolve any claims relating to these terms or our products through final and binding arbitration by a single arbitrator, except as set forth under “Exceptions to agreement to arbitrate” below. This includes disputes arising out of or relating to interpretation or application of this “Mandatory Arbitration Provisions” section, including its enforceability, revocability, or validity.
+
+Opt-out of agreement to arbitrate. You have the right to opt out of these arbitration provisions (and any future changes to arbitration provisions) by emailing arbitration-opt-out@grammarly.com within 30 days of agreeing to a version of these terms containing arbitration terms (however, if you agreed to a previous version of these terms of service that contain an arbitration provision, you are still bound by those arbitration provisions).
+
+Arbitration procedures. The American Arbitration Association (AAA) will administer the arbitration under its Commercial Arbitration Rules and the Supplementary Procedures for Consumer Related Disputes. The arbitration will be held in San Francisco County, California, or any other location we agree to. During the arbitration, the amount of any settlement offer made by Grammarly or you shall not be disclosed to the arbitrator until after the arbitrator determines the amount, if any, to which you or Grammarly is entitled.
+
+Arbitration fees and incentives. The AAA rules will govern the payment of all arbitration fees. Grammarly will pay all arbitration fees for individual arbitration for non-frivolous claims less than $75,000. Grammarly will not seek its attorneys’ fees and costs in arbitration unless the arbitrator determines that your claim is frivolous.
+
+Exceptions to agreement to arbitrate. Either you or Grammarly may assert claims, if they qualify, in small claims court in San Francisco County, California, or any United States county where you live or work. Either party may bring a lawsuit solely for injunctive relief to stop unauthorized use or abuse of the products or intellectual property infringement (for example, trademark, trade secret, copyright, or patent rights) without first engaging in arbitration or the informal dispute-resolution process described above. If the agreement to arbitrate is found not to apply to you or your claim, you agree to the exclusive jurisdiction of the state and federal courts in San Francisco County, California, to resolve your claim.
+
+<h3>NO CLASS ACTIONS.</h3> You may only resolve disputes with us individually. That is, you may not bring a claim as a plaintiff or a class member in a class, consolidated, or representative action. Class arbitrations, class actions, private attorney general actions, and consolidation with other arbitrations aren’t allowed.
+
+Severability. If the “NO CLASS ACTIONS” paragraph is held unenforceable, then the entirety of this “Mandatory Arbitration Provisions” section will be deemed void. If you are found to have a non-waivable right to bring a specific claim or request a specific form of relief that an arbitrator lacks the authority to redress or award under this “Mandatory Arbitration Provisions” section, including public injunctive relief, then only that particular claim or request may be brought in court, and you and we agree that litigation of this claim or request will be stayed pending the resolution of any other claims or requests for relief in arbitration.
+
+<h3>Controlling Law</h3>
+
+California law will govern these terms except for its conflicts of laws principles. However, some countries (including those in the European Union) have laws that require agreements to be governed by the local laws of the consumer’s country. This paragraph doesn’t override those laws.
+<h2>Miscellaneous Legal Terms</h2>
+<h3>Entire Agreement</h3>
+
+These terms make up the entire agreement between you and Grammarly, Inc., regarding your use of our products. They supersede any prior agreements.
+
+<h3>Waiver, Severability, and Assignment</h3>
+
+Grammarly’s failure to enforce a provision is not a waiver of its right to do so later. If a provision (other than the “NO CLASS ACTIONS” paragraph) is unenforceable, the remaining provisions will remain in full effect, and an enforceable term will be substituted with the goal of reflecting our intent as closely as possible. You may not assign any of your rights or obligations under these terms, and any such attempt will be void. Grammarly may assign its rights to any of its affiliates or subsidiaries or any successor in interest of any business associated with the products.
+
+<h3>Modifications to These Terms</h3>
+
+From time to time, we may revise these terms to, for example, reflect changes to the law, new regulations, and changes to our products.
+
+If an update significantly negatively affects your use of our products or your legal rights as a user of our products, we’ll notify you before the update’s effective date by sending an email to the email address associated with your account or via an in-product notification. We will give you at least 30 days after that notice before the update takes effect. 
+
+We may also update these terms in ways that won’t significantly negatively affect your rights. For example, we may change the feature or product names or change the email address you can use to contact us. In those cases, we will post the change to our website and link to the previous version. 
+
+If you don’t agree to the updates we make, you must cancel your account before they become effective. Where required, we’ll offer you a prorated refund based on the amounts you have prepaid for our products and your account cancellation date. By using or accessing the products after the updates come into effect, you agree to be bound by the revised terms.
+
+         </p>
 
 
           <h2>Contact Information</h2>
