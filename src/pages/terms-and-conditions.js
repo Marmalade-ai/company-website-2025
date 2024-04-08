@@ -14,24 +14,15 @@ export const Head = () => (
 );
 
 
-const PrivacyPolicy = () => {
+const TermsAndConditions = () => {
   return (
 
 
-    // </div>
-    // </article>
-    // </main>
-    // </Layout>
-    
-
-
 <Layout>
-    <main>
-        <h1>Terms and Conditions</h1>
-    {/* <div> */}
+   <main>
+     <h1>Terms and Conditions</h1>
       <article className="pt-5">
-      {/* <article> */}
-      <div className="mx-auto">
+        <div className="mx-auto">
           <p>
             Last reviewed: <time dateTime="2024-4-7">April 7, 2024.</time>
           </p>
@@ -412,5 +403,8 @@ this site, or your dealings with this site, you can send email to{' '}
 </article>
 </main>
 </Layout>
+);
+}
 
-export default PrivacyPolicy
+export default TermsAndConditions;
+
