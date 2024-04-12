@@ -7,10 +7,10 @@ export const Head = () => (
   <> 
     <html lang="en" />
     <meta charSet="utf-8" />
-    <title>Marmalade Professional Networking - Product</title>
+    <title>Marmalade Professional Networking - Products</title>
     <meta 
       name="description"
-      content="Product offerings for virtually networking using the Marmalade AI platform.
+      content="Products for virtual networking using the Marmalade AI platform.
       In the beta, we are working closely with specialists in UX design,
       digital marketing, and machine learning to understand networking problems and make this
       really work for people."
@@ -21,7 +21,7 @@ export const Head = () => (
 
 const Faq = () => (
   <Layout>
-    <div><h1 className="pt-3 pb-3">Product</h1>
+    <div><h1 className="pt-3 pb-3">Products</h1>
         <div className="container mx-auto">
 
             <div className="pt-5">

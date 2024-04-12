@@ -17,25 +17,24 @@ export const Head = () => (
 const PrivacyPolicy = () => {
   return (
     <Layout>
-    <main><h1>Privacy Policy</h1>
+    <main><h1 className="pt-3 pb-3">Privacy Policy</h1>
       <article className="pt-5">
-      {/* <article> */}
       <div className="mx-auto">
           <p>
-            Last reviewed: <time dateTime="2023-12-31">December 31, 2023.</time>
+            Last reviewed: <time dateTime="2024-4-11">April 11, 2024.</time>
           </p>
 
           <p>
             Marmalade AI, Inc. has created this Privacy Notice to explain why we
             collect particular information and how we will protect your personal
-            privacy when you visit our websites or otherwise engage with Marmalade
+            privacy when you visit our website or otherwise engage with Marmalade
             AI (e.g., web browsing, online chatting, and online messaging)
             including through our company website and the Marmalade AI web
             application.
           </p>
           <p>
-            The following discloses our information collection, use, storage, and
-            other data processing practices for Marmalade AI.
+            The following discloses information collection, use, storage, and
+            other data processing practices by Marmalade AI.
           </p>
 
           <h2>Collection of Personal Information</h2>
@@ -59,12 +58,12 @@ const PrivacyPolicy = () => {
             The Marmalade AI website uses cookies. Cookies are text files that are
             stored in a computer system via an Internet browser.
           </p>
-          <h3>Internet Protocol Address</h3>
+          <h3>Internet Protocol (IP) Address</h3>
           <p>
-            We collect an IP address from all visitors to our site. An IP address
+            We collect an IP address from visitors to our site. An IP address
             is a number that is automatically assigned to your computer when you
             use the Internet. We use IP addresses to help diagnose problems with
-            our server, administer our site, analyze trends, gather broad
+            our server, administer our site, analyze trends, and gather broad
             demographic information for aggregate use in order for us to improve
             the site, and deliver customized, personalized content. In some cases
             we may use your IP address to customize content based on your
@@ -107,12 +106,12 @@ const PrivacyPolicy = () => {
           </p>
           <p>
             Occasionally, we may contract with a third party to communicate on our
-            behalf to the third-party&apos;s contacts. We do not collect the email
+            behalf to third-party contacts. We do not collect the email
             addresses or contact information from these third parties, and we do
             not have access to their mailing lists.
           </p>
           <p>
-            We may provide third party mailers with a suppression list of contacts
+            We may provide third-party mailers with a suppression list of contacts
             to exclude from their email distribution list. In this situation, the
             third party does not have permission to keep or market to contacts
             contained in these suppression lists, or to use them in any way other
@@ -124,12 +123,12 @@ const PrivacyPolicy = () => {
             information with any third parties.
           </p>
 
-          <h2>Children&apos;s Privacy</h2>
+          <h2>Children's Privacy</h2>
           <p>
             Marmalade AI does not knowingly collect information from children as
             defined by local law, and does not target its websites or mobile
             applications to children under these ages. We encourage parents and
-            guardians to take an active role in their children&apos;s online and
+            guardians to take an active role in their children's online and
             mobile activities and interests.
           </p>
 

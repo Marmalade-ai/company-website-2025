@@ -39,7 +39,8 @@ const IndexPage = () => {
         Marmalade AI runs ML/NLP cloud functions against your existing profile to create a virtual network. 
         All you need is your profile. It is automatic and accurate.</p>
       
-        <p>Marmalade AI is starting with people in three software-disrupted specializations: <b>UX design</b>, <b>digital marketing</b>, and <b>machine learning</b>. 
+        <p>Marmalade AI is starting with people in three software-disrupted specializations: 
+          <b>UX design</b>, <b>digital marketing</b>, and <b>machine learning</b>. 
         Yes, there will be other specializations. So if that is not you, please mention us to
         friends who do specialize in these fields. We'll expand later, but to get started, there
         needs to be focus both in the technology and in the markets.</p>
@@ -76,43 +77,6 @@ const IndexPage = () => {
           />
         </div>
       </div>
-
-{/* 
-      <div className="container flex flex-col items-center">
-        <button className="hover:bg-slate-200 bg-slate-300 border-slate-800 mt-2 mb-2 px-4 py-0 rounded items-centerfont-bold" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Discuss Networking</button>
-      </div>
-
-      <div className="bg-slate-200 pl-5 pr-5 pt-5"><b>Example</b>:
-
-      <div className="grid sm:grid-cols-2 gap-5 py-5">
-        <div>
-        <h3>Your Profile</h3>  
-        <p className="smallText">Create a profile describing your work.</p>
-        <StaticImage
-          src="../../images/emily_profile_a_800.png" 
-          alt="Emily screen from Marmalade AI" 
-          // width={280}
-          width={600}
-        />
-        </div><div>
-        <h3>Your Virtual Network<span className="text-xl hover:bg-orange-600"></span></h3>
-        <p className="smallText">Open a professional virtual network.</p>
-        <StaticImage
-          src="../../images/emily_profiles_800.png" 
-          alt="Profiles from Marmalade AI" 
-          // width={310}
-          width={600}
-        />
-        </div>
-      </div> 
-
-
-      <div className="container flex flex-col items-center">
-        <button className="hover:bg-slate-200 bg-slate-300 border-slate-800 mt-2 mb-2 px-4 py-0 rounded items-centerfont-bold" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Discuss Networking</button>
-      </div>
-
-      </div>
-*/}
 
     </main>
     </Layout>
