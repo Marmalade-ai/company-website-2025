@@ -30,14 +30,12 @@ const AboutPage = () => {
       <main>
       <body>
         <h1 className="pt-3 pb-3">About Marmalade AI, Inc.</h1>
-        <p>Hi there! We're the proud operators of this site. 
-          {/* Original development work by Justin Blake and Jim Tyhurst. 
-          Updated in 2023 by Craig Fisk. */}
-          </p>
+        
 
         <div class="max-w-screen-lg mx-auto">
-          <h2 className="pt-3 pb-3">Why?</h2>
           <div>
+            <p>Hi there! We're the proud operators of this site.</p>
+            <br/>
             <p>Why do this? We started with user research into issues people encounter in networking:</p><br/>
             <p>By far the biggest problem: <u><b>Inefficiency</b></u>. Networking can be powerful. But there's only so much time you can put into it. 
             It takes a lot of work for meager results. It just seemed like  there had to be a better way with AI.</p>
