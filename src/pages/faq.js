@@ -11,10 +11,9 @@ export const Head = () => (
     <meta 
       name="description"
       content="FAQ for how to do professional networking virtually using the Marmalade platform.
-      In 2023 we are working closely with specialists in UX design,
+      In the beta, we are working closely with specialists in UX design,
       digital marketing, and machine learning to understand networking problems and make this
-      really work for people. The
-      Paul Graham 'Y Combinator' mantra is 'do things that don't scale.'"
+      really work for people."
     />
   </>
 );
