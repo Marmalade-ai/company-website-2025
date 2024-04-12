@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import Layout from '../components/layout';
-import { navigate } from 'gatsby'
+// import { navigate } from 'gatsby'
 
 export const Head = () => (
   <> 

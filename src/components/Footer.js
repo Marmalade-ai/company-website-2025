@@ -14,7 +14,7 @@ import "../styles/global.css";
 const Footer = () => (
   <footer>
     <br />
-    <div className="grid grid-cols-2 gap-5 bg-orange-300 black-border p-4">
+    <div className="grid grid-cols-2 gap-5 bg-gray-300 black-border p-4">
         <div>
         <ul>
           <li className={navLinkItem}>

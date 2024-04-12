@@ -28,12 +28,12 @@ const Faq = () => (
 
               <h2>Beta</h2>
 
-              <p>subscribe (Free! Please bring others to the platform!)</p>
+              <p>Subscribe (Free! Please bring others to the platform!)</p>
 
-              <h3>Production</h3>
+              <h2>Production</h2>
 
               <p>Passive (receive calls only) Free</p>
-              <p>Premium (initiate calls) $19.95 per month, month to month subscription</p>
+              <p>Premium (receive and initiate calls) $19.95 per month, month to month subscription</p>
               
             </div>
 

@@ -1,6 +1,6 @@
 import * as React from 'react'
 import Layout from '../components/layout'
-import { navigate } from 'gatsby'
+// import { navigate } from 'gatsby'
 // import { StaticImage } from 'gatsby-plugin-image'
 
 export const Head = () => (
