@@ -25,7 +25,11 @@ const Faq = () => (
         <div className="container mx-auto">
 
             <div className="pt-5">
-
+            <p>
+             Last reviewed: <time dateTime="2024-4-11">April 11, 2024.</time>
+            </p>
+            <br/>
+            
               <h2>Beta</h2>
 
               <p>Subscribe (Free! Please bring others to the platform!)</p>

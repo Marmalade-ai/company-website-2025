@@ -25,7 +25,7 @@ const TermsAndConditions = () => {
       <article className="pt-5">
         <div className="mx-auto">
           <p>
-            Last reviewed: <time dateTime="2024-4-7">April 7, 2024.</time>
+            Last reviewed: <time dateTime="2024-4-11">April 11, 2024.</time>
           </p>
 
 <br/>

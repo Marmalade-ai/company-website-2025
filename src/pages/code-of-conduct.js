@@ -19,7 +19,12 @@ const CodeOfConduct = () => (
     {/* <Seo title="Code of Conduct" description="Code of Conduct" /> */}
     <h1>Code of Conduct</h1>
     <article className="pt-5">
+
       <div className="mx-auto">
+        <p>
+           Last reviewed: <time dateTime="2024-4-11">April 11, 2024.</time>
+        </p>
+
         <h2>Our Pledge</h2>
         <p>
           In the interest of fostering an open and welcoming environment, we as

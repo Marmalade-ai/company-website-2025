@@ -31,7 +31,10 @@ const AboutPage = () => {
       <body>
         <h1 className="pt-3 pb-3">About Marmalade AI, Inc.</h1>
         
-
+        <p>
+           Last reviewed: <time dateTime="2024-4-11">April 11, 2024.</time>
+        </p>
+        <br/>
         <div class="max-w-screen-lg mx-auto">
           <div>
             <p>Hi there! We're the proud operators of this site.</p>
