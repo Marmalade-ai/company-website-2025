@@ -23,8 +23,8 @@ const Footer = () => (
             </Link>
           </li>
           <li className={navLinkItem}>
-            <Link to="/product" className={navLinkText}>
-              Product
+            <Link to="/products" className={navLinkText}>
+              Products
             </Link>
           </li>
           <li className={navLinkItem}>
