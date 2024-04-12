@@ -299,14 +299,14 @@ HIS SECTION.</p>
     the dispute informally by contacting you via email. If you and we cannot resolve the dispute 
     informally, then a party seeking to bring a formal proceeding must first send to the other, by 
     certified mail, a written Notice of Dispute (“Notice”). The Notice to Marmalade AI should be sent 
-    to [<b>TBD</b>] 498 Umbria Pl, San Jose, CA 95128, Attn: Legal Department. The Notice must 
+    to [<b>TBD</b>] 10 Dobbs St, Bernardsville, NJ 07924, Attn: Legal Department. The Notice must 
     (i) describe the nature and basis of the claim or dispute and (ii) set forth the specific relief 
     sought. If Marmalade AI and you do not resolve the claim within sixty (60) calendar days after 
     receiving the Notice, you or Marmalade AI may commence a formal proceeding. </p>
     <br/>
 <p>Judicial forum for disputes. You and Marmalade AI agree that any judicial proceeding to resolve claims 
-relating to these terms for our products will be brought in the federal or state courts of Santa Clara 
-County, California, subject to the mandatory arbitration provisions below. Both you and Marmalade AI 
+relating to these terms for our products will be brought in the federal or state courts of Somerset  
+County, New Jersey, subject to the mandatory arbitration provisions below. Both you and Marmalade AI 
 consent to venue and personal jurisdiction in such courts. If you reside in a country with laws that 
 give consumers the right to bring disputes in their local courts (for example, European Union member 
 states), this paragraph doesn’t affect those requirements.</p>
@@ -327,7 +327,7 @@ bound by those arbitration provisions).</p>
 <br/>
 <p><i>Arbitration procedures</i>. The American Arbitration Association (AAA) will administer the arbitration under 
 its Commercial Arbitration Rules and the Supplementary Procedures for Consumer Related Disputes. The 
-arbitration will be held in [<b>TBD</b>] Santa Clara County, California, or any other location we agree to. During 
+arbitration will be held in Somerset County, New Jersey, or any other location we agree to. During 
 the arbitration, the amount of any settlement offer made by Marmalade AI or you shall not be disclosed 
 to the arbitrator until after the arbitrator determines the amount, if any, to which you or Marmalade AI 
 is entitled.</p>
@@ -338,12 +338,12 @@ than $75,000. Marmalade AI will not seek its attorneys’ fees and costs in arbi
 arbitrator determines that your claim is frivolous.</p>
 <br/>
 <p><i>Exceptions to agreement to arbitrate</i>. Either you or Marmalade AI may assert claims, if they qualify, in 
-small claims court in [<b>TBD</b>] Santa Clara County, California, or any United States county where you live or 
+small claims court in Somerset County, New Jersey, or any United States county where you live or 
 work. Either party may bring a lawsuit solely for injunctive relief to stop unauthorized use or abuse 
 of the products or intellectual property infringement (for example, trademark, trade secret, copyright, 
 or patent rights) without first engaging in arbitration or the informal dispute-resolution process 
 described above. If the agreement to arbitrate is found not to apply to you or your claim, you agree 
-to the exclusive jurisdiction of the state and federal courts in [<b>TBD</b>] Santa Clara County, California, 
+to the exclusive jurisdiction of the state and federal courts in Somerset County, New Jersey, 
 to resolve your claim.</p>
 <br/>
 <h3>NO CLASS ACTIONS.</h3> 
@@ -363,7 +363,7 @@ claims or requests for relief in arbitration.</p>
 <br/>
 <h3>Controlling Law</h3>
 <br/>
-<p>California law will govern these terms except for its conflicts of laws principles. However, some 
+<p>New Jersey law will govern these terms except for its conflicts of laws principles. However, some 
 countries (including those in the European Union) have laws that require agreements to be governed by 
 the local laws of the consumer’s country. This paragraph doesn’t override those laws.</p>
 <br/>
