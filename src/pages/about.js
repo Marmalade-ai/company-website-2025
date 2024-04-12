@@ -1,7 +1,7 @@
 import * as React from 'react'
 import Layout from '../components/layout'
 import { navigate } from 'gatsby'
-import { StaticImage } from 'gatsby-plugin-image'
+// import { StaticImage } from 'gatsby-plugin-image'
 
 export const Head = () => (
   <> 
@@ -30,8 +30,10 @@ const AboutPage = () => {
       <main>
       <body>
         <h1 className="pt-3 pb-3">About Marmalade AI, Inc.</h1>
-        <p>Hi there! We're the proud operators of this site. Original development work by Justin Blake and Jim Tyhurst. 
-          Updated in 2023 by Craig Fisk.</p>
+        <p>Hi there! We're the proud operators of this site. 
+          {/* Original development work by Justin Blake and Jim Tyhurst. 
+          Updated in 2023 by Craig Fisk. */}
+          </p>
 
         <div class="max-w-screen-lg mx-auto">
           <h2 className="pt-3 pb-3">Why?</h2>
@@ -48,6 +50,8 @@ const AboutPage = () => {
             </p>
           </div>
         </div>
+{/* 
+
         <h2 className="pt-3 pb-3">Founders</h2>
 
         <div class="grid gap-4 grid-cols-2 grid-rows-2">
@@ -118,11 +122,11 @@ const AboutPage = () => {
             </figure>
           </div>
 
-        </div>
+        </div> */}
 
-        <div className="container flex flex-col items-center">
+        {/* <div className="container flex flex-col items-center">
           <button className="hover:bg-orange-300 bg-orange-400 border-slate-800 mt-2 mb-2 px-4 py-0 rounded items-centerfont-bold" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Schedule a demo (Zoom)</button>
-        </div>
+        </div> */}
 
 
       </body>
