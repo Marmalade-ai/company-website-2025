@@ -70,6 +70,9 @@ nav {
   color: black;
   /* font-weight: bold; */
 }
+.orangeButton {
+  color: #ff7f00;
+}
 a {
   cursor: pointer;
   font-size: .9rem;

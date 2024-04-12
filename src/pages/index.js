@@ -49,7 +49,7 @@ const IndexPage = () => {
       <br/>
 
       <div className="container flex flex-col items-center">
-        <button className="hover:bg-slate-200 bg-slate-300 border-slate-800 mt-2 mb-2 px-4 py-0 rounded items-centerfont-bold" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Waitlist me!</button>
+        <button className="hover:bg-slate-200 bg-slate-100 border-slate-800 mt-2 mb-2 px-4 py-0 rounded items-centerfont-bold orangeButton" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Waitlist me!</button>
       </div>
 
       <div className="grid sm:grid-cols-2 gap-5">
