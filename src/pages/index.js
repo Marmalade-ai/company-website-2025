@@ -30,30 +30,32 @@ const IndexPage = () => {
 
 {/* class="w-96 pt-6 pb-6 text-5xl font-extrabold" */}
     <main>
-      <h1 className="largeText gap-5">Networking</h1>
+      <h1 className="largeText gap-5"><i>Virtual</i> Networking</h1>
 
       <div  className="grid sm:grid-cols-1 gap-5">
-        <p>What if, given my profile, a specialist network could just <i>happen</i>?</p>
+        <p>What if, given my profile, a specialist network could automatically and accurately exist for me <i>virtually</i>?</p>
       
-        <p>Marmalade is <i>automatic</i> and <i>accurate</i>. 
-        Beneath a simple UI, it runs ML/NLP cloud functions to create your network. 
-        All you need is your profile.</p>
+        <p>Marmalade AI is <i>automatic</i> and <i>accurate</i>. 
+        Marmalade AI runs ML/NLP cloud functions against your existing profile to create a virtual network. 
+        All you need is your profile. It is automatic and accurate.</p>
       
-        <p>Marmalade will become available initially in three specializations: <b>UX design</b>, <b>digital marketing</b>, and <b>machine learning</b>. 
-        Yes, there will be many, many other specializations. It is important, however, to have some &quot;there there&quot; when starting out</p>
+        <p>Marmalade AI is starting with people in three software-disrupted specializations: <b>UX design</b>, <b>digital marketing</b>, and <b>machine learning</b>. 
+        Yes, there will be other specializations. So if that is not you, please mention us to
+        friends who do specialize in these fields. We'll expand later, but to get started, there
+        needs to be focus both in the technology and in the markets.</p>
       
       </div>
       <br/>
 
       <div className="container flex flex-col items-center">
-        <button className="hover:bg-slate-200 bg-slate-300 border-slate-800 mt-2 mb-2 px-4 py-0 rounded items-centerfont-bold" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Discuss Networking</button>
+        <button className="hover:bg-slate-200 bg-slate-300 border-slate-800 mt-2 mb-2 px-4 py-0 rounded items-centerfont-bold" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Waitlist me!</button>
       </div>
 
       <div className="grid sm:grid-cols-2 gap-5">
         <div>
           <h2 className="py-2">Accurate</h2>
           <h3>Your network should reflect what you do</h3>
-          <p class="mb-8">Specialists want to connect with
+          <p class="mb-8">Specialists are connected virtually with
             other specialists to share work and stay up to date.</p>
           
           <StaticImage
@@ -64,8 +66,8 @@ const IndexPage = () => {
         <div>
           <h2 class="py-2">Automatic</h2>
           <h3>Your network should be effortless</h3>
-            <p class="mb-8">It should &quot;just happen.&quot; Change your profile and  
-            your network automatically changes.
+            <p class="mb-8">It should be automatic. Change your profile and  
+            your virtual network automatically changes.
           </p>
           
           <StaticImage
@@ -75,7 +77,7 @@ const IndexPage = () => {
         </div>
       </div>
 
-
+{/* 
       <div className="container flex flex-col items-center">
         <button className="hover:bg-slate-200 bg-slate-300 border-slate-800 mt-2 mb-2 px-4 py-0 rounded items-centerfont-bold" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Discuss Networking</button>
       </div>
@@ -86,7 +88,6 @@ const IndexPage = () => {
         <div>
         <h3>Your Profile</h3>  
         <p className="smallText">Create a profile describing your work.</p>
-        {/* StaticImage is responsive by default */}
         <StaticImage
           src="../../images/emily_profile_a_800.png" 
           alt="Emily screen from Marmalade AI" 
@@ -103,13 +104,15 @@ const IndexPage = () => {
           width={600}
         />
         </div>
-      </div>
+      </div> 
+
 
       <div className="container flex flex-col items-center">
         <button className="hover:bg-slate-200 bg-slate-300 border-slate-800 mt-2 mb-2 px-4 py-0 rounded items-centerfont-bold" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Discuss Networking</button>
       </div>
 
       </div>
+*/}
 
     </main>
     </Layout>
