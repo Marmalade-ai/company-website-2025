@@ -1,3 +1,24 @@
+/* Marmalade orange is '#ff7f00' */
+/* bg-orange-200, background-color: rgb(254 215 170);. bg-orange-300, background-color: rgb(253 186 116); */
+
+.marmalade-200 {
+  color: rgb(254 215 170);
+  /* #ff7f00; */
+}
+.marmalade-100 {
+  color: rgb(253 186 116);
+  /* #ff7f00; */
+}
+.bg-marmalade-200 {
+  background-color: rgb(254 215 170);
+  /* #ff7f00; */
+}
+
+bg-marmalade-100 {
+  background-color: rgb(253 186 116);
+  /* #ff7f00; */
+}
+
 .container {
   /* margin: auto; */
   margin-left: 20px;
@@ -18,7 +39,7 @@
   padding-right: 2rem;
 }
 .nav-link-text {
-  color: black;
+  color: orange;
 }
 
 .site-title {
