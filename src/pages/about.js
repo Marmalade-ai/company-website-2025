@@ -1,7 +1,5 @@
 import * as React from 'react'
 import Layout from '../components/layout'
-// import { navigate } from 'gatsby'
-// import { StaticImage } from 'gatsby-plugin-image'
 
 export const Head = () => (
   <> 
@@ -30,7 +28,6 @@ const AboutPage = () => {
       <main>
       <body>
         <h1 className="pt-3 pb-3">About Marmalade AI, Inc.</h1>
-        
         <p>
            Last reviewed: <time dateTime="2024-4-11">April 11, 2024.</time>
         </p>
