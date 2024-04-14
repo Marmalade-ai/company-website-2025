@@ -21,9 +21,6 @@ const CodeOfConduct = () => (
     <article className="pt-5">
 
       <div className="mx-auto">
-        <p>
-           Last reviewed: <time dateTime="2024-4-11">April 11, 2024.</time>
-        </p>
 
         <h2>Our Pledge</h2>
         <p>
