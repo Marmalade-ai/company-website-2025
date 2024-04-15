@@ -32,16 +32,23 @@ const IndexPage = () => {
           <div className="container flex flex-col">
               {/* <button className="hover:bg-marmalade-200 bg-marmalade-100 border-slate-800 mt-2 mb-2 px-4 py-0 rounded items-centerfont-bold orangeButton" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Waitlist me!</button> */}
               {/* <button className="hover:bg-marmalade-200 bg-marmalade-100 border-slate-800 mt-2 mb-2 px-4 py-0 rounded items-centerfont-bold" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Waitlist me!</button> */}
-              
-          </div>
+            <div className="grid sm:grid-cols-2 gap-5">
+              <div>
+                <h1 className="largeText gap-5"><i>Virtual</i> Networking</h1>
+              </div>
+              <div>
+                <button className="button hover:underline px-2 bg-white float-right" onClick={()=>{navigate("https://docs.google.com/forms/d/1eu_w17ssDesxl9iYB2DYgmg_sldKc3q_qBu0EuSAz1g/")}}>Waitlist me!</button>
+              </div>
+            </div>
+            <br/>
+            <div className="grid sm:grid-cols-1 gap-5">
+        
+            </div>
           {/* hover:marmalade-200 marmalade-100  */}
-          <h1 className="largeText gap-5"><i>Virtual</i> Networking</h1>
             <div  className="grid sm:grid-cols-1 gap-5">
               <p>What if, given my profile, an app could automatically and accurately network me -- <i><u>virtually</u></i>?</p>
               
-              <button className="button is-pulled-right" onClick={()=>{navigate("https://docs.google.com/forms/d/1eu_w17ssDesxl9iYB2DYgmg_sldKc3q_qBu0EuSAz1g/")}}>Waitlist me!</button>
-
-              <p>Marmalade AI is <i>automatic</i> and <i>accurate</i>. Marmalade AI runs ML/NLP cloud functions against your existing profile to create a virtual network. 
+              <p>Marmalade AI is <i>automatic</i> and <i>accurate</i>. Marmalade AI runs cloud functions against your existing profile to create a virtual network. 
               All you need is your profile. It is automatic and accurate. It's a free subscription service in <i>beta</i> later in 2024. 
               After the beta, active subscribers will pay monthly to be able to contact other networkers. Passive subscription will be free. You control who can contact you, when, and about what.
               </p>
@@ -54,8 +61,7 @@ const IndexPage = () => {
             
             </div>
             <br/>
-
-
+  
             <div className="grid sm:grid-cols-2 gap-5">
               <div>
                 <h2 className="py-2">Accurate</h2>
@@ -75,10 +81,11 @@ const IndexPage = () => {
                       <StaticImage
                         alt="Using your profile, Marmalade AI automatically creates an accurate virtual network."
                         // src="../../images/matching_565.png"
-                        src="../../images/pexels-jane-trang-doan-1024248.jpg"
+                        src="../../images/pexels-jane-trang-doan-1024248_565x399.jpg"
                       />
               </div>
             </div>
+          </div>
         </body>
       </main>
     </Layout>

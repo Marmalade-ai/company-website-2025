@@ -1,3 +1,4 @@
+import { navigate } from 'gatsby'
 import React from 'react';
 import Layout from '../components/layout';
 
@@ -25,16 +26,20 @@ const Faq = () => {
           <div>
             <h1 className="pt-3 pb-3">Products</h1>
               <p>
-                Last reviewed: <time dateTime="2024-4-11">April 11, 2024.</time>
+                Last reviewed: <time dateTime="2024-4-15">April 15, 2024.</time>
               </p>
               <br/>
               <div class="max-w-screen-lg mx-auto">
                 <div>
                   <h2>Beta</h2>
-                    <p>Subscribe (Free! Please bring others to the platform!)</p>
+                    <button 
+                      className="button border border-3 hover:underline px-2 bg-white" 
+                      onClick={()=>{navigate("https://docs.google.com/forms/d/1eu_w17ssDesxl9iYB2DYgmg_sldKc3q_qBu0EuSAz1g/")}}>
+                        Waitlist me!
+                    </button>
                   <h2>Production</h2>
-                    <p>Passive (receive calls only) Free</p>
-                    <p>Premium (receive and initiate calls) $19.95 per month, month to month subscription</p>
+                    <p>Passive (Not yet! receive calls only) Free</p>
+                    <p>Premium (Not yet! receive and initiate calls) $19.95 per month, month to month subscription</p>
                   </div>
               </div>
           </div>
