@@ -1,10 +1,9 @@
-## Company Website - 2023 / 2024
+## Company Website - 2023 / 2024 + April 2024 Changes
 
 Changes: 
 - Update timing from 2023 to 2024, such as copyrights.
 - Upgrade from Gatsby 3 to Gatsby 5.
 - Compact site to include elevator pitch.
-- Add a button linked to Calendly to schedule a demo over Zoom.
 - Insert a user profile with matching user profiles.
 - Simplify use of Tailwind (there is likely some unused code).
 
