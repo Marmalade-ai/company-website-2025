@@ -34,9 +34,12 @@ const IndexPage = () => {
               <div>
                 <h1 className="largeText gap-5"><i>Virtual</i> Networking</h1>
               </div>
-              <div>
-                <button className="button hover:underline px-2 bg-white float-right" onClick={()=>{navigate("https://docs.google.com/forms/d/1eu_w17ssDesxl9iYB2DYgmg_sldKc3q_qBu0EuSAz1g/")}}>Waitlist me!</button>
-              </div>
+                <button 
+                  className="btn btn-blue float-right" 
+                  onClick={()=>{navigate("https://docs.google.com/forms/d/1eu_w17ssDesxl9iYB2DYgmg_sldKc3q_qBu0EuSAz1g/")}}>
+                    Waitlist me!
+                </button>
+                {/* button hover:underline px-2 bg-marmalade-200 float-right */}
             </div>
             <br/>
             <div className="grid sm:grid-cols-1 gap-5">
