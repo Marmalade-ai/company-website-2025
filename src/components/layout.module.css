@@ -13,12 +13,10 @@
   background-color: rgb(254 215 170);
   /* #ff7f00; */
 }
-
-bg-marmalade-100 {
+.bg-marmalade-100 {
   background-color: rgb(253 186 116);
   /* #ff7f00; */
 }
-
 .container {
   /* margin: auto; */
   margin-left: 20px;
@@ -26,7 +24,6 @@ bg-marmalade-100 {
   max-width: 1536px;  /* 1536px <-- 500px; */
   font-family: sans-serif;
 }
-
 .heading {
   color: black;
 }
@@ -41,7 +38,6 @@ bg-marmalade-100 {
 .nav-link-text {
   color: orange;
 }
-
 .site-title {
   font-size: 3rem;
   color: gray;
