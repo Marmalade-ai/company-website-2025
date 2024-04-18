@@ -23,22 +23,20 @@ export const Head = () => (
 
 const AboutPage = () => {
   return (
-
     <Layout>
-      <main>
-      <body>
-        <h1 className="pt-3 pb-3">About Marmalade AI, Inc.</h1>
-        <p>
-           Last reviewed: <time dateTime="2024-4-11">April 11, 2024.</time>
-        </p>
-        <br/>
-        <div class="max-w-screen-lg mx-auto">
-          <div>
-            <p>Hi there! We're the proud operators of this site.</p>
+      <main><h1 className="pt-3 pb-3">About Marmalade AI, Inc.</h1>
+        <article className="pt-5">
+          <div className="mx-auto">
+            <p>
+              Last reviewed: <time dateTime="2024-4-17">April 17, 2024.</time>
+            </p>
+            <p>Hi there! We're the company behind Marmalade AI.
+            </p>
             <br/>
             <p>Why do this? We started with user research into issues people encounter in networking:</p><br/>
-            <p>By far the biggest problem: <u><b>Inefficiency</b></u>. Networking can be powerful. But there's only so much time you can put into it. 
-            It takes a lot of work for meager results. It just seemed like  there had to be a better way with AI.</p>
+            <p>The biggest problem: <u><b>Inefficiency</b></u>. Networking can be powerful. But there's only so much time you can put into it. 
+               It takes a lot of work for meager results. It just seemed like  there had to be a better way with AI.
+            </p>
             <br/>
 
             <p>Remote work blossomed initially in the pandemic. More recently, many companies require returning to the office.
@@ -47,21 +45,19 @@ const AboutPage = () => {
             <br/>
 
             <p>The <b>big picture</b> is that we need to dramatically reduce our ecological footprint and increase our ability to work with different cultures. 
-              It just takes time to assimilate a change this big into work. We want to help that to happen.</p>
+              It just takes time to assimilate a change this big into work. We want to help that to happen.
+            </p>
             <br/>
             <p>We found each other through user research into networking, connected remotely, developed a prototype, and then started working on the application.
               Sounds good. However, there have been hiccups. Venture capital has dried up. And the tech industry discovered it could 
               increase profits by cutting workforces.
               Meanwhile, people individually tailor hundreds of applications and get crickets. On the flip side, perfect resumes get past the ATS to 
               deluge hiring managers. 
-              </p>
+            </p>
           </div>
-        </div>
-
-      </body>
+        </article>
       </main>
     </Layout>
-
   )
 }
 

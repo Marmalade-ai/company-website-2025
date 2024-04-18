@@ -30,8 +30,6 @@ const IndexPage = () => {
       <main>
         <body>
           <div className="container flex flex-col">
-              {/* <button className="hover:bg-marmalade-200 bg-marmalade-100 border-slate-800 mt-2 mb-2 px-4 py-0 rounded items-centerfont-bold orangeButton" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Waitlist me!</button> */}
-              {/* <button className="hover:bg-marmalade-200 bg-marmalade-100 border-slate-800 mt-2 mb-2 px-4 py-0 rounded items-centerfont-bold" onClick={()=>{navigate("https://calendly.com/wcraigfisk/call-with-craig-fisk-30-minutes")}}>Waitlist me!</button> */}
             <div className="grid sm:grid-cols-2 gap-5">
               <div>
                 <h1 className="largeText gap-5"><i>Virtual</i> Networking</h1>
@@ -44,7 +42,6 @@ const IndexPage = () => {
             <div className="grid sm:grid-cols-1 gap-5">
         
             </div>
-          {/* hover:marmalade-200 marmalade-100  */}
             <div  className="grid sm:grid-cols-1 gap-5">
               <p>What if, given my profile, an app could automatically and accurately network me -- <i><u>virtually</u></i>?</p>
               

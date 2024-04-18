@@ -21,15 +21,15 @@ export const Head = () => (
 const Faq = () => {
   return (
     <Layout>
-      <main>
-        <body>
-          <div>
-            <h1 className="pt-3 pb-3">FAQ</h1>
+      <main><h1 className="pt-3 pb-3">FAQ</h1>
+        <article className="pt-5">
+          <div className="mx-auto">
               <p>
-                Last reviewed: <time dateTime="2024-4-11">April 11, 2024.</time>
+                Last reviewed: <time dateTime="2024-4-17">April 17, 2024.</time>
               </p>
               <br/>
-              <div class="max-w-screen-lg mx-auto">
+              {/* <div class="max-w-screen-lg mx-auto"> */}
+              <div>
                 <div>
                   <h2>Getting Started</h2>
                     <h3>How do I start doing professional networking <i>virtually</i>?</h3>
@@ -86,8 +86,8 @@ const Faq = () => {
                 </div>
               </div>                
           </div>
-        </body>
-      </main>    
+          </article>
+        </main>    
     </Layout>
   )
 };
