@@ -25,21 +25,22 @@ const Faq = () => {
         <article className="pt-5">
           <div className="mx-auto">
             <p>
-              Last reviewed: <time dateTime="2024-4-17">April 17, 2024.</time>
+              Last reviewed: <time dateTime="2024-4-18">April 18, 2024.</time>
             </p>
             <br/>
                   
-            <h2>Beta</h2>
+            <h2>Beta:</h2>
+              <p>- <i>Free trial</i></p>
               <button 
-                className="button border border-3 hover:underline px-2 bg-white" 
+                className="w-32 bg-[#ff7f00] bg-opacity-50 border border-width-1 hover:underline px-2 py-1 rounded-lg text-black" 
                 onClick={()=>{navigate("https://docs.google.com/forms/d/1eu_w17ssDesxl9iYB2DYgmg_sldKc3q_qBu0EuSAz1g/")}}>
                   Waitlist me!
               </button>
     
-            <h2>Production</h2>
+            <h2>Production:</h2>
     
-              <p>Passive (Not yet! receive calls only) Free</p>
-              <p>Premium (Not yet! receive and initiate calls) $19.95 per month, month to month subscription</p>
+              <p>- <i>Passive</i> (Not yet! receive calls only): Free</p>
+              <p>- <i>Premium</i> (Not yet! receive and initiate calls): $19.95 per month, month to month subscription</p>
     
           </div>
         </article>

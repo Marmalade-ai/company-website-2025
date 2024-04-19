@@ -49,8 +49,9 @@ const TermsAndConditions = () => {
     Some countries have mandatory local laws regarding your cancellation rights, and 
     this paragraph doesn't override these laws.</p>
     <br/>
-<p><i>Refunds</i>: You may cancel your Marmalade AI paid account at any time (instructions on how 
-to do that are [TBD] <b>here</b>). Refunds are issued if they are required by law.</p>
+<p><i>Refunds</i>: You may cancel your Marmalade AI paid account at any time.
+ {/* (instructions on how to do that are [TBD] <b>here</b>) */}
+ Refunds are issued if required by law.</p>
 <br/>
 <p><i>Downgrades</i>: Your paid account will remain in effect until it's canceled or terminated 
 under these terms. If you don't pay for your paid account on time, we reserve the right to 
