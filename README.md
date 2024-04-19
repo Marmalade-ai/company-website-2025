@@ -1,15 +1,13 @@
 ## Company Website - 2023 / 2024 + April 2024 Changes
 
 Changes: 
-- Update timing from 2023 to 2024, such as copyrights.
+- Update from 2023 to 2024, including copyrights.
 - Upgrade from Gatsby 3 to Gatsby 5.
-- Compact site to include elevator pitch.
-- Insert a user profile with matching user profiles.
-- Simplify use of Tailwind (there is likely some unused code).
+- Simplify and standardize use of Tailwind.
 
 Note: Gatsby 5 requires Node 18. If a version is installed using nvm, you can switch to it like
 
-    nvm use 18.14.0 
+    nvm use 20.12.2 
 
 ## Installation steps:
 
