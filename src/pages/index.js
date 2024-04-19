@@ -35,7 +35,7 @@ const IndexPage = () => {
                 <h1 className="largeText gap-5"><i>Virtual</i> Networking</h1>
               </div>
                 <button 
-                  className="btn btn-bbg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded float-right" 
+                  className="w-32 bg-[#ff7f00] bg-opacity-50 border border-width-1 hover:underline px-2 py-1 rounded-lg text-black float-right" 
                   onClick={()=>{navigate("https://docs.google.com/forms/d/1eu_w17ssDesxl9iYB2DYgmg_sldKc3q_qBu0EuSAz1g/")}}>
                     Waitlist me!
                 </button>
