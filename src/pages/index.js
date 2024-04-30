@@ -32,7 +32,7 @@ const IndexPage = () => {
           <div className="container flex flex-col">
             <div className="grid sm:grid-cols-2 gap-5">
               <div>
-                <h1 className="largeText gap-5"><i>Virtual</i> Networking</h1>
+                <h1 className="largeText gap-5"><i>Automatic</i> Networking</h1>
               </div>
                 <button 
                   className="w-32 bg-[#ff7f00] bg-opacity-50 border border-width-1 hover:underline px-2 py-1 rounded-lg text-black float-right" 
@@ -53,11 +53,11 @@ const IndexPage = () => {
               After the beta, active subscribers will pay monthly to be able to contact other networkers. Passive subscription will be free. You control who can contact you, when, and about what.
               </p>
             
-              <p>Marmalade AI is starting with virtual networking for people specializing 
+              <p>Marmalade AI is launching in beta with a narrow focus on networking for people specializing 
                 in <b>UX design</b>, <b>digital marketing</b>, and <b>machine learning</b>. 
-              Yes, there will be other specializations. So if that is not you, please mention us to
-              friends who do specialize in these fields. We'll expand later, but to get started, there
-              needs to be a narrow market focus.</p>
+              Yes, there will be other specializations. We'll expand later, but to get started, there
+              needs to be a narrow market focus. So if that is not you, please mention us to
+              friends who do specialize in these fields. </p>
             
             </div>
             <br/>
