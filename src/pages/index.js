@@ -48,12 +48,16 @@ const IndexPage = () => {
             <div  className="grid sm:grid-cols-1 gap-5">
               <p>What if, given my profile, an app could automatically and accurately network me -- <i><u>virtually</u></i>?</p>
               
-              <p>Marmalade AI is <i>automatic</i> and <i>accurate</i>. Marmalade AI runs cloud functions against your existing profile to create a virtual network. 
-              All you need is your profile. It is automatic and accurate. It's a free subscription service in <i>beta</i> later in 2024. 
-              After the beta, active subscribers will pay monthly to be able to contact other networkers. Passive subscription will be free. You control who can contact you, when, and about what.
+              <p>Marmalade AI is <b><i>automatic</i></b> and <b><i>accurate</i></b>. Marmalade AI runs cloud functions against your existing profile to create a virtual network. 
+              All you need is your profile. It is automatic and accurate. </p>
+              
+              <p><b>Beta</b>: This will be free subscription service during <i>beta</i> starting later in 2024. 
+              After beta, &quot;active subscribers&quot; can contact other people topically, but only if the contacted person is open to it. 
+              &quot;Passive subscribers&quot; will only be able to receive connection; not make them. Either way, you control who can contact you, when, and about what.
+              Monetization? All we know at this point is that people should only pay if they're using the app: &quot;pay for use.&quot; 
               </p>
             
-              <p>Marmalade AI is launching in beta with a narrow focus on networking for people specializing 
+              <p>The Marmalade AI app in beta is just for people specializing 
                 in <b>UX design</b>, <b>digital marketing</b>, and <b>machine learning</b>. 
               Yes, there will be other specializations. We'll expand later, but to get started, there
               needs to be a narrow market focus. So if that is not you, please mention us to
