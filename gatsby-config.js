@@ -4,7 +4,7 @@
 module.exports = {
   siteMetadata: {
     title: `Marmalade AI networking for software people`,
-    description: `Virtual networking for software specialists in UX design, digital marketing, and machine learning.`,
+    description: `Creates peer groups for software specialists in UX design, digital marketing, and machine learning.`,
     twitterUsername: `@MarmaladeAI`,
     image: `./src/images/Marmalade_Logo_trans_white_M_100.png`,
     siteUrl: `https://www.marmalade.ai`,

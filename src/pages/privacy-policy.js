@@ -5,7 +5,7 @@ export const Head = () => (
   <> 
     <html lang="en" />
     <meta charSet="utf-8" />
-    <title>Marmalade AI Networking - Privacy Policy</title>
+    <title>Marmalade AI- Privacy Policy</title>
     <meta 
       name="description"
       content="Marmalade AI, Inc. will keep your information private and will not do advertising."

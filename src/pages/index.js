@@ -8,17 +8,16 @@ export const Head = () => (
   <> 
     <html lang="en" />
     <meta charSet="utf-8" />
-    <title>Virtual Networking in UX Design, Digital Marketing, and Machine Learning</title>
+    <title>Peer groups in UX Design, Digital Marketing, and Machine Learning</title>
     <meta 
       name="description"
-      content="How do I do virtual networking in UX design, digital marketing, and machine learning? The best result
-      would be: just have a profile, and automatically create a professional network based on your profile. That is
-      what the virtual networking subscription service by Marmalade AI, Inc. does. Marmalade provides an easy way for every specialist in UX design, digital marketing, and machine learning
-      to network virtually. It targets people who really need to connect to each other and find traditional
-      networking through meetups or one-on-ones, or through online services like Linkedin, TopTal, UpWork, or Indeed
-      to be not all that useful, too expensive for the value received, and too time-consuming. Using their profiles, 
-      Marmalade AI automatically creates a network of specialists that is virtual, by using NLP (natural language processing) and 
-      ML (machine learning) to suggest relevant connections. When, where, and with who you connect is under your 
+      content="How do I create and use peer groups in UX design, digital marketing, and machine learning to stay up-to-date? 
+      Nice would be: just have a profile, and automatically create a peer group based on tahat. That is
+      what the Marmalade AI app does. In beta, for specialists in UX design, digital marketing, and machine learning, it 
+      peer groups for people who really need to connect to each other to stay up-to-date. Traditional
+      networking (through meetups, one-on-ones, or services like Linkedin, TopTal, UpWork, or Indeed
+      are not all that useful. They're also too expensive and time-consuming. Using your profile, 
+      Marmalade AI runs cloud functions to create a peer group for you. When, where, and with who you connect is under your 
       control. Marmalade AI is a subscription web-based service in the U.S. on phones, laptops, and desktops."
     />
   </>

@@ -5,7 +5,7 @@ export const Head = () => (
   <> 
     <html lang="en" />
     <meta charSet="utf-8" />
-    <title>Marmalade AI Networking - Terms and Conditions</title>
+    <title>Marmalade AI - Terms and Conditions</title>
     <meta 
       name="description"
       content="Marmalade AI, Inc. has Terms and Conditions for use 
