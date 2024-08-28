@@ -6,10 +6,10 @@ export const Head = () => (
   <> 
     <html lang="en" />
     <meta charSet="utf-8" />
-    <title>Marmalade AI Networking - Code of Conduct</title>
+    <title>Marmalade AI - Code of Conduct</title>
     <meta 
       name="description"
-      content="The Marmalade AI, Inc. Code of Conduct is based on Contributor Covenant, version 1.4."
+      content="The Marmalade AI Code of Conduct is based on Contributor Covenant, version 1.4."
     />
   </>
 );

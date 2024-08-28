@@ -9,14 +9,14 @@ export const Head = () => (
   <> 
     <html lang="en" />
     <meta charSet="utf-8" />
-    <title>Networking in UX Design, Digital Marketing, and Machine Learning</title>
+    <title>Generate peer groups for people in UX Design, Digital Marketing, and Machine Learning</title>
     <meta 
       name="description"
-      content="User research for people in UX design, digital marketing, or machine learning.
-      The goals is to understand better what accuracy and automatic mean to people when networking, 
-      how people want to set geographical scope to their networks, how people want to be contacted
-      or contact others, and how they want to work with the history of their network, which will
-      change to reflect any changes to the user's profile."
+      content="Understand peer groups for people in UX design, digital marketing, or machine learning.
+      Understand what accuracy and automatic mean to people, 
+      how people want to a set geographical context, how people want to be contacted
+      or contact others, and how they want to work with their history, which will
+      changes to reflect any changes to their profile."
     />
   </>
 );

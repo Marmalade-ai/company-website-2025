@@ -6,13 +6,12 @@ export const Head = () => (
   <> 
     <html lang="en" />
     <meta charSet="utf-8" />
-    <title>Marmalade Professional Networking - FAQ</title>
+    <title>Marmalade peer groups - FAQ</title>
     <meta 
       name="description"
-      content="FAQ for how to do professional networking virtually using the Marmalade platform.
-      In the beta, we are working closely with specialists in UX design,
-      digital marketing, and machine learning to understand networking problems and make this
-      really work for people."
+      content="FAQ for peer groups that use the Marmalade app.
+      The beta is for people in UX design,
+      digital marketing, and machine learning."
     />
   </>
 );
