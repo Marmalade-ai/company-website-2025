@@ -21,7 +21,7 @@ const PrivacyPolicy = () => {
       <article className="pt-5">
       <div className="mx-auto">
           <p>
-            Last reviewed: <time dateTime="2024-4-11">April 11, 2024.</time>
+            Last reviewed: <time dateTime="2024-8-28">August 28, 2024.</time>
           </p>
 
           <p>
