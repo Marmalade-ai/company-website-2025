@@ -21,11 +21,14 @@ const CodeOfConduct = () => (
     <article className="pt-5">
 
       <div className="mx-auto">
+          <p>
+            Last reviewed: <time dateTime="2024-4-11">August 28, 2024.</time>
+          </p>
 
         <h2>Our Pledge</h2>
         <p>
           In the interest of fostering an open and welcoming environment, we as
-          Marmalade AI networking members pledge to make participation in our
+          Marmalade AI members pledge to make participation in our
           meetings and in our community a harassment-free experience for
           everyone, regardless of age, body size, disability, ethnicity, sex
           characteristics, gender identity and expression, level of experience,
@@ -69,7 +72,7 @@ const CodeOfConduct = () => (
         <h2>Our Responsibilities</h2>
         <p>
           Marmalade AI administrators are responsible for clarifying the
-          standards of acceptable behavior and are expected to take appropriate
+          standards of acceptable behavior and is expected to take appropriate
           and fair corrective action in response to any instances of
           unacceptable behavior.
         </p>
@@ -83,7 +86,7 @@ const CodeOfConduct = () => (
 
         <h2>Scope</h2>
         <p>
-          This Code of Conduct applies within all networking spaces, and it also
+          This Code of Conduct applies within all peer group spaces, and it also
           applies when an individual is representing the community in public
           spaces. Examples of representing the community include discussion of
           member experiences at public social media sites. Representation of the

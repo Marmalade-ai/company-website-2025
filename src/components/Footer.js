@@ -24,7 +24,7 @@ const Footer = () => (
           </li>
           <li className={navLinkItem}>
             <Link to="/products" className={navLinkText}>
-              Products
+              Beta app
             </Link>
           </li>
           <li className={navLinkItem}>

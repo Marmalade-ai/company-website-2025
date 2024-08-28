@@ -25,19 +25,19 @@ const TermsAndConditions = () => {
       <article className="pt-5">
         <div className="mx-auto">
           <p>
-            Last reviewed: <time dateTime="2024-4-11">April 11, 2024.</time>
+            Last reviewed: <time dateTime="2024-8-28">August 28, 2024.</time>
           </p>
 
 <br/>
 <h2>Our Mission and Business Model</h2>
 <br/>
-<p>Our mission is to improve professional work by improving 
-    networking. We offer free and paid products and hope you will 
-    purchase one of our paid product. We don't sell your data.</p>
+<p>Our mission is to improve work by improving 
+    peer groups. We offer free and paid subscriptions (&quot;products&quot;, SaaS: Software as a Service) and hope you will 
+    subscribe to a paid subscription. We don't sell your data.</p>
 <br/>
 <h2>Who We Are</h2>
 <br/>
-<p>Marmalade AI products are provided by Marmalade AI, Inc., a Delaware corporation. 
+<p>Marmalade AI services are provided by Marmalade AI, Inc., a Delaware corporation. 
     For more information about Marmalade AI, please visit https://www.marmalade.ai/about.</p>
 <br/>
 <h2>Paid Accounts</h2>
