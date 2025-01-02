@@ -2,8 +2,6 @@
 
 Changes: 
 - Update to 2025, including copyrights.
-- Upgrade from Gatsby 3 to Gatsby 5.
-- Simplify and standardize use of Tailwind.
 
 Note: Gatsby 5 requires Node 18. If a version is installed using nvm, you can switch to it like
 
