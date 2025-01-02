@@ -1,7 +1,7 @@
-## Company Website - 2023 / 2024 + April 2024 Changes
+## Company Website - January 2025 Changes
 
 Changes: 
-- Update from 2023 to 2024, including copyrights.
+- Update to 2025, including copyrights.
 - Upgrade from Gatsby 3 to Gatsby 5.
 - Simplify and standardize use of Tailwind.
 

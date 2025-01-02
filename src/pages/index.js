@@ -50,7 +50,7 @@ const IndexPage = () => {
               <p>How does it work? The Marmalade AI app runs cloud functions against your profile to do just that. 
               All you need is your profile. It is automatic and accurate. </p>
               
-              <p><b>Beta</b>: Subscriptions start in late 2024. 
+              <p><b>Beta</b>: Subscriptions start in Q2 2025. 
               After beta, <i>active subscribers</i> can contact anyone only if, and when, someone is open to it. 
               You control the timing and the topic.
               Monetization? Eventually it will be <i>pay for use</i> and a minimum. 
@@ -88,7 +88,7 @@ const IndexPage = () => {
             </div>
           </div>
           <p>
-  Last reviewed: <time dateTime="2024-4-18">August 28, 2024.</time>
+  Last reviewed: <time dateTime="2025-1-1">January 1, 2025.</time>
 </p>
 
         </body>
