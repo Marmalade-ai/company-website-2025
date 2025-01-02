@@ -25,7 +25,7 @@ const Faq = () => {
         <article className="pt-5">
           <div className="mx-auto">
             <p>
-              Last reviewed: <time dateTime="2024-4-18">August 28, 2024.</time>
+              Last reviewed: <time dateTime="2025-1-1">January 1, 2025.</time>
             </p>
             <br/>
                   

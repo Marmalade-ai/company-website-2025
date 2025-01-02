@@ -28,19 +28,19 @@ const AboutPage = () => {
         <article className="pt-5">
           <div className="mx-auto">
             <p>
-              Last reviewed: <time dateTime="2024-4-17">August 28, 2024.</time>
+              Last reviewed: <time dateTime="2025-1-1">January 1, 2025.</time>
             </p>
             <p>-</p>
             <p>Hi there! We're the company behind Marmalade AI.
             </p>
             <br/>
             <p>Why do this? To use AI to do something useful for people:</p><br/>
-            <p>The problem: <u><b>Inefficiency</b></u>! Peer groups can be powerful for staying up-to-date. How much time can you put into it? 
+            <p>The problem: <i>Inefficiency</i>! Peer groups can be powerful for staying up-to-date. But there is only so much time you can put into it? 
                It can be a lot of work for meager results. It just seemed like there had to be a better way with AI.
             </p>
             <br/>
 
-            <p>The <b>big picture</b>: Reduce our ecological footprint and 
+            <p>The <b>big picture</b>: We need to reduce our ecological footprint and 
             increase our connection with people. 
               It just takes time to assimilate a change this big. We want to help make it happen.
             </p>
