@@ -23,6 +23,7 @@ export const Head = () => (
   </>
 );
 
+
 const IndexPage = () => {
   return (
     <Layout>
