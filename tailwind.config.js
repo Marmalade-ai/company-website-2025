@@ -17,6 +17,11 @@ module.exports = {
       '2xl': '1536px',
     },
     extend: {
+      fontSize: {
+        'xs': '.5rem',
+        'mediumText': '1.00rem', //'1.25rem'
+        'titleStyle': '1.5rem', //1.875rem', // Current size
+      },
     },
   },
   variants: {

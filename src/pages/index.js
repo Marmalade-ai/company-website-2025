@@ -30,16 +30,15 @@ const IndexPage = () => {
         <body>
           <div className="container flex flex-col">
             <div className="grid sm:grid-cols-2 gap-5">
-              <div>
+            
                 <h1 className="largeText gap-5">Effortless networking</h1>
-              </div>
+            
                 <button 
                   className="w-32 bg-[#ff7f00] bg-opacity-50 border border-width-1 hover:underline px-2 py-1 rounded-lg text-black float-right" 
                   onClick={()=>{navigate("https://docs.google.com/forms/d/1eu_w17ssDesxl9iYB2DYgmg_sldKc3q_qBu0EuSAz1g/")}}>
                     Beta signup!
-                </button>
-                {/* button hover:underline px-2 bg-marmalade-200 float-right */}
-            </div>
+                </button> 
+              </div>
             <br/>
             <div className="grid sm:grid-cols-1 gap-5">
         
