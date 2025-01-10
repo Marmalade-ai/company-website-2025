@@ -19,8 +19,8 @@ module.exports = {
     extend: {
       fontSize: {
         'xs': '.5rem',
-        'mediumText': '1.00rem', //'1.25rem'
-        'titleStyle': '1.5rem', //1.875rem', // Current size
+        'mediumText': '.90rem', //'1.25rem'
+        'titleStyle': '1.2rem', //1.875rem', // Current size
       },
     },
   },
