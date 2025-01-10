@@ -9,9 +9,7 @@ export const Head = () => (
     <title>FAQ</title>
     <meta 
       name="description"
-      content="FAQ for the Marmalade networking app
-    beta for UX design,
-      digital marketing, and machine learning."
+      content="FAQ for the Marmalade app."
     />
   </>
 );
@@ -23,11 +21,6 @@ const Faq = () => {
       <main><h1 className="pt-3 pb-3">FAQ</h1>
         <article className="pt-5">
           <div className="mx-auto">
-              <p>
-                Last reviewed: <time dateTime="2025-1-1">January 1, 2025.</time>
-              </p>
-              <br/>
-              {/* <div class="max-w-screen-lg mx-auto"> */}
               <div>
                 <div>
                   <h2>Getting Started</h2>
@@ -85,6 +78,10 @@ const Faq = () => {
 
                     <h3>Where else can I ask questions about Marmalade AI?</h3>
                       <p>Please contact us at <a href="mailto:info@marmalade.ai">info@marmalade.ai</a></p>
+                  <br/>
+                      <p>
+                Last reviewed: <time dateTime="2025-1-9">January 9, 2025.</time>
+              </p>
 
                 </div>
               </div>                

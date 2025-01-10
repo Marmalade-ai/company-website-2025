@@ -20,9 +20,6 @@ const PrivacyPolicy = () => {
     <main><h1 className="pt-3 pb-3">Privacy Policy</h1>
       <article className="pt-5">
       <div className="mx-auto">
-          <p>
-            Last reviewed: <time dateTime="2025-1-9">January 9, 2025.</time>
-          </p>
 
           <p>
             Marmalade AI, Inc. has created this Privacy Notice to explain why we
@@ -174,6 +171,9 @@ const PrivacyPolicy = () => {
             If you have any questions about this Privacy Notice, the practices of
             this site, or your dealings with this site, you can send email to{' '}
             <a href="mailto:privacy@marmalade.ai">privacy@marmalade.ai</a>.
+          </p>
+          <br/><br/>          <p>
+            Last reviewed: <time dateTime="2025-1-9">January 9, 2025.</time>
           </p>
         </div>
       </article>
