@@ -5,10 +5,10 @@ export const Head = () => (
   <> 
     <html lang="en" />
     <meta charSet="utf-8" />
-    <title>Marmalade AI- Privacy Policy</title>
+    <title>Privacy Policy</title>
     <meta 
       name="description"
-      content="Marmalade AI, Inc. will keep your information private and will not do advertising."
+      content="Marmalade AI, Inc. will not do advertising on the website."
     />
   </>
 );
@@ -21,7 +21,7 @@ const PrivacyPolicy = () => {
       <article className="pt-5">
       <div className="mx-auto">
           <p>
-            Last reviewed: <time dateTime="2025-1-1">January 1, 2025.</time>
+            Last reviewed: <time dateTime="2025-1-9">January 9, 2025.</time>
           </p>
 
           <p>

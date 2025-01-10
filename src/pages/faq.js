@@ -6,7 +6,7 @@ export const Head = () => (
   <> 
     <html lang="en" />
     <meta charSet="utf-8" />
-    <title>Marmalade peer groups - FAQ</title>
+    <title>FAQ</title>
     <meta 
       name="description"
       content="FAQ for the Marmalade networking app

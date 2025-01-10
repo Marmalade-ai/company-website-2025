@@ -9,7 +9,7 @@ export const Head = () => (
     <meta 
       name="description"
       content="We started with the problems people encounter with networking:
-      You go to an event, for example, and later find out you missed someone you should have met.
+      You go to an event, and later find out you missed someone you should have met.
       People you know from the past have no idea what you are doing now.
       Networking can be powerful. But there's only 24 hours in the day.
       We found each other through research, connected remotely, and developed a prototype.
@@ -21,7 +21,7 @@ export const Head = () => (
 const AboutPage = () => {
   return (
     <Layout>
-      <main><h1 className="pt-3 pb-3">About Marmalade AI, Inc.</h1>
+      <main><h1 className="pt-3 pb-3">About</h1>
         <article className="pt-5">
           <div className="mx-auto">
             <p>
