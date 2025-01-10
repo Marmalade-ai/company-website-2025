@@ -8,17 +8,16 @@ export const Head = () => (
   <> 
     <html lang="en" />
     <meta charSet="utf-8" />
-    <title>Peer groups in UX Design, Digital Marketing, and Machine Learning</title>
+    <title>Marmalade AI - effortless networking.</title>
     <meta 
       name="description"
-      content="How do I create and use peer groups in UX design, digital marketing, and machine learning to stay up-to-date? 
-      Nice would be: just have a profile, and automatically create a peer group based on tahat. That is
-      what the Marmalade AI app does. In beta, for specialists in UX design, digital marketing, and machine learning, it 
-      peer groups for people who really need to connect to each other to stay up-to-date. Traditional
-      networking (through meetups, one-on-ones, or services like Linkedin, TopTal, UpWork, or Indeed
-      are not all that useful. They're also too expensive and time-consuming. Using your profile, 
-      Marmalade AI runs cloud functions to create a peer group for you. When, where, and with who you connect is under your 
-      control. Marmalade AI is a subscription web-based service in the U.S. on phones, laptops, and desktops."
+      content="Marmalade AI - effortless networking. Starting with automatic 
+      peer groups in UX design, digital marketing, and machine learning 
+      in beta April 1, 2025. 
+      Marmalade AI runs cloud functions to create peer groupa. 
+      When, where, and with who you connect is under your 
+      control. Marmalade AI will be a subscription web-based service 
+      in the U.S. on phones, laptops, and desktops."
     />
   </>
 );
@@ -32,7 +31,7 @@ const IndexPage = () => {
           <div className="container flex flex-col">
             <div className="grid sm:grid-cols-2 gap-5">
               <div>
-                <h1 className="largeText gap-5"><i>Automatic</i> Peer Groups</h1>
+                <h1 className="largeText gap-5">Effortless networking</h1>
               </div>
                 <button 
                   className="w-32 bg-[#ff7f00] bg-opacity-50 border border-width-1 hover:underline px-2 py-1 rounded-lg text-black float-right" 
@@ -46,21 +45,13 @@ const IndexPage = () => {
         
             </div>
             <div  className="grid sm:grid-cols-1 gap-5">
-              <p>What if, given my profile, an app could automatically and accurately network me?</p>
-              
-              <p>How does it work? The Marmalade AI app runs cloud functions against your profile to do just that. 
-              All you need is your profile. It is automatic and accurate. </p>
-              
-              <p><b>Beta</b>: Subscriptions start in Q2 2025. 
-              After beta, <i>active subscribers</i> can contact anyone only if, and when, someone is open to it. 
-              You control the timing and the topic.
-              Monetization? Eventually it will be <i>pay for use</i> and a minimum. 
+              <p>How does it work?  
+                A cloud function uses NLP/machine learning to scan your profile  
+                and create a peer group. You can work with peers online!
               </p>
-            
-              <p>The beta is for people 
+              <p>The beta is for  
                 in <b>UX design</b>, <b>digital marketing</b>, and <b>machine learning</b>. 
-              Yes, we will open it up later. The beta has a narrow focus. So if that is not you, please mention us to
-              friends who are. </p>
+              </p>
             
             </div>
             <br/>
@@ -68,7 +59,7 @@ const IndexPage = () => {
             <div className="grid sm:grid-cols-2 gap-5">
               <div>
                 <h2 className="py-2">Accurate</h2>
-                  <h3>Peer group!</h3>
+                  <h3>Networking</h3>
                     <p class="mb-8">Write your profile or copy/paste it. Be in touch to share work and stay current.</p>
                       <StaticImage
                         alt="Marmalade AI gives you a network that reflects you."
@@ -77,7 +68,7 @@ const IndexPage = () => {
               </div>
               <div>
                 <h2 class="py-2">Automatic</h2>
-                 <h3>Effortless!</h3>
+                 <h3>Effortlessly</h3>
                     <p class="mb-8">Change your profile and  
                       your virtual network automatically changes.</p>
                       <StaticImage
@@ -89,7 +80,7 @@ const IndexPage = () => {
             </div>
           </div>
           <p>
-  Last reviewed: <time dateTime="2025-1-1">January 1, 2025.</time>
+  Last reviewed: <time dateTime="2025-1-9">January 9, 2025.</time>
 </p>
 
         </body>
