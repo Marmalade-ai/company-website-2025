@@ -6,7 +6,7 @@ export const Head = () => (
   <> 
     <html lang="en" />
     <meta charSet="utf-8" />
-    <title>Marmalade AI - Code of Conduct</title>
+    <title>Code of Conduct</title>
     <meta 
       name="description"
       content="The Marmalade AI Code of Conduct is based on Contributor Covenant, version 1.4."
@@ -22,7 +22,7 @@ const CodeOfConduct = () => (
 
       <div className="mx-auto">
           <p>
-            Last reviewed: <time dateTime="2025-1-1">January 1, 2025.</time>
+            Last reviewed: <time dateTime="2025-1-1">January 9, 2025.</time>
           </p>
 
         <h2>Our Pledge</h2>
