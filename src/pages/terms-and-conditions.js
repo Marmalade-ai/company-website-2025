@@ -27,8 +27,8 @@ const TermsAndConditions = () => {
         <div className="mx-auto">
 <h2>Our Mission and Business Model</h2>
 <br/>
-<p>Our mission is to improve work by improving 
-    peer groups. We offer free and paid subscriptions (&quot;products&quot;, SaaS: Software as a Service) and hope you will 
+<p>Our mission is to improve work by making networking effortless. 
+    We will offer free and paid subscriptions (&quot;products&quot;, SaaS: Software as a Service) and hope you will 
     subscribe to a paid subscription. We don't sell your data.</p>
 <br/>
 <h2>Who We Are</h2>

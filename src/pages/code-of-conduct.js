@@ -16,7 +16,7 @@ export const Head = () => (
 
 const CodeOfConduct = () => (
   <Layout>
-    {/* <Seo title="Code of Conduct" description="Code of Conduct" /> */}
+    <br/>
     <h1>Code of Conduct</h1>
     <article className="pt-5">
 
@@ -35,7 +35,7 @@ const CodeOfConduct = () => (
 
         <h2>Our Standards</h2>
         <p>
-          Examples of behavior that contributes to creating a positive
+          Examples of behavior that contribute to creating a positive
           environment include:
         </p>
         <ul class="list-disc list-inside text-sm">
@@ -69,7 +69,7 @@ const CodeOfConduct = () => (
         <h2>Our Responsibilities</h2>
         <p>
           Marmalade AI administrators are responsible for clarifying the
-          standards of acceptable behavior and is expected to take appropriate
+          standards of acceptable behavior and are expected to take appropriate
           and fair corrective action in response to any instances of
           unacceptable behavior.
         </p>

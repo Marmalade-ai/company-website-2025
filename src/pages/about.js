@@ -28,8 +28,9 @@ const AboutPage = () => {
             </p>
             <br/>
             <p>Why do this? To use AI to do something useful for people:</p><br/>
-            <p>The problem: <i>Inefficiency</i>! Peer groups can be powerful for staying up-to-date. But there is only so much time you can put into it? 
-               It can be a lot of work for meager results. It just seemed like there had to be a better way with AI.
+            <p>The problem: <b>Network effortlessly</b>! Peer groups are powerful for staying up-to-date, 
+            but there is only so much time you can put into it. 
+               It is a lot of work for meager results. It just seemed like there had to be a better way with AI.
             </p>
             <br/>
 

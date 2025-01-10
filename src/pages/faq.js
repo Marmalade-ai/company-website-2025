@@ -36,8 +36,8 @@ const Faq = () => {
                 <div>
                   <h2>Building Your network</h2>
                     <h3>How do I network?</h3>
-                      <p>Fill out your profile, and you get a peer group with people are registered. 
-                        Please check back regularly as people join.</p>
+                      <p>Fill out your profile, and you get a peer group with people that are registered. 
+                        Please check back regularly as the network changes.</p>
                     
                     <h3>Can I find a job through this?</h3>
                       <p>Our focus is networking.  
@@ -53,12 +53,11 @@ const Faq = () => {
                       <p>Indicate that.</p>
 
                     <h3>How do I contact people?</h3>
-                      <p>We want to incorporate video chat, including calls and 
-                        scheduled calls, indicating you are not available (default), and                     (when), 
+                      <p>Email, text, etc.; also, we will incorporate video chat. You can indicate if you are not available (the default), and                     (when), 
                         about what topics.</p>
                     
                     <h3>What if my area is not supported?</h3>
-                      <p>In beta, however, the focus is on 
+                      <p>In beta, we are testing  
                         a small number of specific fields. If your area is not covered,
                         you may not find the matching to be as good.</p>
                 </div>

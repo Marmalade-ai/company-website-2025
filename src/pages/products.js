@@ -35,7 +35,7 @@ const Faq = () => {
             <h3>Production:</h3>
     
               <p>- <i>Passive</i>: You can be contacted on topics and at times you control.</p>
-              <p>- <i>Active</i>: You can initiate contact on a <i>pay for use</i> basis.</p>
+              <p>- <i>Active</i>: You can initiate contact.</p>
     
             <br/>
               <p>
