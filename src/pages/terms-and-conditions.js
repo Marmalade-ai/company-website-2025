@@ -21,18 +21,14 @@ const TermsAndConditions = () => {
 
 <Layout>
    <main>
-     <h1>Terms and Conditions</h1>
+   <br/>
+   <h1>Terms and Conditions</h1>
       <article className="pt-5">
         <div className="mx-auto">
-          <p>
-            Last reviewed: <time dateTime="2025-1-1">January 1, 2025.</time>
-          </p>
-
-<br/>
 <h2>Our Mission and Business Model</h2>
 <br/>
-<p>Our mission is to improve work by improving 
-    peer groups. We offer free and paid subscriptions (&quot;products&quot;, SaaS: Software as a Service) and hope you will 
+<p>Our mission is to improve work by making networking effortless. 
+    We will offer free and paid subscriptions (&quot;products&quot;, SaaS: Software as a Service) and hope you will 
     subscribe to a paid subscription. We don't sell your data.</p>
 <br/>
 <h2>Who We Are</h2>
@@ -396,6 +392,9 @@ If you have any questions about these Terms and Conditions, the practices of
 this site, or your dealings with this site, you can send email to 
 <a href="mailto:terms@marmalade.ai">terms@marmalade.ai</a>
 </p>
+<br/>          <p>
+            Last reviewed: <time dateTime="2025-1-9">January 9, 2025.</time>
+          </p>
 
 </div>
 </article>

@@ -5,10 +5,10 @@ export const Head = () => (
   <> 
     <html lang="en" />
     <meta charSet="utf-8" />
-    <title>Marmalade AI- Privacy Policy</title>
+    <title>Privacy Policy</title>
     <meta 
       name="description"
-      content="Marmalade AI, Inc. will keep your information private and will not do advertising."
+      content="Marmalade AI, Inc. will not do advertising on the website."
     />
   </>
 );
@@ -20,9 +20,6 @@ const PrivacyPolicy = () => {
     <main><h1 className="pt-3 pb-3">Privacy Policy</h1>
       <article className="pt-5">
       <div className="mx-auto">
-          <p>
-            Last reviewed: <time dateTime="2025-1-1">January 1, 2025.</time>
-          </p>
 
           <p>
             Marmalade AI, Inc. has created this Privacy Notice to explain why we
@@ -174,6 +171,9 @@ const PrivacyPolicy = () => {
             If you have any questions about this Privacy Notice, the practices of
             this site, or your dealings with this site, you can send email to{' '}
             <a href="mailto:privacy@marmalade.ai">privacy@marmalade.ai</a>.
+          </p>
+          <br/><br/>          <p>
+            Last reviewed: <time dateTime="2025-1-9">January 9, 2025.</time>
           </p>
         </div>
       </article>

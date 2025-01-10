@@ -6,7 +6,7 @@ export const Head = () => (
   <> 
     <html lang="en" />
     <meta charSet="utf-8" />
-    <title>Marmalade AI - Code of Conduct</title>
+    <title>Code of Conduct</title>
     <meta 
       name="description"
       content="The Marmalade AI Code of Conduct is based on Contributor Covenant, version 1.4."
@@ -16,14 +16,11 @@ export const Head = () => (
 
 const CodeOfConduct = () => (
   <Layout>
-    {/* <Seo title="Code of Conduct" description="Code of Conduct" /> */}
+    <br/>
     <h1>Code of Conduct</h1>
     <article className="pt-5">
 
       <div className="mx-auto">
-          <p>
-            Last reviewed: <time dateTime="2025-1-1">January 1, 2025.</time>
-          </p>
 
         <h2>Our Pledge</h2>
         <p>
@@ -38,7 +35,7 @@ const CodeOfConduct = () => (
 
         <h2>Our Standards</h2>
         <p>
-          Examples of behavior that contributes to creating a positive
+          Examples of behavior that contribute to creating a positive
           environment include:
         </p>
         <ul class="list-disc list-inside text-sm">
@@ -72,7 +69,7 @@ const CodeOfConduct = () => (
         <h2>Our Responsibilities</h2>
         <p>
           Marmalade AI administrators are responsible for clarifying the
-          standards of acceptable behavior and is expected to take appropriate
+          standards of acceptable behavior and are expected to take appropriate
           and fair corrective action in response to any instances of
           unacceptable behavior.
         </p>
@@ -120,6 +117,9 @@ const CodeOfConduct = () => (
             https://www.contributor-covenant.org/faq
           </a>
           .
+<br/><br/>          <p>
+            Last reviewed: <time dateTime="2025-1-9">January 9, 2025.</time>
+          </p>
         </p>
       </div>
     </article>
