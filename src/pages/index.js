@@ -31,12 +31,12 @@ const IndexPage = () => {
           <div className="container flex flex-col">
             <div className="grid sm:grid-cols-2 gap-5">
             
-                <h1 className="largeText gap-5">Effortless networking</h1>
+                <h1 className="largeText gap-5">Marmalade AI: effortless networking</h1>
             
                 <button 
-                  className="w-32 bg-[#ff7f00] bg-opacity-50 border border-width-1 hover:underline px-2 py-1 rounded-lg text-black float-right" 
+                  className="w-20 bg-[#ff7f00] bg-opacity-50 border border-width-1 hover:underline px-2 py-1 rounded-lg text-black float-right" 
                   onClick={()=>{navigate("https://docs.google.com/forms/d/1eu_w17ssDesxl9iYB2DYgmg_sldKc3q_qBu0EuSAz1g/")}}>
-                    Beta signup!
+                    Beta!
                 </button> 
               </div>
             <br/>

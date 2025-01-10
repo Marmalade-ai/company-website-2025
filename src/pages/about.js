@@ -5,18 +5,15 @@ export const Head = () => (
   <> 
     <html lang="en" />
     <meta charSet="utf-8" />
-    <title>About Marmalade AI peer groups</title>
+    <title>About</title>
     <meta 
       name="description"
-      content="We started with user research into the common problems people in various 
-      career stages and professions encounter with peer groups:
-      1) Missed opportunity: You go to an event, for example, and later learn there was someone there you should have met.
-      2) Staying in touch: People you know from the past have no idea what you are doing now. They could be helpful, but they don't know.
-      3) Inefficiency: Peer groups can be powerful. But there's only so much time you can put into it.
-      We found each other through our research, connected remotely, and developed a prototype online.
-      The beta runs a Vue front end with a GCP backend and cloud functions. We wanted an easy-to-use,
-      &quot;responsive&quot; and ubiquitous interaction that could work on phones, laptops, and desktops. We wanted
-      to see how we could solve problems like the above, and then see where that led."
+      content="We started with the problems people encounter with networking:
+      You go to an event, for example, and later find out you missed someone you should have met.
+      People you know from the past have no idea what you are doing now.
+      Networking can be powerful. But there's only 24 hours in the day.
+      We found each other through research, connected remotely, and developed a prototype.
+      The beta runs Vue with a Google Cloud backend and cloud functions.."
     />
   </>
 );
