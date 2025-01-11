@@ -8,10 +8,11 @@ export const Head = () => (
   <> 
     <html lang="en" />
     <meta charSet="utf-8" />
-    <title>Marmalade AI - effortless networking.</title>
+    <title>Marmalade AI - effortless networks</title>
     <meta 
       name="description"
-      content="Marmalade AI - effortless networking. Starting with automatic 
+      content="Marmalade AI - effortless networks. Please tell us what you
+      need for automatic peer groups. We are starting with automatic 
       peer groups in UX design, digital marketing, and machine learning 
       in beta April 1, 2025. 
       Marmalade AI runs cloud functions to create peer groupa. 
