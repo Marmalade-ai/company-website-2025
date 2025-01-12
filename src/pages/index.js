@@ -50,8 +50,7 @@ const IndexPage = () => {
                                 onClick={()=>{navigate("https://docs.google.com/forms/d/1eu_w17ssDesxl9iYB2DYgmg_sldKc3q_qBu0EuSAz1g/")}}>
                                   Free beta
                       </button>
-                April 1, 2025 only in <b>UX design</b>, <b>digital marketing</b>, and 
-                <b>machine learning</b>.</p>
+                April 1, 2025 only in <b>UX design</b>, <b>digital marketing</b>, and <b>machine learning</b>.</p>
                 <p>And please tell us how to improve it!
               </p>
             
