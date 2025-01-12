@@ -8,16 +8,16 @@ export const Head = () => (
   <> 
     <html lang="en" />
     <meta charSet="utf-8" />
-    <title>Marmalade AI - effortless networks</title>
+    <title>Marmalade AI - effortless</title>
     <meta 
       name="description"
       content="Marmalade AI - effortless networks. Please tell us what you
-      need for automatic peer groups. We are starting with automatic 
+      need for automatic peer groups. Beta starts with automatic 
       peer groups in UX design, digital marketing, and machine learning 
-      in beta April 1, 2025. 
+      on April 1, 2025. How does it work: 
       Marmalade AI runs cloud functions to create peer groupa. 
       When, where, and with who you connect is under your 
-      control. Marmalade AI will be a subscription web-based service 
+      control. Marmalade AI is a subscription web-based service 
       in the U.S. on phones, laptops, and desktops."
     />
   </>
@@ -39,12 +39,20 @@ const IndexPage = () => {
         
             </div>
             <div  className="grid sm:grid-cols-1 gap-5">
-              <p>How does it work?  
-                A cloud function uses NLP/machine learning to scan your profile  
-                and create a peer group. You can work with peers online!
+              <p>  
+                <b>Effortless networks.</b> How does it work? You create (or update)
+                your profile, then we run a cloud function against it and use AI to 
+                create a peer group! You change 
+                your profile and your network changes.
               </p>
-              <p>The beta is for  
-                in <b>UX design</b>, <b>digital marketing</b>, and <b>machine learning</b>. 
+              <p><button 
+                                className="w-30 bg-[#ff7f00] bg-opacity-100 border border-width-1 hover:underline px-1 py-0 rounded-lg text-black float-left" 
+                                onClick={()=>{navigate("https://docs.google.com/forms/d/1eu_w17ssDesxl9iYB2DYgmg_sldKc3q_qBu0EuSAz1g/")}}>
+                                  Free beta
+                      </button>
+                April 1, 2025 only in <b>UX design</b>, <b>digital marketing</b>, and 
+                <b>machine learning</b>.</p>
+                <p>And please tell us how to improve it!
               </p>
             
             </div>
@@ -74,7 +82,14 @@ const IndexPage = () => {
             </div>
           </div>
           <p>
-  Last reviewed: <time dateTime="2025-1-9">January 9, 2025.</time>
+          <button 
+                                className="w-30 bg-[#ff7f00] bg-opacity-100 border border-width-1 hover:underline px-1 py-0 rounded-lg text-black float-left" 
+                                onClick={()=>{navigate("https://docs.google.com/forms/d/1eu_w17ssDesxl9iYB2DYgmg_sldKc3q_qBu0EuSAz1g/")}}>
+                                  Free beta
+                      </button>
+  </p>
+  <br/><br/>
+  <p>Last reviewed: <time dateTime="2025-1-9">January 9, 2025.</time>
 </p>
 
         </body>
