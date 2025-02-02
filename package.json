@@ -34,10 +34,6 @@
     "react-calendly": "^4.1.1",
     "react-dom": "^18.2.0"
   },
-  "engines": {
-    "node": "18.17.1",
-    "npm": "9.6.7"
-  },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
     "gatsby-plugin-gatsby-cloud": "^5.7.0",
