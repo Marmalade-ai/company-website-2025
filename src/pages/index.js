@@ -11,14 +11,15 @@ export const Head = () => (
     <title>Marmalade AI - effortless</title>
     <meta 
       name="description"
-      content="Marmalade AI - effortless networks. Please tell us what you
-      need for automatic peer groups. Beta starts with automatic 
-      peer groups in UX design, digital marketing, and machine learning 
-      on April 1, 2025. How does it work: 
+      content="Marmalade AI - effortless networking. 
+      Please tell us what we should do to better support your networking. 
+      Beta starts April 1, 2025 in NYC, focused on people in UX design, 
+      digital marketing, and machine learning. How does it work? 
       Marmalade AI runs cloud functions to create peer groupa. 
-      When, where, and with who you connect is under your 
-      control. Marmalade AI is a subscription web-based service 
-      in the U.S. on phones, laptops, and desktops."
+      When, where, and with who you connect is up to you. 
+      We are just showing who is nearby that it seems like you should know. 
+      Marmalade AI is a subscription web-based service 
+      in the NYC Metro Area for now on phones, laptops, and desktops."
     />
   </>
 );
