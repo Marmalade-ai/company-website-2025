@@ -41,18 +41,17 @@ const IndexPage = () => {
             </div>
             <div  className="grid sm:grid-cols-1 gap-5">
               <p>  
-                <b>Effortless networks.</b> How does it work? You create (or update)
+                <b>Effortless networking</b>. How does it work? You create (or update)
                 your profile, then we run a cloud function against it and use AI to 
-                create a peer group! You change 
-                your profile and your network changes.
+                create a peer group! 
               </p>
               <p><button 
                                 className="w-30 bg-[#ff7f00] bg-opacity-100 border border-width-1 hover:underline px-1 py-0 rounded-lg text-black float-left" 
                                 onClick={()=>{navigate("https://docs.google.com/forms/d/1eu_w17ssDesxl9iYB2DYgmg_sldKc3q_qBu0EuSAz1g/")}}>
                                   Free beta
                       </button>
-                April 1, 2025 only in <b>UX design</b>, <b>digital marketing</b>, and <b>machine learning</b>.</p>
-                <p>And please tell us how to improve it!
+                 April 1, 2025 beta starts NYC in <b>UX design</b>, <b>digital marketing</b>, and <b>machine learning</b>.</p>
+                <p>If that's you, bring your friends. And please tell us how to improve it!
               </p>
             
             </div>
