@@ -40,7 +40,7 @@ const AboutPage = () => {
             </p>
             <br/>
             <p>
-              Last reviewed: <time dateTime="2025-1-9">April 5, 2025.</time>
+              Last reviewed: <time dateTime="2025-4-11">April 11, 2025.</time>
             </p>
           </div>
         </article>

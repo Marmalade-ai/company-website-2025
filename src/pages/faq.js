@@ -79,7 +79,7 @@ const Faq = () => {
                       <p>Please contact us at <a href="mailto:info@marmalade.ai">info@marmalade.ai</a></p>
                   <br/>
                       <p>
-                Last reviewed: <time dateTime="2025-1-9">January 9, 2025.</time>
+                Last reviewed: <time dateTime="2025-4-11">April 11, 2025.</time>
               </p>
 
                 </div>
