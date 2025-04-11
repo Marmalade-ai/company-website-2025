@@ -27,20 +27,20 @@ const AboutPage = () => {
             <p>Hi there! We're the company behind Marmalade AI.
             </p>
             <br/>
-            <p>Why do this? To use AI to do something useful for people:</p><br/>
-            <p>The problem: <b>Network effortlessly</b>! Peer groups are powerful for staying up-to-date, 
-            but there is only so much time you can put into it. 
+            <p>Why do this? To use AI to make networking effortless:</p><br/>
+            <p>The problem: Networks are powerful for staying up-to-date, 
+            but there is only so much time you can put into networking. 
                It is a lot of work for meager results. It just seemed like there had to be a better way with AI.
             </p>
             <br/>
 
             <p>The <b>big picture</b>: We need to reduce our ecological footprint and 
-            increase our connection with people. 
-              It takes time to assimilate a change this big. We want to help make it happen.
+            increase our connection with people. These are big changes. 
+              It takes time to assimilate changes this big. We want to help make it happen.
             </p>
             <br/>
             <p>
-              Last reviewed: <time dateTime="2025-1-9">January 9, 2025.</time>
+              Last reviewed: <time dateTime="2025-4-11">April 11, 2025.</time>
             </p>
           </div>
         </article>
