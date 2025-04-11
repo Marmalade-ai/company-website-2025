@@ -38,9 +38,8 @@ const Faq = () => {
               <p>- <i>Active</i>: You can initiate contact.</p>
     
             <br/>
-              <p>
-              Last reviewed: <time dateTime="2025-1-9">January 9, 2025.</time>
-            </p>
+              <time><p>April 5, 2025.</p></time>
+            {/* </p> */}
           </div>
         </article>
       </main>
