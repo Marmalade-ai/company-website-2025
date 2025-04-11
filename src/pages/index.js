@@ -49,7 +49,7 @@ const IndexPage = () => {
                                 onClick={()=>{navigate("https://docs.google.com/forms/d/1eu_w17ssDesxl9iYB2DYgmg_sldKc3q_qBu0EuSAz1g/")}}>
                                   Beta signup
                       </button>
-                 Later in 2025 our beta starts NYC for people in <b>machine learning</b>, <b>digital marketing</b>, and <b>UX design</b>.</p>
+                 Later in 2025 our beta starts in NYC for people in <b>machine learning</b>, <b>digital marketing</b>, and <b>UX design</b>.</p>
                 <p>Please bring your friends. And please tell us how to improve it!
               </p>
             
