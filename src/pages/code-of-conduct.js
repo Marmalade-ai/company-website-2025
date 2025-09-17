@@ -118,7 +118,7 @@ const CodeOfConduct = () => (
           </a>
           .
 <br/><br/>          <p>
-            Last reviewed: <time dateTime="2025-1-9">January 9, 2025.</time>
+            Last reviewed: <time dateTime="2025-9-16">September 16, 2025.</time>
           </p>
         </p>
       </div>

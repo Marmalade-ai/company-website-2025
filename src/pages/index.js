@@ -12,14 +12,13 @@ export const Head = () => (
     <meta 
       name="description"
       content="Marmalade AI - effortless networking. 
-      Please tell us what we should do to better support your networking. 
-      Beta starts later in 2025 in NYC, focused on people in UX design, 
+      Please tell us what we should do to provide you with a peer network. 
+      Beta starts in NYC, focused on people in UX design, 
       digital marketing, and machine learning. How does it work? 
-      Marmalade AI runs cloud functions to create peer groupa. 
+      Marmalade AI runs cloud functions to create peer networks. 
       When, where, and with who you connect is up to you. 
       We show who is nearby that you should know. 
-      Marmalade AI is a subscription web-based service 
-      on phones, laptops, and desktops."
+      Marmalade AI is a subscription web-based service."
     />
   </>
 );
@@ -63,18 +62,18 @@ const IndexPage = () => {
               <div>
                 <h2 className="py-2">What do I do?</h2>
                   {/* <h3>Networking</h3> */}
-                    <p class="mb-8">Write what you do, or copy/paste it. Default is your area.</p>
+                    <p class="mb-8">Write what you do, or copy/paste it. Default is for your geographical area.</p>
                       <StaticImage
-                        alt="Marmalade AI just asks you to say what you do."
+                        alt="Marmalade AI: just say what you do."
                         src="../../images/Screenshot at 2023-04-16 23-52-28.png"
                       />
               </div>
               <div>
-                <h2 class="py-2">What's the result?</h2>
+                <h2 class="py-2">What&apos;s the result?</h2>
                  {/* <h3>Effortless</h3> */}
-                    <p class="mb-8">A peer network that's relevant, automatic, and effortless.</p>
+                    <p class="mb-8">A peer network that&apos;s relevant, automatic, and effortless.</p>
                       <StaticImage
-                        alt="Marmalade AI automatically creates an accurate virtual network."
+                        alt="Marmalade AI use this to create a peer network."
                         // src="../../images/matching_565.png"
                         src="../../images/pexels-jane-trang-doan-1024248_565x399.jpg"
                       />

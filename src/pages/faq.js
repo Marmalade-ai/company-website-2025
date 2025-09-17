@@ -64,8 +64,8 @@ const Faq = () => {
                     
                     <h3>What if my area is not supported?</h3>
                       <p>Beta is limited to  
-                        specific fields in New York Metro Area. If your specialization is not included,
-                        you may not find the matching to be very good.</p>
+                        specific fields in New York Metro Area. If your specialization is not included or you are outside the area,
+                        it is not going to be useful.</p>
                 </div>
                 <div>
                   <h2>Your Information</h2>
@@ -76,7 +76,7 @@ const Faq = () => {
                       <p>No.</p>
                     
                     <h3>Will there be advertising?</h3>
-                      <p>No plan. If we add that later, we would say so.</p>
+                      <p>No plans right now. If we add that later, we would say so.</p>
                     
                     <h3>How do you plan to make money?</h3>
                       <p>As a freemium subscription service.</p>
