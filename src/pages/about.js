@@ -28,13 +28,13 @@ const AboutPage = () => {
         <article className="pt-5">
           <div className="mx-auto">
             <p>Hi there! We&apos;re the company behind Marmalade AI. The original co-founders looked like this. 
-              Well, maybe not the green hair. We've also learned a lot from 6 interns. 
+              Well, maybe not the green hair. We've also learned a lot from interns. 
               Goal: open source, or maybe "open core."</p>
               <br/>
-              <p>A previous mobile CRM company was a classic Series A (https://en.wikipedia.org/wiki/Series_A_round) with venture firms. 
-              It took 18 months of knocking on 60-80 VC doors. We didn't want to waste time, so we'd
-              bootstrap and "let investors come to us" at <i>beta</i>. Um, yeah. It took longer, people needed 
-              money, and now... 
+              <p>A previous mobile CRM company was a classic Series A and grew to 40 people. 
+              But it took 18 months of knocking on 60-80 VC doors. We didn&apos;t want to waste time, so we would
+              bootstrap and &quot;let investors come to us&quot; when we had <i>beta</i>. Um, yeah. 
+              It took longer, people needed money, and so here we are... 
             </p>
               <div>
                   <StaticImage
@@ -53,7 +53,7 @@ const AboutPage = () => {
             </p>
             <br/>
 
-            <p>Also, we really  to learn how to work remotely: it is just more efficient, 
+            <p>Also, we really need to learn to work remotely: it is just more efficient, 
             reduces our ecological footprint, and increases our connection with other people. 
             We want to help make it happen.
             </p>
