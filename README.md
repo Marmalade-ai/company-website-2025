@@ -1,15 +1,14 @@
-## Company Website - January 2025 Changes
+## Company Website - January and September 2025 Changes
 
 Changes: 
-- Update to 2025, including copyrights.
+- Rewrite for 2025 reality.
+- Built for Gatsby 5 and with Node 18.14.0. If a version is installed using nvm, you can switch to it like
 
-Note: Gatsby 5 requires Node 18. If a version is installed using nvm, you can switch to it like
-
-    nvm use 20.12.2 
+    nvm install v18.14.0; nvm use 18.14.0 
 
 ## Installation steps:
 
-Git clone, check `node --version` is 18+, then run 
+Git clone, check `node --version` is 18.14.0, then run 
 
     npm i
     gatsby develop 
@@ -18,46 +17,9 @@ Then browse to localhost:8000/
 
 Or `gatsby develop -H 0.0.0.0` and browse to <IP server address>:8000/ 
 
-May require `gatsby develop --legacy-peer-deps`
+Used to require `gatsby develop --legacy-peer-deps` but does not seem to now.
  
-
-
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby Minimal Starter
-</h1>
-
-## 🚀 Quick start
-
-1.  **Create a Gatsby site.**
-
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
-
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
-
-2.  **Start developing.**
-
-    Navigate into your new site’s directory and start it up.
-
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
-
-3.  **Open the code and start customizing!**
-
-    Your site is now running at http://localhost:8000!
-
-    Edit `src/pages/index.js` to see your site update in real-time!
-
-4.  **Learn more**
+- Gatsby links:
 
     - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
     - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
