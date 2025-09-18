@@ -29,16 +29,16 @@ const Faq = () => {
             <button 
                   className="w-30 bg-[#ff7f00] bg-opacity-100 border border-width-1 hover:underline px-1 py-0 rounded-lg text-black" 
                   onClick={()=>{navigate("https://docs.google.com/forms/d/1eu_w17ssDesxl9iYB2DYgmg_sldKc3q_qBu0EuSAz1g/")}}>
-                    Try for free
+                    click to sign up!
             </button>
     
-            <h3>Production:</h3>
+            {/* <h3>Production:</h3>
     
               <p>- <i>Passive</i>: You can be contacted on topics and at times you control.</p>
               <p>- <i>Active</i>: You can initiate contact.</p>
     
-            <br/>
-              <time><p>April 5, 2025.</p></time>
+            <br/> */}
+              <time><p>September 16, 2025.</p></time>
             {/* </p> */}
           </div>
         </article>
