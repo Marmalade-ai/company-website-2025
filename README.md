@@ -11,19 +11,17 @@ Changes:
 Git clone, check `node --version` is 18.14.0, then run 
 
     npm i
-    gatsby develop 
+    npm run develop 
   
 Then browse to localhost:8000/ 
 
-Or `gatsby develop -H 0.0.0.0` and browse to <IP server address>:8000/ 
-
-Used to require `gatsby develop --legacy-peer-deps` but does not seem to now.
+Used to require `--legacy-peer-deps` but does not seem to be the case now.
  
 - Gatsby links:
 
     - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
     - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+    <!-- - [Guides](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter) -->
     - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
     - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
     - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
