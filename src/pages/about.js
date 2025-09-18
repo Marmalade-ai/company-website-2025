@@ -27,7 +27,14 @@ const AboutPage = () => {
       <main><h1 className="pt-3 pb-3">About</h1>
         <article className="pt-5">
           <div className="mx-auto">
-            <p>Hi there! We&apos;re the company behind Marmalade AI.
+            <p>Hi there! We&apos;re the company behind Marmalade AI. The original co-founders looked like this. 
+              Well, maybe not the green hair. We've also learned a lot from 6 interns. 
+              Goal: open source, or maybe "open core."</p>
+              <br/>
+              <p>A previous mobile CRM company was a classic Series A (https://en.wikipedia.org/wiki/Series_A_round) with venture firms. 
+              It took 18 months of knocking on 60-80 VC doors. We didn't want to waste time, so we'd
+              bootstrap and "let investors come to us" at <i>beta</i>. Um, yeah. It took longer, people needed 
+              money, and now... 
             </p>
               <div>
                   <StaticImage
@@ -38,10 +45,11 @@ const AboutPage = () => {
 
             <br/>
             <p class="mb-8">A peer network that&apos;s relevant, automatic, and effortless?</p>
-            <p>Why do this? Well, it seemed like it should be possible to have great peer networks, 
-              learn from others, teach others, and move everything forward.</p><br/>
-            <p>Networks can be powerful, but there is only so much time for networking. 
-               It seemed very inefficient. There had to be a better way.
+            <p>Why do this? Well, it still seems like a good idea. It seems like it should be possible to have great peer networks, 
+              learn from others, teach others, and make the world a better place. LLMs get better week by week. We could be place
+              to run those.</p><br/>
+            <p>Networks can be powerful, but there is only so much time for networking. Like, 24 hours in a day. 
+               There has to be a better way.
             </p>
             <br/>
 

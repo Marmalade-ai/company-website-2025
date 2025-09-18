@@ -62,7 +62,7 @@ const IndexPage = () => {
               <div>
                 <h2 className="py-2">What do I do?</h2>
                   {/* <h3>Networking</h3> */}
-                    <p class="mb-8">Write what you do, or copy/paste it. Default is for your geographical area.</p>
+                    <p class="mb-8">Write what you do, or copy/paste it. The default is your geographical area.</p>
                       <StaticImage
                         alt="Marmalade AI: just say what you do."
                         src="../../images/Screenshot at 2023-04-16 23-52-28.png"
