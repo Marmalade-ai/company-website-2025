@@ -8,7 +8,7 @@ export const Head = () => (
     <title>Marmalade AI - Terms and Conditions</title>
     <meta 
       name="description"
-      content="Marmalade AI, Inc. has Terms and Conditions for use 
+      content="Marmalade AI has Terms and Conditions for use 
       of the application."
     />
   </>
@@ -132,7 +132,7 @@ not be unique or repeatable, and Marmalade AI may generate the same or similar o
 <br/>
 <p>
 <i>Usage Limits</i>. Depending on your subscription plan, you may have a limit on your use of 
-Marmalade AI&s generative AI features. You acknowledge and agree that if you exceed the usage limit 
+Marmalade AI generative AI features. You acknowledge and agree that if you exceed the usage limit 
 allotted by your subscription plan: (i) you may be required to purchase additional usage to continue 
 accessing and using generative AI assistance and (ii) Marmalade AI may suspend or degrade performance 
 of the generative AI features. You acknowledge that any purchased usage for generative AI assistance 
