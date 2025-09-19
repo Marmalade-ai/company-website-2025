@@ -9,7 +9,7 @@ export const Head = () => (
     <title>FAQ</title>
     <meta 
       name="description"
-      content="FAQ for the Marmalade app."
+      content="FAQ for the Marmalade AI app."
     />
   </>
 );

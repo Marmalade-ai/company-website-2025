@@ -8,10 +8,10 @@ export const Head = () => (
   <> 
     <html lang="en" />
     <meta charSet="utf-8" />
-    <title>Marmalade AI - effortless</title>
+    <title>Marmalade AI - peer networking</title>
     <meta 
       name="description"
-      content="Marmalade AI - effortless networking. 
+      content="Marmalade AI - peer networking. 
       Please tell us what we should do to provide you with a peer network. 
       Beta starts in NYC, focused on people in UX design, 
       digital marketing, and machine learning. How does it work? 
@@ -73,7 +73,7 @@ const IndexPage = () => {
                  {/* <h3>Effortless</h3> */}
                     <p class="mb-8">A peer network that&apos;s relevant, automatic, and effortless.</p>
                       <StaticImage
-                        alt="Marmalade AI use this to create a peer network."
+                        alt="Marmalade AI uses this to create a peer network."
                         // src="../../images/matching_565.png"
                         src="../../images/pexels-jane-trang-doan-1024248_565x399.jpg"
                       />
