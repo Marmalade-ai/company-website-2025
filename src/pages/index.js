@@ -29,6 +29,7 @@ const IndexPage = () => {
     <Layout>
       <main>
         <body>
+         
           <div className="container flex flex-col">
             <div className="grid sm:grid-cols-2 gap-5">
             
