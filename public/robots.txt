@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://www.marmalade.ai/sitemap-index.xml
-Host: https://www.marmalade.ai
