@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkcompany_website_2023=self.webpackChunkcompany_website_2023||[]).push([[524],{1025:function(e,t,a){a.r(t);var l=a(7294),n=a(1883),r=a(57);t.default=e=>{let{data:t}=e;return l.createElement(r.Z,{pageTitle:"My FAQ Posts"},t.allMdx.nodes.map((e=>l.createElement("article",{key:e.id},l.createElement("h2",null,l.createElement(n.rU,{to:"/faq/"+e.frontmatter.slug},e.frontmatter.title)),l.createElement("p",null,"Posted: ",e.frontmatter.date)))))}}}]);
-//# sourceMappingURL=component---src-pages-blog-index-js-2943ca73ac80e42b9f26.js.map

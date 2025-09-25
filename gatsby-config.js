@@ -1,56 +1,74 @@
 /**
+ * Configure your Gatsby site with this file.
+ *
+ * See: https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/
+ */
+
+/**
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
   siteMetadata: {
-    title: `Marmalade AI networking for software people`,
-    description: `Effortless networking, beta in UX design, digital marketing, and machine learning.`,
-    // twitterUsername: `marmalade.`,
-    // image: `./src/images/Marmalade_Logo_trans_white_M_100.png`,
-    siteUrl: `https://www.marmalade.ai`,
+    title: `Gatsby Default Starter`,
+    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    author: `@gatsbyjs`,
+    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
   plugins: [
-    "gatsby-plugin-netlify",
-    "gatsby-plugin-image",
-    "gatsby-plugin-sharp",
-    "gatsby-plugin-gatsby-cloud",
-    "gatsby-plugin-postcss",
-    "gatsby-plugin-robots-txt",
-    "gatsby-plugin-sitemap",
-    // {
-    //   resolve: "gatsby-source-filesystem",
-    //   options: {
-    //     name: `images`,
-    //     path: `${__dirname}/src/images`,
-    //   },
-    // },
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        name: `faq`,
-        path: `${__dirname}/faq`,
+        // You can add multiple tracking ids and a pageview event will be fired for all of them.
+        trackingIds: [            
+          "G-Q8Y2M6EZ7J", // Google Analytics / GA
+        //   "AW-CONVERSION_ID", // Google Ads / Adwords / AW
+        //   "DC-FLOODIGHT_ID", // Marketing Platform advertising products (Display & Video 360, Search Ads 360, and Campaign Manager)
+        ],
+        // This object gets passed directly to the gtag config command
+        // This config will be shared across all trackingIds
+        gtagConfig: {
+          optimize_id: "OPT_CONTAINER_ID",
+          anonymize_ip: true,
+          cookie_expires: 0,
+        },
+        // This object is used for configuration specific to this plugin
+        pluginConfig: {
+          // Puts tracking script in the head instead of the body
+          head: true,
+          // Setting this parameter is also optional
+          respectDNT: true,
+          // Avoids sending pageview hits from custom paths
+          exclude: ["/preview/**", "/do-not-track/me/too/"],
+          // Defaults to https://www.googletagmanager.com
+          origin: "YOUR_SELF_HOSTED_ORIGIN",
+          // Delays processing pageview events on route update (in milliseconds)
+          delayOnRouteUpdate: 0,
+        },
       },
     },
-    { 
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [`gatsby-remark-responsive-iframe`],
-      },
-    },
+    `gatsby-plugin-image`,
     {
-      resolve: "gatsby-plugin-google-tagmanager",
+      resolve: `gatsby-source-filesystem`,
       options: {
-        id: `GTM-5FP7LQQD`,
-        // Include GTM in development.
-        // Defaults to false meaning GTM will only be loaded in production.
-        includeInDevelopment: true,
-        // Any optional GTM environment details
-        // gtmAuth: "YOUR_GTM_ENVIRONMENT_AUTH_STRING",
-        // gtmPreview: "YOUR_GTM_ENVIRONMENT_PREVIEW_NAME",
-        // dataLayerName: "YOUR_DATA_LAYER_NAME",
+        name: `images`,
+        path: `${__dirname}/src/images`,
       },
     },
-    "gatsby-plugin-mdx",
-    "gatsby-transformer-sharp",
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `gatsby-starter-default`,
+        short_name: `starter`,
+        start_url: `/`,
+        background_color: `#663399`,
+        // This will impact how browsers show your PWA/website
+        // https://css-tricks.com/meta-theme-color-and-trickery/
+        // theme_color: `#663399`,
+        display: `minimal-ui`,
+        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+      },
+    },
   ],
 }

@@ -29,11 +29,10 @@ const IndexPage = () => {
     <Layout>
       <main>
         <body>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q8Y2M6EZ7J"></script>
          
           <div className="container flex flex-col">
             <div className="grid sm:grid-cols-2 gap-5">
-            
-               
               </div>
             <br/>
             <div className="grid sm:grid-cols-1 gap-5">
