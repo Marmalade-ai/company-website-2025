@@ -62,7 +62,7 @@ const IndexPage = () => {
               <div>
                 <h2 className="py-2">What do I do?</h2>
                   {/* <h3>Networking</h3> */}
-                    <p class="mb-8">Write what you do, or copy/paste it. The default is your geographical area.</p>
+                    <p class="mb-8">Write what you do, or copy/paste it. It defaults to your metropolitan area.</p>
                       <StaticImage
                         alt="Marmalade AI: just say what you do."
                         src="../../images/Screenshot at 2023-04-16 23-52-28.png"
@@ -71,7 +71,7 @@ const IndexPage = () => {
               <div>
                 <h2 class="py-2">What&apos;s the result?</h2>
                  {/* <h3>Effortless</h3> */}
-                    <p class="mb-8">A peer network that&apos;s relevant, automatic, and effortless.</p>
+                    <p class="mb-8">A peer network* of people you should connect with: relevant, automatic, effortless.</p>
                       <StaticImage
                         alt="Marmalade AI uses this to create a peer network."
                         // src="../../images/matching_565.png"
@@ -80,15 +80,17 @@ const IndexPage = () => {
               </div>
             </div>
           </div>
-          <p>
+          
           <button 
                                 className="w-30 bg-[#ff7f00] bg-opacity-100 border border-width-1 hover:underline px-1 py-0 rounded-lg text-black float-left" 
                                 onClick={()=>{navigate("https://docs.google.com/forms/d/1eu_w17ssDesxl9iYB2DYgmg_sldKc3q_qBu0EuSAz1g/")}}>
                                   {/* Beta Signup */}
                       </button>
-  </p>
+  
   <br/><br/>
-  <p>Last reviewed: <time dateTime="2025-9-16">September 16, 2025.</time>
+  <p>* ...that will change when you change your profile or new people come online.</p>
+  <br/><br/>
+   <p>Last reviewed: <time dateTime="2025-9-16">September 28, 2025.</time>
 </p>
 
         </body>

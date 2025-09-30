@@ -24,10 +24,10 @@ const Faq = () => {
         <article className="pt-5">
           <div className="mx-auto">
                   
-            <h3>Beta:</h3>
+            {/* <h3>Beta:</h3> */}
 
             <button 
-                  className="w-30 bg-[#ff7f00] bg-opacity-100 border border-width-1 hover:underline px-1 py-0 rounded-lg text-black" 
+                  className="w-30 bg-[#ff7f00] bg-opacity-20 border hover:underline px-1 py-0 text-black" 
                   onClick={()=>{navigate("https://docs.google.com/forms/d/1eu_w17ssDesxl9iYB2DYgmg_sldKc3q_qBu0EuSAz1g/")}}>
                     click to sign up!
             </button>
@@ -38,7 +38,8 @@ const Faq = () => {
               <p>- <i>Active</i>: You can initiate contact.</p>
     
             <br/> */}
-              <time><p>September 16, 2025.</p></time>
+            <br/><br/>
+              <time><p>September 28, 2025.</p></time>
             {/* </p> */}
           </div>
         </article>
