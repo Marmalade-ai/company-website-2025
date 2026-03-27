@@ -30,7 +30,7 @@ const UserResearch = () => {
       <main>
 
         <div className="grid sm:grid-cols-2 gap-4">
-          <StaticImage height={200} alt="User Research" src="../../images/ux-indonesia-w00FkE6e8zE-unsplash_800.png"/>
+          <StaticImage height={200} alt="User Research" src="../images/red10x10.png"/>
           <div>
             <h1 className="largeText gap-5" style={{ color: '#ff7f00' }}><b>User Research</b> on &quot;networking&quot;</h1><p>(Meaning: &quot;professional networking&quot;)<br /><br />
             
