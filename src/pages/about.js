@@ -39,7 +39,7 @@ const AboutPage = () => {
               <div>
                   <StaticImage
                     alt="Marmalade AI gives you a peer network."
-                    src="../../images/cartoon_image.jpg"
+                    src="../images/cartoon_image.jpg"
                   />
               </div>
 

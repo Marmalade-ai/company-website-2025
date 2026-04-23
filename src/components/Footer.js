@@ -8,8 +8,6 @@ import {
   navLinkText,
 } from './layout.module.css';
 
-import "../styles/global.css";
-
 
 const Footer = () => (
   <footer>

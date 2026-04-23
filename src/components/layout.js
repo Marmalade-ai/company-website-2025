@@ -7,6 +7,7 @@ import {
 } from './layout.module.css'
 import Header from './Header'
 import Footer from './Footer'
+import "../styles/global.css"
 
 const Layout = ({ pageTitle, children }) => {
   const data = useStaticQuery(graphql`
@@ -18,15 +19,10 @@ const Layout = ({ pageTitle, children }) => {
       }
     }
   `)
-  console.log("data is: " + JSON.stringify(data))
-  console.log("data.site.siteMetadata is: " + JSON.stringify(data.site.siteMetadata))
 
   return (
-    // <div>
     <div className={container}>
-      <Header> 
-         className={siteTitle}{data.site.siteMetadata.title}
-      </Header> 
+      <Header />
       
       <main>
         <div className={heading}>{pageTitle}</div>

@@ -2,7 +2,6 @@ import { navigate } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import * as React from 'react'
 import Layout from '../components/layout'
-import "../styles/global.css"
 
 export const Head = () => (
   <> 
@@ -65,7 +64,7 @@ const IndexPage = () => {
                     <p class="mb-8">Write what you do, or copy/paste it. It defaults to your metropolitan area.</p>
                       <StaticImage
                         alt="Marmalade AI: just say what you do."
-                        src="../../images/Screenshot at 2023-04-16 23-52-28.png"
+                        src="../images/screenshot-2023-04-16.png"
                       />
               </div>
               <div>
@@ -75,7 +74,7 @@ const IndexPage = () => {
                       <StaticImage
                         alt="Marmalade AI uses this to create a peer network."
                         // src="../../images/matching_565.png"
-                        src="../../images/pexels-jane-trang-doan-1024248_565x399.jpg"
+                        src="../images/pexels-jane-trang-doan-1024248_565x399.jpg"
                       />
               </div>
             </div>
