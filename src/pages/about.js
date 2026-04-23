@@ -10,7 +10,7 @@ export const Head = () => (
     <meta 
       name="description"
       content="People have lots of problems with networking:
-      They attend an event and later find out there was someone they should have met.
+      They go to an event and later learn there was someone there they should have met.
       Also, people in your past have no idea what you are doing now.
       Networking is great but it is so random. There's only 24 hours in the day.
       Co-founders of Marmalade AI found each other like this and thought they could work together 
@@ -27,7 +27,7 @@ const AboutPage = () => {
       <main><h1 className="pt-3 pb-3">About</h1>
         <article className="pt-5">
           <div className="mx-auto">
-            <p>Hi there! We&apos;re the company behind Marmalade AI. The original co-founders looked like this. 
+            <p>Hi! We&apos;re the company behind Marmalade AI. The original co-founders looked like this. 
               Well, maybe not the green hair. We've also learned a lot from interns. 
               Goal: open source, or maybe "open core."</p>
               <br/>
