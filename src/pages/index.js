@@ -28,9 +28,6 @@ const IndexPage = () => {
   return (
     <Layout>
       <main>
-        <body>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q8Y2M6EZ7J"></script>
-         
           <div className="container flex flex-col">
             <div className="grid sm:grid-cols-2 gap-5">
               </div>
@@ -57,7 +54,7 @@ const IndexPage = () => {
             
             </div>
             <br/>
-  
+   
             <div className="grid sm:grid-cols-2 gap-5">
               <div>
                 <h2 className="py-2">What do I do?</h2>
@@ -74,7 +71,6 @@ const IndexPage = () => {
                     <p class="mb-8">A peer network* of people you should connect with: relevant, automatic, effortless.</p>
                       <StaticImage
                         alt="Marmalade AI uses this to create a peer network."
-                        // src="../../images/matching_565.png"
                         src="../../images/pexels-jane-trang-doan-1024248_565x399.jpg"
                       />
               </div>
@@ -93,7 +89,6 @@ const IndexPage = () => {
    <p>Last reviewed: <time dateTime="2025-12-31">December 31, 2025.</time>
 </p>
 
-        </body>
       </main>
     </Layout>
   )
