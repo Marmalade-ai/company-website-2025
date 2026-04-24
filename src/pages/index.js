@@ -86,7 +86,7 @@ const IndexPage = () => {
   <br/><br/>
   <p>* ...that will change when you change your profile or new people come online.</p>
   <br/><br/>
-   <p>Last reviewed: <time dateTime="2025-12-31">December 31, 2025.</time>
+   <p>Last reviewed: <time dateTime="2026-4-24">April 24, 2026.</time>
 </p>
 
       </main>
