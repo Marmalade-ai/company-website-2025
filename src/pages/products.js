@@ -39,7 +39,7 @@ const Faq = () => {
     
             <br/> */}
             <br/><br/>
-              <time><p>September 28, 2025.</p></time>
+              Last reviewed: <time dateTime="2026-4-24">April 24, 2026.</time>
             {/* </p> */}
           </div>
         </article>
