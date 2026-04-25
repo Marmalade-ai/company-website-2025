@@ -46,16 +46,16 @@ const AboutPage = () => {
             <br/>
             <p class="mb-8">A peer network that&apos;s relevant, automatic, and effortless?</p>
             <p>Why do this? Well, it still seems like a good idea. It seems like it should be possible to have great peer networks, 
-              learn from others, teach others, and make the world a better place. LLMs get better week by week. We could be a place
+              learn from others, teach others, and make the world a better place. Models get better week by week. We could be a place
               to run those.</p><br/>
             <p>Networks can be powerful, but there is only so much time for networking. Like, 24 hours in a day. 
                There has to be a better way.
             </p>
             <br/>
 
-            <p>Also, we really need to learn to work remotely: it is just more efficient, 
-            reduces our ecological footprint, and increases our connection with other people. 
-            We want to help make it happen.
+            <p>Also, we need to learn how to work remotely -- it is more efficient, 
+            cuts our ecological footprint, and enables us to connect with diversity. 
+            It will happen. We want to help make it happen.
             </p>
             <br/>
             <p>
